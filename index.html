@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>tByteAlvin | Founder Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="top-progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="logo" href="#top" data-nav="home">tByteAlvin</a>
+
+    <div class="nav-right">
+      <nav class="tabs" aria-label="Primary">
+        <button class="tab active" data-tab="startups" type="button">Startups</button>
+        <button class="tab" data-tab="buildlab" type="button">Build Lab</button>
+        <button class="tab" data-tab="roadmap" type="button">Roadmap</button>
+        <button class="tab" data-tab="skills" type="button">Skills</button>
+        <button class="tab" data-tab="contact" type="button">Contact</button>
+      </nav>
+
+      <!-- Language toggle -->
+      <div class="lang">
+        <span class="lang-label" id="langLeft">EN</span>
+        <button class="switch" id="langSwitch" type="button" aria-label="Toggle language">
+          <span class="knob"></span>
+        </button>
+        <span class="lang-label muted" id="langRight">TR</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO (always visible) -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-top">
+          <p class="kicker" data-i18n="hero_kicker">Founder. Builder. Systems thinker.</p>
+          <div class="pill-row">
+            <span class="pill" data-i18n="hero_pill_1">Social Startup</span>
+            <span class="pill" data-i18n="hero_pill_2">Sustainable Advertising</span>
+            <span class="pill" data-i18n="hero_pill_3">High-output Portfolio</span>
+          </div>
+        </div>
+
+        <h1 class="title">
+          <span class="reveal" data-i18n="hero_title">Building GreenGift and a serious portfolio.</span>
+        </h1>
+
+        <p class="subtitle" data-i18n="hero_subtitle">
+          A founder-focused website: my startup, my roadmap, and my build lab. Minimal design, maximum proof.
+        </p>
+
+        <div class="cta">
+          <button class="btn magnetic" data-jump="startups" type="button" data-i18n="cta_primary">Explore GreenGift</button>
+          <button class="btn ghost magnetic" data-jump="roadmap" type="button" data-i18n="cta_secondary">View Roadmap</button>
+          <button class="btn ghost magnetic" id="cmdHint" type="button" data-i18n="cta_cmd">Press Ctrl+K</button>
+        </div>
+
+        <div class="metrics">
+          <div class="metric">
+            <span class="num" id="metricProjects">—</span>
+            <span class="label" data-i18n="metric_projects">Projects (target)</span>
+          </div>
+          <div class="metric">
+            <span class="num" data-i18n="metric_focus_num">GreenGift</span>
+            <span class="label" data-i18n="metric_focus">Main startup</span>
+          </div>
+          <div class="metric">
+            <span class="num" data-i18n="metric_lang_num">EN/TR</span>
+            <span class="label" data-i18n="metric_lang">Bilingual site</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANELS (tabbed) -->
+    <section class="panel-wrap">
+
+      <!-- STARTUPS -->
+      <section class="panel active" id="panel-startups" data-panel="startups">
+        <div class="panel-header">
+          <h2 class="section-title" data-i18n="startups_title">Startups</h2>
+          <p class="section-text" data-i18n="startups_desc">My main focus is GreenGift: sustainable street distribution + measurable brand visibility + social impact.</p>
+        </div>
+
+        <article class="case">
+          <div class="case-left">
+            <div class="case-badge" data-i18n="greengift_badge">Case Study: GreenGift</div>
+            <h3 class="case-title" data-i18n="greengift_title">GreenGift</h3>
+            <p class="case-one" data-i18n="greengift_one_liner">
+              Eco-friendly drink distribution that turns each box into both a product and a measurable advertising space, with built-in social impact.
+            </p>
+
+            <div class="case-actions">
+              <button class="btn magnetic" id="openGG" type="button" data-i18n="greengift_open">Open full case</button>
+              <button class="btn ghost magnetic" data-jump="contact" type="button" data-i18n="greengift_partner">Partnership</button>
+            </div>
+
+            <div class="case-mini">
+              <div class="mini-block">
+                <span class="mini-title" data-i18n="gg_mini_1_t">Value</span>
+                <span class="mini-text" data-i18n="gg_mini_1_d">People get free drinks. Brands get real-world attention.</span>
+              </div>
+              <div class="mini-block">
+                <span class="mini-title" data-i18n="gg_mini_2_t">Revenue</span>
+                <span class="mini-text" data-i18n="gg_mini_2_d">Advertising on packaging + street-level brand interaction.</span>
+              </div>
+              <div class="mini-block">
+                <span class="mini-title" data-i18n="gg_mini_3_t">Impact</span>
+                <span class="mini-text" data-i18n="gg_mini_3_d">Tree planting + help for leukemia patients + homeless support.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-right">
+            <div class="case-card">
+              <h4 data-i18n="gg_card_h">Why it works</h4>
+              <ul class="bullets">
+                <li data-i18n="gg_b1">Physical distribution = unavoidable visibility.</li>
+                <li data-i18n="gg_b2">Distributors introduce the brand and run quick surveys.</li>
+                <li data-i18n="gg_b3">Eco packaging reduces plastic use and signals sustainability.</li>
+              </ul>
+            </div>
+
+            <div class="case-card">
+              <h4 data-i18n="gg_card2_h">What I’m building</h4>
+              <ul class="bullets">
+                <li data-i18n="gg_b4">A repeatable distribution system.</li>
+                <li data-i18n="gg_b5">A sponsorship pricing model per box/side and volume.</li>
+                <li data-i18n="gg_b6">A reporting layer: QR + survey + results dashboard.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <div class="note">
+          <span class="note-dot"></span>
+          <p data-i18n="startups_note">
+            This page is designed like a product: minimal UI, high signal, measurable goals.
+          </p>
+        </div>
+      </section>
+
+      <!-- BUILD LAB -->
+      <section class="panel" id="panel-buildlab" data-panel="buildlab">
+        <div class="panel-header">
+          <h2 class="section-title" data-i18n="buildlab_title">Build Lab</h2>
+          <p class="section-text" data-i18n="buildlab_desc">
+            A gallery of experiments and projects. The goal is consistent output: many small wins + a few serious builds.
+          </p>
+        </div>
+
+        <div class="lab-controls">
+          <div class="filters" id="filters"></div>
+
+          <div class="search">
+            <input id="searchInput" type="text" placeholder="Search projects..." />
+            <button class="btn ghost magnetic" id="clearSearch" type="button" data-i18n="clear">Clear</button>
+          </div>
+        </div>
+
+        <div class="grid" id="projectGrid"></div>
+
+        <div class="lab-footer">
+          <p class="muted" data-i18n="buildlab_footer">
+            Tip: Press Ctrl+K and type “project” to jump into search.
+          </p>
+        </div>
+      </section>
+
+      <!-- ROADMAP -->
+      <section class="panel" id="panel-roadmap" data-panel="roadmap">
+        <div class="panel-header">
+          <h2 class="section-title" data-i18n="roadmap_title">Roadmap</h2>
+          <p class="section-text" data-i18n="roadmap_desc">
+            Year-based execution plan. No fluff, only targets and proof.
+          </p>
+        </div>
+
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="panel" id="panel-skills" data-panel="skills">
+        <div class="panel-header">
+          <h2 class="section-title" data-i18n="skills_title">Skills & Languages</h2>
+          <p class="section-text" data-i18n="skills_desc">
+            My growth areas: deep software fundamentals, languages, and creative modding/design pipelines.
+          </p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3 data-i18n="skills_soft_title">Software Goals (to 2028)</h3>
+            <ul class="bullets">
+              <li data-i18n="skills_s1">Learn software fundamentals “to the roots” (systems + practice).</li>
+              <li data-i18n="skills_s2">Build a high-output GitHub habit (50+ in 2026, 100+ in 2027).</li>
+              <li data-i18n="skills_s3">Ship real tools, not only tutorials.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="skills_creative_title">Creative Modding / Design</h3>
+            <ul class="bullets">
+              <li data-i18n="skills_c1">Game asset workflows (vehicles/clothes) and configs.</li>
+              <li data-i18n="skills_c2">Meta/handling style files (pipeline literacy).</li>
+              <li data-i18n="skills_c3">Learn the scripting language used by the stack I adopt (foundation level).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="lang_title">Language Targets</h3>
+          <div class="lang-grid">
+            <div class="lang-item">
+              <span class="lang-name" data-i18n="lang_en">English</span>
+              <span class="lang-level" data-i18n="lang_en_lvl">C1</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name" data-i18n="lang_de">German</span>
+              <span class="lang-level" data-i18n="lang_de_lvl">A2 → (later B2–C1 by 2029)</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name" data-i18n="lang_fr">French</span>
+              <span class="lang-level" data-i18n="lang_fr_lvl">A1 → (later B2–C1 by 2029)</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name" data-i18n="lang_ru">Russian</span>
+              <span class="lang-level" data-i18n="lang_ru_lvl">A1 → (later B2–C1 by 2029)</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name" data-i18n="lang_it">Italian</span>
+              <span class="lang-level" data-i18n="lang_it_lvl">A2 (by 2029)</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name" data-i18n="lang_more">More</span>
+              <span class="lang-level" data-i18n="lang_more_lvl">A1–A2: Norwegian, Dutch, Finnish, Greek</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="note">
+          <span class="note-dot"></span>
+          <p data-i18n="skills_note">
+            I treat skills as systems: small daily output compounds into serious capability.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="panel" id="panel-contact" data-panel="contact">
+        <div class="panel-header">
+          <h2 class="section-title" data-i18n="contact_title">Contact</h2>
+          <p class="section-text" data-i18n="contact_desc">
+            Partnerships, collaboration, or serious build conversations.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card magnetic" href="mailto:rolexgrond@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">rolexgrond@gmail.com</span>
+          </a>
+
+          <a class="contact-card magnetic" target="_blank" rel="noreferrer" href="https://www.instagram.com/x4llys_">
+            <span class="contact-label">Instagram</span>
+            <span class="contact-value">@x4llys_</span>
+          </a>
+
+          <a class="contact-card magnetic" target="_blank" rel="noreferrer" href="https://discord.com/users/827190796699828295">
+            <span class="contact-label">Discord</span>
+            <span class="contact-value">Open profile</span>
+          </a>
+
+          <a class="contact-card magnetic" target="_blank" rel="noreferrer" href="https://github.com/tByteAlvin">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">tByteAlvin</span>
+          </a>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> tByteAlvin</span>
+          <span class="muted" data-i18n="footer_note">Minimal UI. Maximum proof.</span>
+        </footer>
+      </section>
+
+    </section>
+  </main>
+
+  <!-- Command Palette -->
+  <div class="cmd" id="cmd" aria-hidden="true">
+    <div class="cmd-backdrop"></div>
+    <div class="cmd-box" role="dialog" aria-label="Command palette">
+      <div class="cmd-top">
+        <input id="cmdInput" type="text" placeholder="Type a command… (e.g., 'Startups', 'Projects', 'GreenGift')" />
+        <span class="cmd-hint">ESC</span>
+      </div>
+      <div class="cmd-list" id="cmdList"></div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close magnetic" aria-label="Close" type="button">Close</button>
+      <h3 class="modal-title"></h3>
+      <p class="modal-text"></p>
+      <div class="modal-actions"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

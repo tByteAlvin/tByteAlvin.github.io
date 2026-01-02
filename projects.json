@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p01",
+    "title": "GreenGift - Landing Draft",
+    "desc": "Initial landing concept + messaging experiments.",
+    "tags": ["Startup", "Web"],
+    "year": 2026,
+    "status": "WIP",
+    "repo": "https://github.com/tByteAlvin"
+  },
+  {
+    "id": "p02",
+    "title": "Automation Mini Tool",
+    "desc": "Small utility that saves time. Built to ship.",
+    "tags": ["Automation", "Tool"],
+    "year": 2026,
+    "status": "Done",
+    "repo": "https://github.com/tByteAlvin"
+  },
+  {
+    "id": "p03",
+    "title": "Experiment: UI Micro-interactions",
+    "desc": "Magnetic hover, command palette, minimal UI system.",
+    "tags": ["Frontend", "Experiment"],
+    "year": 2026,
+    "status": "Done",
+    "repo": "https://github.com/tByteAlvin"
+  }
+]
