@@ -17,30 +17,32 @@
   <div class="top-progress" aria-hidden="true"></div>
 
   <header class="nav">
-    <a class="logo" href="#top" data-nav="home">tByteAlvin</a>
+    <div class="nav-inner">
+      <a class="logo" href="#top">tByteAlvin</a>
 
-    <div class="nav-right">
-      <nav class="tabs" aria-label="Primary">
-        <button class="tab active" data-tab="startups" type="button">Startups</button>
-        <button class="tab" data-tab="buildlab" type="button">Build Lab</button>
-        <button class="tab" data-tab="roadmap" type="button">Roadmap</button>
-        <button class="tab" data-tab="skills" type="button">Skills</button>
-        <button class="tab" data-tab="contact" type="button">Contact</button>
-      </nav>
+      <div class="nav-right">
+        <nav class="tabs" aria-label="Primary">
+          <button class="tab active" data-tab="startups" type="button">Startups</button>
+          <button class="tab" data-tab="buildlab" type="button">Build Lab</button>
+          <button class="tab" data-tab="roadmap" type="button">Roadmap</button>
+          <button class="tab" data-tab="credentials" type="button">Credentials</button>
+          <button class="tab" data-tab="skills" type="button">Skills</button>
+          <button class="tab" data-tab="contact" type="button">Contact</button>
+        </nav>
 
-      <!-- Language toggle -->
-      <div class="lang">
-        <span class="lang-label" id="langLeft">EN</span>
-        <button class="switch" id="langSwitch" type="button" aria-label="Toggle language">
-          <span class="knob"></span>
-        </button>
-        <span class="lang-label muted" id="langRight">TR</span>
+        <div class="lang">
+          <span class="lang-label" id="langLeft">EN</span>
+          <button class="switch" id="langSwitch" type="button" aria-label="Toggle language">
+            <span class="knob"></span>
+          </button>
+          <span class="lang-label muted" id="langRight">TR</span>
+        </div>
       </div>
     </div>
   </header>
 
   <main id="top">
-    <!-- HERO (always visible) -->
+    <!-- HERO -->
     <section class="hero">
       <div class="hero-inner">
         <div class="hero-top">
@@ -53,7 +55,7 @@
         </div>
 
         <h1 class="title">
-          <span class="reveal" data-i18n="hero_title">Building GreenGift and a serious portfolio.</span>
+          <span data-i18n="hero_title">Building GreenGift and a serious portfolio.</span>
         </h1>
 
         <p class="subtitle" data-i18n="hero_subtitle">
@@ -68,7 +70,7 @@
 
         <div class="metrics">
           <div class="metric">
-            <span class="num" id="metricProjects">—</span>
+            <span class="num" id="metricProjects">2026: 50+ / 2027: 100+</span>
             <span class="label" data-i18n="metric_projects">Projects (target)</span>
           </div>
           <div class="metric">
@@ -83,14 +85,16 @@
       </div>
     </section>
 
-    <!-- PANELS (tabbed) -->
+    <!-- PANELS -->
     <section class="panel-wrap">
 
       <!-- STARTUPS -->
       <section class="panel active" id="panel-startups" data-panel="startups">
         <div class="panel-header">
           <h2 class="section-title" data-i18n="startups_title">Startups</h2>
-          <p class="section-text" data-i18n="startups_desc">My main focus is GreenGift: sustainable street distribution + measurable brand visibility + social impact.</p>
+          <p class="section-text" data-i18n="startups_desc">
+            My main focus is GreenGift: eco-friendly street distribution + measurable brand visibility + social impact.
+          </p>
         </div>
 
         <article class="case">
@@ -126,7 +130,7 @@
             <div class="case-card">
               <h4 data-i18n="gg_card_h">Why it works</h4>
               <ul class="bullets">
-                <li data-i18n="gg_b1">Physical distribution = unavoidable visibility.</li>
+                <li data-i18n="gg_b1">Physical distribution creates unavoidable visibility.</li>
                 <li data-i18n="gg_b2">Distributors introduce the brand and run quick surveys.</li>
                 <li data-i18n="gg_b3">Eco packaging reduces plastic use and signals sustainability.</li>
               </ul>
@@ -136,7 +140,7 @@
               <h4 data-i18n="gg_card2_h">What I’m building</h4>
               <ul class="bullets">
                 <li data-i18n="gg_b4">A repeatable distribution system.</li>
-                <li data-i18n="gg_b5">A sponsorship pricing model per box/side and volume.</li>
+                <li data-i18n="gg_b5">A pricing model based on box sides + volume.</li>
                 <li data-i18n="gg_b6">A reporting layer: QR + survey + results dashboard.</li>
               </ul>
             </div>
@@ -152,7 +156,7 @@
       </section>
 
       <!-- BUILD LAB -->
-      <section class="panel" id="panel-buildlab" data-panel="buildlab">
+      <section class="panel" id="panel-buildlab" data-panel="buildlab" hidden>
         <div class="panel-header">
           <h2 class="section-title" data-i18n="buildlab_title">Build Lab</h2>
           <p class="section-text" data-i18n="buildlab_desc">
@@ -179,7 +183,7 @@
       </section>
 
       <!-- ROADMAP -->
-      <section class="panel" id="panel-roadmap" data-panel="roadmap">
+      <section class="panel" id="panel-roadmap" data-panel="roadmap" hidden>
         <div class="panel-header">
           <h2 class="section-title" data-i18n="roadmap_title">Roadmap</h2>
           <p class="section-text" data-i18n="roadmap_desc">
@@ -190,8 +194,36 @@
         <div class="timeline" id="timeline"></div>
       </section>
 
+      <!-- CREDENTIALS -->
+      <section class="panel" id="panel-credentials" data-panel="credentials" hidden>
+        <div class="panel-header">
+          <h2 class="section-title" data-i18n="cred_title">Credentials</h2>
+          <p class="section-text" data-i18n="cred_desc">
+            Competitions, events, certificates, and proof of work. I’ll publish documents and project summaries here.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="cred_how_title">What you’ll find here</h3>
+          <ul class="bullets">
+            <li data-i18n="cred_li_1">Competition participation + project writeups</li>
+            <li data-i18n="cred_li_2">Certificates and verification links</li>
+            <li data-i18n="cred_li_3">Event notes, outcomes, and media</li>
+          </ul>
+        </div>
+
+        <div class="grid" id="credGrid"></div>
+
+        <div class="note">
+          <span class="note-dot"></span>
+          <p data-i18n="cred_note">
+            This section is intentionally structured like a portfolio archive: date, proof, and what I shipped.
+          </p>
+        </div>
+      </section>
+
       <!-- SKILLS -->
-      <section class="panel" id="panel-skills" data-panel="skills">
+      <section class="panel" id="panel-skills" data-panel="skills" hidden>
         <div class="panel-header">
           <h2 class="section-title" data-i18n="skills_title">Skills & Languages</h2>
           <p class="section-text" data-i18n="skills_desc">
@@ -201,14 +233,25 @@
 
         <div class="two-col">
           <div class="card">
-            <h3 data-i18n="skills_soft_title">Software Goals (to 2028)</h3>
+            <h3 data-i18n="skills_current_title">Current Skills</h3>
             <ul class="bullets">
-              <li data-i18n="skills_s1">Learn software fundamentals “to the roots” (systems + practice).</li>
-              <li data-i18n="skills_s2">Build a high-output GitHub habit (50+ in 2026, 100+ in 2027).</li>
-              <li data-i18n="skills_s3">Ship real tools, not only tutorials.</li>
+              <li data-i18n="skills_now_1">English: A2–B1</li>
+              <li data-i18n="skills_now_2">Basic software knowledge</li>
+              <li data-i18n="skills_now_3">Basic foundations in Astronomy, Bioengineering, Aerodynamics, Space/Rocket Engineering, UAVs, Robotics, and robot design.</li>
             </ul>
           </div>
 
+          <div class="card">
+            <h3 data-i18n="skills_goals_title">Goals (to 2028)</h3>
+            <ul class="bullets">
+              <li data-i18n="skills_goal_1">Learn software fundamentals “to the roots” (systems + practice).</li>
+              <li data-i18n="skills_goal_2">Build a high-output GitHub habit (50+ in 2026, 100+ in 2027).</li>
+              <li data-i18n="skills_goal_3">Ship real tools, not only tutorials.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="two-col">
           <div class="card">
             <h3 data-i18n="skills_creative_title">Creative Modding / Design</h3>
             <ul class="bullets">
@@ -217,34 +260,34 @@
               <li data-i18n="skills_c3">Learn the scripting language used by the stack I adopt (foundation level).</li>
             </ul>
           </div>
-        </div>
 
-        <div class="card">
-          <h3 data-i18n="lang_title">Language Targets</h3>
-          <div class="lang-grid">
-            <div class="lang-item">
-              <span class="lang-name" data-i18n="lang_en">English</span>
-              <span class="lang-level" data-i18n="lang_en_lvl">C1</span>
-            </div>
-            <div class="lang-item">
-              <span class="lang-name" data-i18n="lang_de">German</span>
-              <span class="lang-level" data-i18n="lang_de_lvl">A2 → (later B2–C1 by 2029)</span>
-            </div>
-            <div class="lang-item">
-              <span class="lang-name" data-i18n="lang_fr">French</span>
-              <span class="lang-level" data-i18n="lang_fr_lvl">A1 → (later B2–C1 by 2029)</span>
-            </div>
-            <div class="lang-item">
-              <span class="lang-name" data-i18n="lang_ru">Russian</span>
-              <span class="lang-level" data-i18n="lang_ru_lvl">A1 → (later B2–C1 by 2029)</span>
-            </div>
-            <div class="lang-item">
-              <span class="lang-name" data-i18n="lang_it">Italian</span>
-              <span class="lang-level" data-i18n="lang_it_lvl">A2 (by 2029)</span>
-            </div>
-            <div class="lang-item">
-              <span class="lang-name" data-i18n="lang_more">More</span>
-              <span class="lang-level" data-i18n="lang_more_lvl">A1–A2: Norwegian, Dutch, Finnish, Greek</span>
+          <div class="card">
+            <h3 data-i18n="lang_title">Language Targets</h3>
+            <div class="lang-grid">
+              <div class="lang-item">
+                <span class="lang-name" data-i18n="lang_en">English</span>
+                <span class="lang-level" data-i18n="lang_en_lvl">C1</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name" data-i18n="lang_de">German</span>
+                <span class="lang-level" data-i18n="lang_de_lvl">A2 → (later B2–C1 by 2029)</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name" data-i18n="lang_fr">French</span>
+                <span class="lang-level" data-i18n="lang_fr_lvl">A1 → (later B2–C1 by 2029)</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name" data-i18n="lang_ru">Russian</span>
+                <span class="lang-level" data-i18n="lang_ru_lvl">A1 → (later B2–C1 by 2029)</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name" data-i18n="lang_it">Italian</span>
+                <span class="lang-level" data-i18n="lang_it_lvl">A2 (by 2029)</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name" data-i18n="lang_more">More</span>
+                <span class="lang-level" data-i18n="lang_more_lvl">A1–A2: Norwegian, Dutch, Finnish, Greek</span>
+              </div>
             </div>
           </div>
         </div>
@@ -258,7 +301,7 @@
       </section>
 
       <!-- CONTACT -->
-      <section class="panel" id="panel-contact" data-panel="contact">
+      <section class="panel" id="panel-contact" data-panel="contact" hidden>
         <div class="panel-header">
           <h2 class="section-title" data-i18n="contact_title">Contact</h2>
           <p class="section-text" data-i18n="contact_desc">
@@ -302,7 +345,7 @@
     <div class="cmd-backdrop"></div>
     <div class="cmd-box" role="dialog" aria-label="Command palette">
       <div class="cmd-top">
-        <input id="cmdInput" type="text" placeholder="Type a command… (e.g., 'Startups', 'Projects', 'GreenGift')" />
+        <input id="cmdInput" type="text" placeholder="Type a command…" />
         <span class="cmd-hint">ESC</span>
       </div>
       <div class="cmd-list" id="cmdList"></div>
