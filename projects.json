@@ -19,8 +19,8 @@
   },
   {
     "id": "p03",
-    "title": "Experiment: UI Micro-interactions",
-    "desc": "Magnetic hover, command palette, minimal UI system.",
+    "title": "UI Micro-interactions",
+    "desc": "Magnetic hover + command palette + minimal UI system.",
     "tags": ["Frontend", "Experiment"],
     "year": 2026,
     "status": "Done",
