@@ -1,7 +1,6 @@
 // -------- helpers
 const $ = (q) => document.querySelector(q);
 const $$ = (q) => Array.from(document.querySelectorAll(q));
-
 function clamp(n, a, b){ return Math.max(a, Math.min(b, n)); }
 
 // -------- year
@@ -31,8 +30,8 @@ function attachMagnetic(){
       if(!rect) return;
       const x = e.clientX - rect.left - rect.width / 2;
       const y = e.clientY - rect.top - rect.height / 2;
-      const mx = clamp(x * 0.12, -10, 10);
-      const my = clamp(y * 0.12, -10, 10);
+      const mx = clamp(x * 0.10, -10, 10);
+      const my = clamp(y * 0.10, -10, 10);
       el.style.transform = `translate(${mx}px, ${my}px)`;
     });
     el.addEventListener("mouseleave", () => {
@@ -42,21 +41,29 @@ function attachMagnetic(){
 }
 attachMagnetic();
 
-// -------- tabs (panels)
+// -------- tabs (panels) - robust
 const tabs = $$(".tab");
 const panels = $$(".panel");
-function openTab(name){
-  tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
-  panels.forEach(p => p.classList.toggle("active", p.dataset.panel === name));
 
-  // reset scroll slightly for better feel
+function applyPanels(name){
+  panels.forEach(p => {
+    const isOn = (p.dataset.panel === name);
+    p.hidden = !isOn;
+    p.classList.toggle("active", isOn);
+  });
+  tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
+}
+
+function openTab(name){
+  applyPanels(name);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
-tabs.forEach(t => t.addEventListener("click", () => openTab(t.dataset.tab)));
 
-$$("[data-jump]").forEach(btn => {
-  btn.addEventListener("click", () => openTab(btn.dataset.jump));
-});
+tabs.forEach(t => t.addEventListener("click", () => openTab(t.dataset.tab)));
+$$("[data-jump]").forEach(btn => btn.addEventListener("click", () => openTab(btn.dataset.jump)));
+
+// initial view
+applyPanels("startups");
 
 // -------- language system
 let content = null;
@@ -66,34 +73,32 @@ function setLang(newLang){
   lang = newLang;
   localStorage.setItem("site_lang", lang);
 
-  // switch UI
   const sw = $("#langSwitch");
   sw.classList.toggle("on", lang === "tr");
   $("#langLeft").classList.toggle("muted", lang === "tr");
   $("#langRight").classList.toggle("muted", lang !== "tr");
 
-  // translate
   const dict = content?.[lang] || {};
   $$("[data-i18n]").forEach(el => {
     const key = el.dataset.i18n;
     if(dict[key]) el.textContent = dict[key];
   });
 
-  // placeholders (search, cmd)
   const search = $("#searchInput");
   if(search){
     search.placeholder = (lang === "tr") ? "Projelerde ara..." : "Search projects...";
   }
+
   const cmdInput = $("#cmdInput");
   if(cmdInput){
     cmdInput.placeholder = (lang === "tr")
-      ? "Komut yaz… (örn: 'Startups', 'Projects', 'GreenGift')"
-      : "Type a command… (e.g., 'Startups', 'Projects', 'GreenGift')";
+      ? "Komut yaz… (örn: Startups, Projects, GreenGift)"
+      : "Type a command… (e.g., Startups, Projects, GreenGift)";
   }
 
-  // rerender dynamic
   renderTimeline();
   renderProjects();
+  renderCreds();
   renderCmdItems();
 }
 
@@ -110,7 +115,7 @@ async function loadContent(){
 }
 loadContent();
 
-// -------- roadmap (data here, later we can move to roadmap.json)
+// -------- roadmap data
 const roadmapData = [
   {
     year: "2026",
@@ -180,7 +185,7 @@ function renderTimeline(){
 
   roadmapData.forEach(item => {
     const card = document.createElement("div");
-    card.className = "year-card card";
+    card.className = "year-card";
 
     const left = document.createElement("div");
     left.className = "year-badge";
@@ -200,135 +205,12 @@ function renderTimeline(){
     tl.appendChild(card);
   });
 
-  // update metric
   const m = $("#metricProjects");
-  if(m) m.textContent = (lang === "tr") ? "2026: 50+ / 2027: 100+" : "2026: 50+ / 2027: 100+";
+  if(m) m.textContent = "2026: 50+ / 2027: 100+";
 }
 renderTimeline();
 
-// -------- projects
-let projects = [];
-let activeTag = "All";
-let query = "";
-
-async function loadProjects(){
-  try{
-    const res = await fetch("projects.json", { cache: "no-store" });
-    projects = await res.json();
-  }catch{
-    projects = [];
-  }
-  renderProjects();
-  renderFilters();
-  renderCmdItems();
-}
-loadProjects();
-
-function uniqTags(){
-  const set = new Set();
-  projects.forEach(p => (p.tags || []).forEach(t => set.add(t)));
-  return ["All", ...Array.from(set).sort()];
-}
-
-function renderFilters(){
-  const el = $("#filters");
-  if(!el) return;
-  el.innerHTML = "";
-  uniqTags().forEach(tag => {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.className = "filter";
-    if(tag === activeTag) b.classList.add("active");
-    b.textContent = tag;
-    b.addEventListener("click", () => {
-      activeTag = tag;
-      renderFilters();
-      renderProjects();
-    });
-    el.appendChild(b);
-  });
-}
-
-function matchProject(p){
-  const q = query.trim().toLowerCase();
-  const byTag = (activeTag === "All") || (p.tags || []).includes(activeTag);
-  const bySearch = !q || (
-    (p.title || "").toLowerCase().includes(q) ||
-    (p.desc || "").toLowerCase().includes(q) ||
-    (p.tags || []).join(" ").toLowerCase().includes(q)
-  );
-  return byTag && bySearch;
-}
-
-function renderProjects(){
-  const grid = $("#projectGrid");
-  if(!grid) return;
-  grid.innerHTML = "";
-
-  const list = projects.filter(matchProject);
-  if(list.length === 0){
-    const empty = document.createElement("div");
-    empty.className = "card";
-    empty.innerHTML = `<h3>${lang === "tr" ? "Sonuç yok" : "No results"}</h3><p class="muted">${lang === "tr" ? "Filtreyi değiştir veya aramayı temizle." : "Try changing filters or clearing search."}</p>`;
-    grid.appendChild(empty);
-    return;
-  }
-
-  list.forEach(p => {
-    const card = document.createElement("article");
-    card.className = "card project magnetic";
-    card.dataset.pid = p.id;
-
-    const h = document.createElement("h3");
-    h.textContent = p.title || "Untitled";
-
-    const d = document.createElement("p");
-    d.textContent = p.desc || "";
-
-    const tags = document.createElement("div");
-    tags.className = "tag-row";
-    (p.tags || []).slice(0,4).forEach(t => {
-      const s = document.createElement("span");
-      s.className = "tag";
-      s.textContent = t;
-      tags.appendChild(s);
-    });
-
-    const meta = document.createElement("div");
-    meta.className = "tag-row";
-    const y = document.createElement("span");
-    y.className = "tag";
-    y.textContent = String(p.year || "");
-    const st = document.createElement("span");
-    st.className = "tag";
-    st.textContent = p.status || "";
-    meta.appendChild(y);
-    meta.appendChild(st);
-
-    card.appendChild(h);
-    card.appendChild(d);
-    card.appendChild(tags);
-    card.appendChild(meta);
-
-    card.addEventListener("click", () => openProjectModal(p));
-    grid.appendChild(card);
-  });
-
-  attachMagnetic();
-}
-
-// search
-$("#searchInput")?.addEventListener("input", (e) => {
-  query = e.target.value || "";
-  renderProjects();
-});
-$("#clearSearch")?.addEventListener("click", () => {
-  query = "";
-  $("#searchInput").value = "";
-  renderProjects();
-});
-
-// -------- modal (projects + GreenGift case)
+// -------- modal
 const modal = $("#modal");
 const modalTitle = $(".modal-title");
 const modalText = $(".modal-text");
@@ -353,24 +235,14 @@ function showModal(title, text, links=[]){
   modal.setAttribute("aria-hidden", "false");
   attachMagnetic();
 }
-
 function closeModal(){
   modal.classList.remove("show");
   modal.setAttribute("aria-hidden", "true");
 }
 $(".modal-backdrop").addEventListener("click", closeModal);
 $(".modal-close").addEventListener("click", closeModal);
-window.addEventListener("keydown", (e) => { if(e.key === "Escape") { closeModal(); closeCmd(); } });
 
-function openProjectModal(p){
-  const title = p.title || "Project";
-  const text = `${p.desc || ""}\n\n${lang === "tr" ? "Etiketler:" : "Tags:"} ${(p.tags || []).join(", ")}\n${lang === "tr" ? "Durum:" : "Status:"} ${p.status || ""} • ${lang === "tr" ? "Yıl:" : "Year:"} ${p.year || ""}`;
-  const links = [];
-  if(p.repo) links.push({ label: (lang === "tr" ? "Repo" : "Repo"), href: p.repo });
-  showModal(title, text, links);
-}
-
-// GreenGift case modal (full investor-ish text)
+// GreenGift full modal
 $("#openGG")?.addEventListener("click", () => {
   const title = "GreenGift";
   const textEN =
@@ -402,29 +274,201 @@ Amaç: plastik tüketimini azaltmak, gençlere istihdam sağlamak ve markaları 
   ]);
 });
 
-// -------- command palette (Ctrl+K)
+// -------- projects
+let projects = [];
+let activeTag = "All";
+let query = "";
+
+async function loadProjects(){
+  try{
+    const res = await fetch("projects.json", { cache: "no-store" });
+    projects = await res.json();
+  }catch{
+    projects = [];
+  }
+  renderFilters();
+  renderProjects();
+  renderCmdItems();
+}
+loadProjects();
+
+function uniqTags(){
+  const set = new Set();
+  projects.forEach(p => (p.tags || []).forEach(t => set.add(t)));
+  return ["All", ...Array.from(set).sort()];
+}
+
+function renderFilters(){
+  const el = $("#filters");
+  if(!el) return;
+  el.innerHTML = "";
+  uniqTags().forEach(tag => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "filter" + (tag === activeTag ? " active" : "");
+    b.textContent = tag;
+    b.addEventListener("click", () => {
+      activeTag = tag;
+      renderFilters();
+      renderProjects();
+    });
+    el.appendChild(b);
+  });
+}
+
+function matchProject(p){
+  const q = query.trim().toLowerCase();
+  const byTag = (activeTag === "All") || (p.tags || []).includes(activeTag);
+  const bySearch = !q || (
+    (p.title || "").toLowerCase().includes(q) ||
+    (p.desc || "").toLowerCase().includes(q) ||
+    (p.tags || []).join(" ").toLowerCase().includes(q)
+  );
+  return byTag && bySearch;
+}
+
+function openProjectModal(p){
+  const title = p.title || "Project";
+  const text =
+`${p.desc || ""}
+
+${lang === "tr" ? "Etiketler" : "Tags"}: ${(p.tags || []).join(", ")}
+${lang === "tr" ? "Durum" : "Status"}: ${p.status || ""} • ${lang === "tr" ? "Yıl" : "Year"}: ${p.year || ""}`;
+  const links = [];
+  if(p.repo) links.push({ label: "Repo", href: p.repo });
+  showModal(title, text, links);
+}
+
+function renderProjects(){
+  const grid = $("#projectGrid");
+  if(!grid) return;
+  grid.innerHTML = "";
+
+  const list = projects.filter(matchProject);
+  if(list.length === 0){
+    const empty = document.createElement("div");
+    empty.className = "card";
+    empty.innerHTML = `<h3>${lang === "tr" ? "Sonuç yok" : "No results"}</h3>
+      <p class="muted">${lang === "tr" ? "Filtreyi değiştir veya aramayı temizle." : "Try changing filters or clearing search."}</p>`;
+    grid.appendChild(empty);
+    return;
+  }
+
+  list.forEach(p => {
+    const card = document.createElement("article");
+    card.className = "card project magnetic";
+    card.innerHTML = `
+      <h3>${p.title || "Untitled"}</h3>
+      <p>${p.desc || ""}</p>
+      <div class="tag-row">${(p.tags || []).slice(0,4).map(t => `<span class="tag">${t}</span>`).join("")}</div>
+      <div class="tag-row">
+        <span class="tag">${p.year || ""}</span>
+        <span class="tag">${p.status || ""}</span>
+      </div>
+    `;
+    card.addEventListener("click", () => openProjectModal(p));
+    grid.appendChild(card);
+  });
+
+  attachMagnetic();
+}
+
+$("#searchInput")?.addEventListener("input", (e) => {
+  query = e.target.value || "";
+  renderProjects();
+});
+$("#clearSearch")?.addEventListener("click", () => {
+  query = "";
+  $("#searchInput").value = "";
+  renderProjects();
+});
+
+// -------- credentials
+let creds = [];
+
+async function loadCreds(){
+  try{
+    const res = await fetch("credentials.json", { cache: "no-store" });
+    creds = await res.json();
+  }catch{
+    creds = [];
+  }
+  renderCreds();
+  renderCmdItems();
+}
+loadCreds();
+
+function renderCreds(){
+  const grid = $("#credGrid");
+  if(!grid) return;
+  grid.innerHTML = "";
+
+  if(creds.length === 0){
+    const empty = document.createElement("div");
+    empty.className = "card";
+    empty.innerHTML = `<h3>${lang === "tr" ? "Henüz eklenmedi" : "Nothing yet"}</h3>
+      <p class="muted">${lang === "tr" ? "İlk yarışma/sertifika eklendiğinde burada görünecek." : "This will populate as soon as items are added."}</p>`;
+    grid.appendChild(empty);
+    return;
+  }
+
+  creds
+    .sort((a,b) => (b.year||0) - (a.year||0))
+    .forEach(c => {
+      const card = document.createElement("article");
+      card.className = "card project magnetic";
+      card.innerHTML = `
+        <h3>${c.title || "Item"}</h3>
+        <p>${c.desc || ""}</p>
+        <div class="tag-row">
+          <span class="tag">${c.type || "Credential"}</span>
+          <span class="tag">${c.year || ""}</span>
+          ${c.proof ? `<span class="tag">Proof</span>` : ``}
+        </div>
+      `;
+      card.addEventListener("click", () => {
+        const links = [];
+        if(c.proof) links.push({ label: "Proof", href: c.proof });
+        showModal(c.title || "Credential", c.desc || "", links);
+      });
+      grid.appendChild(card);
+    });
+
+  attachMagnetic();
+}
+
+// -------- command palette
 const cmd = $("#cmd");
 const cmdInput = $("#cmdInput");
 const cmdList = $("#cmdList");
 
 let cmdItems = [];
+
 function buildCmdItems(){
   cmdItems = [
     { title: "Startups", sub: "Open startups panel", action: () => openTab("startups") },
     { title: "Build Lab", sub: "Open projects gallery", action: () => openTab("buildlab") },
     { title: "Roadmap", sub: "Open yearly roadmap", action: () => openTab("roadmap") },
+    { title: "Credentials", sub: "Competitions and certificates", action: () => openTab("credentials") },
     { title: "Skills", sub: "Open skills & languages", action: () => openTab("skills") },
     { title: "Contact", sub: "Open contact panel", action: () => openTab("contact") },
     { title: "Open: GreenGift", sub: "Show full case in modal", action: () => $("#openGG").click() },
     { title: "Projects: Search", sub: "Jump to search in Build Lab", action: () => { openTab("buildlab"); $("#searchInput")?.focus(); } }
   ];
 
-  // add projects quick-open
-  projects.slice(0, 12).forEach(p => {
+  projects.slice(0, 10).forEach(p => {
     cmdItems.push({
       title: `Project: ${p.title}`,
       sub: (p.tags || []).join(" • "),
       action: () => { openTab("buildlab"); openProjectModal(p); }
+    });
+  });
+
+  creds.slice(0, 8).forEach(c => {
+    cmdItems.push({
+      title: `Credential: ${c.title}`,
+      sub: `${c.type || "Credential"} • ${c.year || ""}`,
+      action: () => { openTab("credentials"); showModal(c.title || "Credential", c.desc || "", c.proof ? [{label:"Proof", href:c.proof}] : []); }
     });
   });
 }
@@ -437,7 +481,7 @@ function renderCmdItems(filter=""){
   );
 
   cmdList.innerHTML = "";
-  list.slice(0, 12).forEach(item => {
+  list.slice(0, 14).forEach(item => {
     const row = document.createElement("div");
     row.className = "cmd-item";
     row.innerHTML = `<span class="cmd-title">${item.title}</span><span class="cmd-sub">${item.sub}</span>`;
@@ -448,7 +492,8 @@ function renderCmdItems(filter=""){
   if(list.length === 0){
     const row = document.createElement("div");
     row.className = "cmd-item";
-    row.innerHTML = `<span class="cmd-title">${lang === "tr" ? "Komut yok" : "No commands"}</span><span class="cmd-sub">${lang === "tr" ? "Farklı bir şey yaz." : "Try a different query."}</span>`;
+    row.innerHTML = `<span class="cmd-title">${lang === "tr" ? "Komut yok" : "No commands"}</span>
+                     <span class="cmd-sub">${lang === "tr" ? "Farklı bir şey yaz." : "Try a different query."}</span>`;
     cmdList.appendChild(row);
   }
 }
@@ -464,12 +509,9 @@ function closeCmd(){
   cmd.classList.remove("show");
   cmd.setAttribute("aria-hidden", "true");
 }
-function closeCmdSafe(){ if(cmd.classList.contains("show")) closeCmd(); }
 
-function closeCmdHandler(e){
-  if(e.target.classList.contains("cmd-backdrop")) closeCmd();
-}
-$(".cmd-backdrop").addEventListener("click", closeCmdHandler);
+$(".cmd-backdrop").addEventListener("click", closeCmd);
+$("#cmdHint")?.addEventListener("click", openCmd);
 
 window.addEventListener("keydown", (e) => {
   const isMac = navigator.platform.toUpperCase().includes("MAC");
@@ -478,11 +520,10 @@ window.addEventListener("keydown", (e) => {
     e.preventDefault();
     openCmd();
   }
+  if(e.key === "Escape"){
+    closeCmd();
+    closeModal();
+  }
 });
 
 cmdInput.addEventListener("input", (e) => renderCmdItems(e.target.value || ""));
-
-// button hint
-$("#cmdHint")?.addEventListener("click", () => openCmd());
-
-// -------- done
