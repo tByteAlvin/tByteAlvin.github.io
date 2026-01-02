@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>tByteAlvin</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="top-progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="logo" href="#top">tByteAlvin</a>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Roadmap</a>
+      <a href="#contact" class="btn magnetic">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="kicker">Minimal. Interactive. Serious work.</p>
+        <h1 class="title">
+          <span class="reveal">tByteAlvin</span>
+        </h1>
+        <p class="subtitle">
+          <span class="type" data-words="JavaScript • AI • Robotics|Building real projects|Learning fast, shipping faster"></span>
+        </p>
+
+        <div class="cta">
+          <a class="btn magnetic" href="#projects">View Projects</a>
+          <a class="btn ghost magnetic" href="#about">About Me</a>
+        </div>
+
+        <div class="mini-stats">
+          <div class="stat"><span class="num">2026</span><span class="label">Roadmap</span></div>
+          <div class="stat"><span class="num">JS</span><span class="label">Focus</span></div>
+          <div class="stat"><span class="num">TR → US</span><span class="label">Vision</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p class="section-text">
+        Ben tByteAlvin. Şu an düzenli olarak JavaScript ve yazılım geliştiriyorum.
+        Hedefim: güçlü bir portfolyo, güçlü akademik performans ve sonunda ABD’de teknoloji alanında ilerlemek.
+      </p>
+      <div class="chips">
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">GitHub</span>
+        <span class="chip">AI</span>
+        <span class="chip">Robotics</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="grid">
+        <article class="card magnetic" data-modal="p1">
+          <h3>Portfolio V1</h3>
+          <p>Minimal black/white. GSAP animations. Magnetic UI.</p>
+          <span class="tag">Frontend</span>
+        </article>
+
+        <article class="card magnetic" data-modal="p2">
+          <h3>Mini AI Experiment</h3>
+          <p>Small ML demo. Clean results page. Explainable output.</p>
+          <span class="tag">AI</span>
+        </article>
+
+        <article class="card magnetic" data-modal="p3">
+          <h3>Automation Tool</h3>
+          <p>Simple automation: file organizer / scraper / helper.</p>
+          <span class="tag">Python</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section">
+      <h2 class="section-title">Roadmap</h2>
+      <div class="timeline">
+        <div class="line"></div>
+
+        <div class="step reveal-on-scroll">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Now (15)</h3>
+            <p>Notları toparla, İngilizceyi her gün büyüt, 3 küçük proje bitir.</p>
+          </div>
+        </div>
+
+        <div class="step reveal-on-scroll">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>16–17</h3>
+            <p>1 büyük proje (demo + video), yarışma/etkinlik, güçlü portfolyo.</p>
+          </div>
+        </div>
+
+        <div class="step reveal-on-scroll">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>18</h3>
+            <p>Üniversite planı + burs araştırması + başvuru dosyası disiplini.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-text">Bir şey inşa edelim. Bana ulaş:</p>
+
+      <div class="contact">
+        <a class="btn magnetic" href="mailto:youremail@example.com">Mail</a>
+        <a class="btn ghost magnetic" href="https://github.com/tByteAlvin" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+      <footer class="footer">© <span id="year"></span> tByteAlvin</footer>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button class="modal-close magnetic" aria-label="Close">Close</button>
+      <h3 class="modal-title"></h3>
+      <p class="modal-text"></p>
+      <div class="modal-actions"></div>
+    </div>
+  </div>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
