@@ -1,47 +1,11 @@
 // -------- helpers
 const $ = (q) => document.querySelector(q);
 const $$ = (q) => Array.from(document.querySelectorAll(q));
-function clamp(n, a, b){ return Math.max(a, Math.min(b, n)); }
 
 // -------- year
 $("#year").textContent = new Date().getFullYear();
 
-// -------- cursor glow follow
-const glow = $(".cursor-glow");
-window.addEventListener("mousemove", (e) => {
-  glow.style.left = e.clientX + "px";
-  glow.style.top = e.clientY + "px";
-});
-
-// -------- top progress
-const progress = $(".top-progress");
-window.addEventListener("scroll", () => {
-  const h = document.documentElement;
-  const scrolled = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
-  progress.style.width = scrolled + "%";
-});
-
-// -------- magnetic elements
-function attachMagnetic(){
-  $$(".magnetic").forEach((el) => {
-    let rect = null;
-    el.addEventListener("mouseenter", () => (rect = el.getBoundingClientRect()));
-    el.addEventListener("mousemove", (e) => {
-      if(!rect) return;
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
-      const mx = clamp(x * 0.10, -10, 10);
-      const my = clamp(y * 0.10, -10, 10);
-      el.style.transform = `translate(${mx}px, ${my}px)`;
-    });
-    el.addEventListener("mouseleave", () => {
-      el.style.transform = "translate(0px,0px)";
-    });
-  });
-}
-attachMagnetic();
-
-// -------- tabs (panels) - robust
+// -------- tabs
 const tabs = $$(".tab");
 const panels = $$(".panel");
 
@@ -53,21 +17,17 @@ function applyPanels(name){
   });
   tabs.forEach(t => t.classList.toggle("active", t.dataset.tab === name));
 }
-
 function openTab(name){
   applyPanels(name);
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
-
 tabs.forEach(t => t.addEventListener("click", () => openTab(t.dataset.tab)));
 $$("[data-jump]").forEach(btn => btn.addEventListener("click", () => openTab(btn.dataset.jump)));
-
-// initial view
 applyPanels("startups");
 
-// -------- language system
+// -------- language
 let content = null;
-let lang = "en"; // default EN
+let lang = "en";
 
 function setLang(newLang){
   lang = newLang;
@@ -85,9 +45,7 @@ function setLang(newLang){
   });
 
   const search = $("#searchInput");
-  if(search){
-    search.placeholder = (lang === "tr") ? "Projelerde ara..." : "Search projects...";
-  }
+  if(search) search.placeholder = (lang === "tr") ? "Projelerde ara..." : "Search projects...";
 
   const cmdInput = $("#cmdInput");
   if(cmdInput){
@@ -115,7 +73,7 @@ async function loadContent(){
 }
 loadContent();
 
-// -------- roadmap data
+// -------- roadmap
 const roadmapData = [
   {
     year: "2026",
@@ -223,7 +181,7 @@ function showModal(title, text, links=[]){
 
   links.forEach(l => {
     const a = document.createElement("a");
-    a.className = "btn ghost magnetic";
+    a.className = "btn ghost";
     a.href = l.href;
     a.target = "_blank";
     a.rel = "noreferrer";
@@ -233,7 +191,6 @@ function showModal(title, text, links=[]){
 
   modal.classList.add("show");
   modal.setAttribute("aria-hidden", "false");
-  attachMagnetic();
 }
 function closeModal(){
   modal.classList.remove("show");
@@ -356,7 +313,7 @@ function renderProjects(){
 
   list.forEach(p => {
     const card = document.createElement("article");
-    card.className = "card project magnetic";
+    card.className = "card project";
     card.innerHTML = `
       <h3>${p.title || "Untitled"}</h3>
       <p>${p.desc || ""}</p>
@@ -369,8 +326,6 @@ function renderProjects(){
     card.addEventListener("click", () => openProjectModal(p));
     grid.appendChild(card);
   });
-
-  attachMagnetic();
 }
 
 $("#searchInput")?.addEventListener("input", (e) => {
@@ -416,7 +371,7 @@ function renderCreds(){
     .sort((a,b) => (b.year||0) - (a.year||0))
     .forEach(c => {
       const card = document.createElement("article");
-      card.className = "card project magnetic";
+      card.className = "card project";
       card.innerHTML = `
         <h3>${c.title || "Item"}</h3>
         <p>${c.desc || ""}</p>
@@ -433,15 +388,12 @@ function renderCreds(){
       });
       grid.appendChild(card);
     });
-
-  attachMagnetic();
 }
 
 // -------- command palette
 const cmd = $("#cmd");
 const cmdInput = $("#cmdInput");
 const cmdList = $("#cmdList");
-
 let cmdItems = [];
 
 function buildCmdItems(){
