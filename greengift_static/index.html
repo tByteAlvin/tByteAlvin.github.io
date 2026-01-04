@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="Doğa dostu reklam modeli: ücretsiz içecek + ölçülebilir sokak görünürlüğü."/>
+  <title>GreenGift • Ana Sayfa</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav" id="nav">
+        <a class="brand" href="index.html">
+          <div class="logo" aria-hidden="true"></div>
+          <div><span class="brandName">GreenGift</span></div>
+        </a>
+
+        <div class="navlinks">
+          <a href="index.html">Anasayfa</a>
+          <a href="kurumsal.html">Kurumsal</a>
+          <a href="urunler.html">Ürünler</a>
+          <a href="paketler.html">Paketler</a>
+          <a href="markalar.html">Referanslar</a>
+          <a href="iletisim.html">İletişim</a>
+        </div>
+
+        <div class="navright">
+          <a class="btn small ghost authOnly" href="panel.html" style="display:none">Panel</a>
+          <a class="btn small ghost authOnly" href="bagis.html" style="display:none">Bağış</a>
+
+          <a class="btn small ghost guestOnly" href="giris.html">Giriş Yap</a>
+          <a class="btn small primary guestOnly" href="kayit.html">Kayıt Ol</a>
+
+          <button class="btn small ghost authOnly" id="logoutBtn" style="display:none">Çıkış</button>
+          <button class="btn small ghost mobile-toggle" id="mobileToggle">Menü</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  
+<main class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="badge dot">Sosyal Girişim • Sürdürülebilir Reklam</div>
+        <h1 class="title" id="heroTitle">Reklamın En <span>Doğa Dostu</span> Hali</h1>
+        <p class="sub" id="heroSub">Markanızı içecek kutularına taşıyoruz; her yudumda doğaya bir fidan hediye ediyoruz.</p>
+        <div class="cta">
+          <a class="btn primary" id="heroCta" href="paketler.html">Paketleri İncele</a>
+          <a class="btn ghost" href="teklif-al.html">Teklif Al</a>
+        </div>
+
+        <div class="stats" id="stats"></div>
+        <div class="hr"></div>
+
+        <h2>Sistem Nasıl İşler?</h2>
+        <div class="grid-3" id="howGrid"></div>
+      </div>
+
+      <div class="hero-card">
+        <h3 style="margin:2px 0 6px">Hızlı Özet</h3>
+        <p>Her kutu hem bir içecek hem bir reklam alanı. Dağıtım gerçek hayatta, ölçüm QR + mini anketlerle.</p>
+        <div class="spacer"></div>
+        <div class="card" style="padding:14px">
+          <div class="kicker">Hedef</div>
+          <div style="font-weight:800;margin-top:4px">Markalara sokakta görünürlük + sosyal etki</div>
+          <div class="spacer"></div>
+          <div class="kicker">Model</div>
+          <div style="color:var(--muted);margin-top:4px;line-height:1.6">
+            Markalar reklam alanını satın alır. İnsanlar ücretsiz içecek alır. Gelirin bir kısmı sosyal projelere gider.
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <a class="btn ghost" href="markalar.html">Referansları gör</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <small>© 2026 <span class="brandName">GreenGift</span>. Tüm Hakları Saklıdır.</small>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <div class="t">Bildirim</div>
+    <div class="m">—</div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

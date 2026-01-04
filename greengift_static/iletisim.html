@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="İletişim bilgileri ve teklif formu."/>
+  <title>GreenGift • İletişim</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav" id="nav">
+        <a class="brand" href="index.html">
+          <div class="logo" aria-hidden="true"></div>
+          <div><span class="brandName">GreenGift</span></div>
+        </a>
+
+        <div class="navlinks">
+          <a href="index.html">Anasayfa</a>
+          <a href="kurumsal.html">Kurumsal</a>
+          <a href="urunler.html">Ürünler</a>
+          <a href="paketler.html">Paketler</a>
+          <a href="markalar.html">Referanslar</a>
+          <a href="iletisim.html">İletişim</a>
+        </div>
+
+        <div class="navright">
+          <a class="btn small ghost authOnly" href="panel.html" style="display:none">Panel</a>
+          <a class="btn small ghost authOnly" href="bagis.html" style="display:none">Bağış</a>
+
+          <a class="btn small ghost guestOnly" href="giris.html">Giriş Yap</a>
+          <a class="btn small primary guestOnly" href="kayit.html">Kayıt Ol</a>
+
+          <button class="btn small ghost authOnly" id="logoutBtn" style="display:none">Çıkış</button>
+          <button class="btn small ghost mobile-toggle" id="mobileToggle">Menü</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  
+<main class="section">
+  <div class="container">
+    <div class="badge dot">İletişim</div>
+    <h1 style="font-size:44px;margin-top:12px">Bize Ulaşın</h1>
+    <p class="kicker" style="margin-top:8px">Projeleriniz için teklif almak, iş birliği yapmak veya merhaba demek için.</p>
+
+    <div class="spacer"></div>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Adresimiz</h3>
+        <p id="addr">—</p>
+        <div class="spacer"></div>
+        <h3>E-posta</h3>
+        <p id="mail">—</p>
+        <div class="spacer"></div>
+        <h3>Telefon</h3>
+        <p id="phone">—</p>
+      </div>
+
+      <div class="card" style="grid-column: span 2;">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap">
+          <div>
+            <h3 style="margin:0 0 6px">Teklif mi almak istiyorsunuz?</h3>
+            <p>Size uygun paketi belirlemek ve fiyat almak için teklif formunu kullanabilirsiniz.</p>
+          </div>
+          <a class="btn primary" href="teklif-al.html">Teklif Formuna Git</a>
+        </div>
+        <div class="hr"></div>
+        <p class="kicker">Not: Bu statik GitHub sürümü demo. Formlar veriyi tarayıcıda (localStorage) tutar. Gerçekte mail/CRM bağlantısı ekleriz.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <small>© 2026 <span class="brandName">GreenGift</span>. Tüm Hakları Saklıdır.</small>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <div class="t">Bildirim</div>
+    <div class="m">—</div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

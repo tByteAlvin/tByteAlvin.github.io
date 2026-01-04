@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="GreenGift referans markalar."/>
+  <title>GreenGift • Markalar</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav" id="nav">
+        <a class="brand" href="index.html">
+          <div class="logo" aria-hidden="true"></div>
+          <div><span class="brandName">GreenGift</span></div>
+        </a>
+
+        <div class="navlinks">
+          <a href="index.html">Anasayfa</a>
+          <a href="kurumsal.html">Kurumsal</a>
+          <a href="urunler.html">Ürünler</a>
+          <a href="paketler.html">Paketler</a>
+          <a href="markalar.html">Referanslar</a>
+          <a href="iletisim.html">İletişim</a>
+        </div>
+
+        <div class="navright">
+          <a class="btn small ghost authOnly" href="panel.html" style="display:none">Panel</a>
+          <a class="btn small ghost authOnly" href="bagis.html" style="display:none">Bağış</a>
+
+          <a class="btn small ghost guestOnly" href="giris.html">Giriş Yap</a>
+          <a class="btn small primary guestOnly" href="kayit.html">Kayıt Ol</a>
+
+          <button class="btn small ghost authOnly" id="logoutBtn" style="display:none">Çıkış</button>
+          <button class="btn small ghost mobile-toggle" id="mobileToggle">Menü</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  
+<main class="section compact">
+  <div class="container">
+    <div class="badge dot">Referanslar</div>
+    <h1 style="font-size:44px;margin-top:12px">Referans Markalarımız</h1>
+    <p class="kicker" style="margin-top:8px">GreenGift altyapısı ile dijital dünyaya kazandırdığımız seçkin markalar.</p>
+
+    <div class="filters">
+      <input class="input" id="brandSearch" placeholder="Marka ara..." />
+      <select id="brandCategory"></select>
+      <button class="btn primary" id="brandBtn">Ara</button>
+      <span class="badge" id="brandCount">—</span>
+    </div>
+
+    <div class="brand-grid" id="brandGrid"></div>
+  </div>
+</main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <small>© 2026 <span class="brandName">GreenGift</span>. Tüm Hakları Saklıdır.</small>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <div class="t">Bildirim</div>
+    <div class="m">—</div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="GreenGift fidan bağışı (demo)."/>
+  <title>GreenGift • Bağış</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav" id="nav">
+        <a class="brand" href="index.html">
+          <div class="logo" aria-hidden="true"></div>
+          <div><span class="brandName">GreenGift</span></div>
+        </a>
+
+        <div class="navlinks">
+          <a href="index.html">Anasayfa</a>
+          <a href="kurumsal.html">Kurumsal</a>
+          <a href="urunler.html">Ürünler</a>
+          <a href="paketler.html">Paketler</a>
+          <a href="markalar.html">Referanslar</a>
+          <a href="iletisim.html">İletişim</a>
+        </div>
+
+        <div class="navright">
+          <a class="btn small ghost authOnly" href="panel.html" style="display:none">Panel</a>
+          <a class="btn small ghost authOnly" href="bagis.html" style="display:none">Bağış</a>
+
+          <a class="btn small ghost guestOnly" href="giris.html">Giriş Yap</a>
+          <a class="btn small primary guestOnly" href="kayit.html">Kayıt Ol</a>
+
+          <button class="btn small ghost authOnly" id="logoutBtn" style="display:none">Çıkış</button>
+          <button class="btn small ghost mobile-toggle" id="mobileToggle">Menü</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  
+<main class="section">
+  <div class="container">
+    <div class="badge dot">Bağış</div>
+    <h1 style="font-size:44px;margin-top:12px">Fidan Bağışı</h1>
+    <p class="kicker" style="margin-top:8px">Demo mod: bağışlar tarayıcıda saklanır.</p>
+
+    <div class="spacer"></div>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Hızlı Tutar</h3>
+        <p>Tek tıkla tutarı doldur.</p>
+        <div class="spacer"></div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button class="btn ghost quickAmount" data-amount="50" type="button">50 TL</button>
+          <button class="btn ghost quickAmount" data-amount="100" type="button">100 TL</button>
+          <button class="btn ghost quickAmount" data-amount="500" type="button">500 TL</button>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column: span 2;">
+        <form id="donateForm">
+          <div class="field">
+            <div class="label">Tutar (TL)</div>
+            <input class="input" id="amount" type="number" min="1" placeholder="Örn: 100" required />
+          </div>
+          <div class="field">
+            <div class="label">Mesaj (opsiyonel)</div>
+            <input class="input" id="note" placeholder="Kısa not..." />
+          </div>
+          <div class="spacer"></div>
+          <button class="btn primary" type="submit">Bağış Yap</button>
+          <div class="notice">Not: Gerçekte ödeme altyapısı (iyzico/stripe) eklenir. Bu sayfa sadece UI demo.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <small>© 2026 <span class="brandName">GreenGift</span>. Tüm Hakları Saklıdır.</small>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <div class="t">Bildirim</div>
+    <div class="m">—</div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

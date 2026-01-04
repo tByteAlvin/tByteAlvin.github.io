@@ -1,0 +1,102 @@
+{
+  "settings": {
+    "brand": "GreenGift",
+    "tagline": "Reklamın En Doğa Dostu Hali",
+    "subtag": "Markanızı içecek kutularına taşıyoruz; her yudumda doğaya bir fidan hediye ediyoruz.",
+    "ctaPrimary": "Paketleri İncele",
+    "ctaPrimaryHref": "paketler.html",
+    "stats": [
+      {
+        "value": "150.000+",
+        "label": "Dağıtılan Kutu"
+      },
+      {
+        "value": "12.500",
+        "label": "Dikilen Fidan"
+      },
+      {
+        "value": "45+",
+        "label": "Mutlu Marka"
+      }
+    ],
+    "address": "Maslak Mah. Büyükdere Cad. No:1, Sarıyer/İstanbul",
+    "email": "info@greengift.com",
+    "phone": "+90 212 555 00 00",
+    "social": {
+      "instagram": "#",
+      "twitter": "#"
+    }
+  },
+  "products": [
+    {
+      "title": "Ön Yüz (Main Face)",
+      "icon": "cube",
+      "desc": "Markanızın logosu, sloganı ve ana görselinin yer aldığı en dikkat çekici alan. Tüketici ürünü eline aldığında doğrudan bu yüzle etkileşime geçer."
+    },
+    {
+      "title": "Arka Yüz (Interactive)",
+      "icon": "qrcode",
+      "desc": "QR Kod, kampanya detayları veya hikaye anlatımı için ayrılan interaktif alan. Müşteriyi web sitenize veya sosyal medyaya yönlendirmek için idealdir."
+    }
+  ],
+  "packages": [
+    {
+      "name": "Green Starter",
+      "subtitle": "Küçük işletmeler için",
+      "badge": "",
+      "items": [
+        "1.000 Adet Kutu",
+        "Bölgesel Dağıtım",
+        "10 Fidan Bağışı"
+      ],
+      "featured": false
+    },
+    {
+      "name": "Gold Partner",
+      "subtitle": "Büyüyen markalar için",
+      "badge": "POPÜLER SEÇİM",
+      "items": [
+        "10.000 Adet Kutu",
+        "Şehir Geneli Dağıtım",
+        "QR Kod Entegrasyonu",
+        "150 Fidan Bağışı"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Platinum Sponsor",
+      "subtitle": "Kurumsal devler için",
+      "badge": "",
+      "items": [
+        "100.000+ Adet Kutu",
+        "Türkiye Geneli Dağıtım",
+        "Özel Lansman Kurgusu",
+        "Hatıra Ormanı Oluşturma"
+      ],
+      "featured": false
+    }
+  ],
+  "brands": [
+    {
+      "name": "Merve Kuyumculuk",
+      "category": "PERAKENDE",
+      "featured": true,
+      "logo": "uploads/thumbnails/brand_1764690949.jpg",
+      "site": "brand_sites/merve-kuyumculuk/index.html"
+    },
+    {
+      "name": "Merve Kuyumculuk",
+      "category": "PERAKENDE",
+      "featured": false,
+      "logo": "uploads/thumbnails/brand_1764692306.jpg",
+      "site": "brand_sites/merve-kuyumculuk/index.html"
+    },
+    {
+      "name": "Merve Kuyumculuk",
+      "category": "PERAKENDE",
+      "featured": false,
+      "logo": "uploads/thumbnails/brand_1764697165.jpg",
+      "site": "brand_sites/merve-kuyumculuk/index.html"
+    }
+  ]
+}
