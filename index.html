@@ -9,16 +9,20 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="cursor-glow" aria-hidden="true"></div>
-  <div class="top-progress" aria-hidden="true"></div>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
 
   <header class="nav">
     <div class="nav-inner">
-      <a class="logo" href="#top">tByteAlvin</a>
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">tByteAlvin</span>
+      </a>
 
       <div class="nav-right">
         <nav class="tabs" aria-label="Primary">
@@ -45,13 +49,9 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-inner">
-        <div class="hero-top">
-          <p class="kicker" data-i18n="hero_kicker">Founder. Builder. Systems thinker.</p>
-          <div class="pill-row">
-            <span class="pill" data-i18n="hero_pill_1">Social Startup</span>
-            <span class="pill" data-i18n="hero_pill_2">Sustainable Advertising</span>
-            <span class="pill" data-i18n="hero_pill_3">High-output Portfolio</span>
-          </div>
+        <div class="hero-badge">
+          <span class="dot"></span>
+          <span data-i18n="hero_kicker">Founder. Builder. Systems thinker.</span>
         </div>
 
         <h1 class="title">
@@ -63,31 +63,49 @@
         </p>
 
         <div class="cta">
-          <button class="btn magnetic" data-jump="startups" type="button" data-i18n="cta_primary">Explore GreenGift</button>
-          <button class="btn ghost magnetic" data-jump="roadmap" type="button" data-i18n="cta_secondary">View Roadmap</button>
-          <button class="btn ghost magnetic" id="cmdHint" type="button" data-i18n="cta_cmd">Press Ctrl+K</button>
+          <button class="btn primary" data-jump="startups" type="button" data-i18n="cta_primary">Explore GreenGift</button>
+          <button class="btn soft" data-jump="roadmap" type="button" data-i18n="cta_secondary">View Roadmap</button>
+          <button class="btn ghost" id="cmdHint" type="button" data-i18n="cta_cmd">Press Ctrl+K</button>
         </div>
 
-        <div class="metrics">
-          <div class="metric">
-            <span class="num" id="metricProjects">2026: 50+ / 2027: 100+</span>
-            <span class="label" data-i18n="metric_projects">Projects (target)</span>
+        <div class="hero-cards">
+          <div class="mini">
+            <div class="mini-top">
+              <span class="mini-icon">🚀</span>
+              <span class="mini-title" data-i18n="metric_projects">Projects (target)</span>
+            </div>
+            <div class="mini-value" id="metricProjects">2026: 50+ / 2027: 100+</div>
+            <div class="mini-sub muted">High-output habit</div>
           </div>
-          <div class="metric">
-            <span class="num" data-i18n="metric_focus_num">GreenGift</span>
-            <span class="label" data-i18n="metric_focus">Main startup</span>
+
+          <div class="mini">
+            <div class="mini-top">
+              <span class="mini-icon">🌿</span>
+              <span class="mini-title" data-i18n="metric_focus">Main startup</span>
+            </div>
+            <div class="mini-value" data-i18n="metric_focus_num">GreenGift</div>
+            <div class="mini-sub muted">Sustainable street marketing</div>
           </div>
-          <div class="metric">
-            <span class="num" data-i18n="metric_lang_num">EN/TR</span>
-            <span class="label" data-i18n="metric_lang">Bilingual site</span>
+
+          <div class="mini">
+            <div class="mini-top">
+              <span class="mini-icon">🌍</span>
+              <span class="mini-title" data-i18n="metric_lang">Bilingual site</span>
+            </div>
+            <div class="mini-value" data-i18n="metric_lang_num">EN/TR</div>
+            <div class="mini-sub muted">Audience-ready</div>
           </div>
+        </div>
+
+        <div class="pill-row">
+          <span class="pill" data-i18n="hero_pill_1">Social Startup</span>
+          <span class="pill" data-i18n="hero_pill_2">Sustainable Advertising</span>
+          <span class="pill" data-i18n="hero_pill_3">High-output Portfolio</span>
         </div>
       </div>
     </section>
 
-    <!-- PANELS -->
     <section class="panel-wrap">
-
       <!-- STARTUPS -->
       <section class="panel active" id="panel-startups" data-panel="startups">
         <div class="panel-header">
@@ -98,61 +116,70 @@
         </div>
 
         <article class="case">
-          <div class="case-left">
-            <div class="case-badge" data-i18n="greengift_badge">Case Study: GreenGift</div>
-            <h3 class="case-title" data-i18n="greengift_title">GreenGift</h3>
-            <p class="case-one" data-i18n="greengift_one_liner">
-              Eco-friendly drink distribution that turns each box into both a product and a measurable advertising space, with built-in social impact.
-            </p>
+          <div class="case-main">
+            <div class="case-head">
+              <div class="case-badge" data-i18n="greengift_badge">Case Study: GreenGift</div>
+              <h3 class="case-title" data-i18n="greengift_title">GreenGift</h3>
+              <p class="case-one" data-i18n="greengift_one_liner">
+                Eco-friendly drink distribution that turns each box into both a product and a measurable advertising space, with built-in social impact.
+              </p>
 
-            <div class="case-actions">
-              <button class="btn magnetic" id="openGG" type="button" data-i18n="greengift_open">Open full case</button>
-              <button class="btn ghost magnetic" data-jump="contact" type="button" data-i18n="greengift_partner">Partnership</button>
-            </div>
-
-            <div class="case-mini">
-              <div class="mini-block">
-                <span class="mini-title" data-i18n="gg_mini_1_t">Value</span>
-                <span class="mini-text" data-i18n="gg_mini_1_d">People get free drinks. Brands get real-world attention.</span>
-              </div>
-              <div class="mini-block">
-                <span class="mini-title" data-i18n="gg_mini_2_t">Revenue</span>
-                <span class="mini-text" data-i18n="gg_mini_2_d">Advertising on packaging + street-level brand interaction.</span>
-              </div>
-              <div class="mini-block">
-                <span class="mini-title" data-i18n="gg_mini_3_t">Impact</span>
-                <span class="mini-text" data-i18n="gg_mini_3_d">Tree planting + help for leukemia patients + homeless support.</span>
+              <div class="case-actions">
+                <button class="btn primary" id="openGG" type="button" data-i18n="greengift_open">Open full case</button>
+                <button class="btn soft" data-jump="contact" type="button" data-i18n="greengift_partner">Partnership</button>
               </div>
             </div>
-          </div>
 
-          <div class="case-right">
-            <div class="case-card">
-              <h4 data-i18n="gg_card_h">Why it works</h4>
-              <ul class="bullets">
-                <li data-i18n="gg_b1">Physical distribution creates unavoidable visibility.</li>
-                <li data-i18n="gg_b2">Distributors introduce the brand and run quick surveys.</li>
-                <li data-i18n="gg_b3">Eco packaging reduces plastic use and signals sustainability.</li>
-              </ul>
+            <div class="case-grid">
+              <div class="card">
+                <h4 data-i18n="gg_card_h">Why it works</h4>
+                <ul class="bullets">
+                  <li data-i18n="gg_b1">Physical distribution creates unavoidable visibility.</li>
+                  <li data-i18n="gg_b2">Distributors introduce the brand and run quick surveys.</li>
+                  <li data-i18n="gg_b3">Eco packaging reduces plastic use and signals sustainability.</li>
+                </ul>
+              </div>
+
+              <div class="card">
+                <h4 data-i18n="gg_card2_h">What I’m building</h4>
+                <ul class="bullets">
+                  <li data-i18n="gg_b4">A repeatable distribution system.</li>
+                  <li data-i18n="gg_b5">A pricing model based on box sides + volume.</li>
+                  <li data-i18n="gg_b6">A reporting layer: QR + survey + results dashboard.</li>
+                </ul>
+              </div>
+
+              <div class="card stat">
+                <div class="stat-top">
+                  <span class="stat-icon">🎁</span>
+                  <span class="stat-title" data-i18n="gg_mini_1_t">Value</span>
+                </div>
+                <p class="muted" data-i18n="gg_mini_1_d">People get free drinks. Brands get real-world attention.</p>
+              </div>
+
+              <div class="card stat">
+                <div class="stat-top">
+                  <span class="stat-icon">💼</span>
+                  <span class="stat-title" data-i18n="gg_mini_2_t">Revenue</span>
+                </div>
+                <p class="muted" data-i18n="gg_mini_2_d">Advertising on packaging + street-level brand interaction.</p>
+              </div>
+
+              <div class="card stat">
+                <div class="stat-top">
+                  <span class="stat-icon">🌳</span>
+                  <span class="stat-title" data-i18n="gg_mini_3_t">Impact</span>
+                </div>
+                <p class="muted" data-i18n="gg_mini_3_d">Tree planting + help for leukemia patients + homeless support.</p>
+              </div>
             </div>
 
-            <div class="case-card">
-              <h4 data-i18n="gg_card2_h">What I’m building</h4>
-              <ul class="bullets">
-                <li data-i18n="gg_b4">A repeatable distribution system.</li>
-                <li data-i18n="gg_b5">A pricing model based on box sides + volume.</li>
-                <li data-i18n="gg_b6">A reporting layer: QR + survey + results dashboard.</li>
-              </ul>
+            <div class="callout">
+              <span class="callout-dot"></span>
+              <p data-i18n="startups_note">This page is designed like a product: minimal UI, high signal, measurable goals.</p>
             </div>
           </div>
         </article>
-
-        <div class="note">
-          <span class="note-dot"></span>
-          <p data-i18n="startups_note">
-            This page is designed like a product: minimal UI, high signal, measurable goals.
-          </p>
-        </div>
       </section>
 
       <!-- BUILD LAB -->
@@ -166,19 +193,16 @@
 
         <div class="lab-controls">
           <div class="filters" id="filters"></div>
-
           <div class="search">
             <input id="searchInput" type="text" placeholder="Search projects..." />
-            <button class="btn ghost magnetic" id="clearSearch" type="button" data-i18n="clear">Clear</button>
+            <button class="btn ghost" id="clearSearch" type="button" data-i18n="clear">Clear</button>
           </div>
         </div>
 
         <div class="grid" id="projectGrid"></div>
 
-        <div class="lab-footer">
-          <p class="muted" data-i18n="buildlab_footer">
-            Tip: Press Ctrl+K and type “project” to jump into search.
-          </p>
+        <div class="panel-foot muted" data-i18n="buildlab_footer">
+          Tip: Press Ctrl+K and type “project” to jump into search.
         </div>
       </section>
 
@@ -190,7 +214,6 @@
             Year-based execution plan. No fluff, only targets and proof.
           </p>
         </div>
-
         <div class="timeline" id="timeline"></div>
       </section>
 
@@ -214,11 +237,9 @@
 
         <div class="grid" id="credGrid"></div>
 
-        <div class="note">
-          <span class="note-dot"></span>
-          <p data-i18n="cred_note">
-            This section is intentionally structured like a portfolio archive: date, proof, and what I shipped.
-          </p>
+        <div class="callout">
+          <span class="callout-dot"></span>
+          <p data-i18n="cred_note">This section is intentionally structured like a portfolio archive: date, proof, and what I shipped.</p>
         </div>
       </section>
 
@@ -292,11 +313,9 @@
           </div>
         </div>
 
-        <div class="note">
-          <span class="note-dot"></span>
-          <p data-i18n="skills_note">
-            I treat skills as systems: small daily output compounds into serious capability.
-          </p>
+        <div class="callout">
+          <span class="callout-dot"></span>
+          <p data-i18n="skills_note">I treat skills as systems: small daily output compounds into serious capability.</p>
         </div>
       </section>
 
@@ -310,22 +329,22 @@
         </div>
 
         <div class="contact-grid">
-          <a class="contact-card magnetic" href="mailto:rolexgrond@gmail.com">
+          <a class="contact-card" href="mailto:rolexgrond@gmail.com">
             <span class="contact-label">Email</span>
             <span class="contact-value">rolexgrond@gmail.com</span>
           </a>
 
-          <a class="contact-card magnetic" target="_blank" rel="noreferrer" href="https://www.instagram.com/x4llys_">
+          <a class="contact-card" target="_blank" rel="noreferrer" href="https://www.instagram.com/x4llys_">
             <span class="contact-label">Instagram</span>
             <span class="contact-value">@x4llys_</span>
           </a>
 
-          <a class="contact-card magnetic" target="_blank" rel="noreferrer" href="https://discord.com/users/827190796699828295">
+          <a class="contact-card" target="_blank" rel="noreferrer" href="https://discord.com/users/827190796699828295">
             <span class="contact-label">Discord</span>
             <span class="contact-value">Open profile</span>
           </a>
 
-          <a class="contact-card magnetic" target="_blank" rel="noreferrer" href="https://github.com/tByteAlvin">
+          <a class="contact-card" target="_blank" rel="noreferrer" href="https://github.com/tByteAlvin">
             <span class="contact-label">GitHub</span>
             <span class="contact-value">tByteAlvin</span>
           </a>
@@ -336,7 +355,6 @@
           <span class="muted" data-i18n="footer_note">Minimal UI. Maximum proof.</span>
         </footer>
       </section>
-
     </section>
   </main>
 
@@ -356,7 +374,7 @@
   <div class="modal" id="modal" aria-hidden="true">
     <div class="modal-backdrop"></div>
     <div class="modal-card">
-      <button class="modal-close magnetic" aria-label="Close" type="button">Close</button>
+      <button class="modal-close" aria-label="Close" type="button">Close</button>
       <h3 class="modal-title"></h3>
       <p class="modal-text"></p>
       <div class="modal-actions"></div>
