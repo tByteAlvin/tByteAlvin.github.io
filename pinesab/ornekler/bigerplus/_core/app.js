@@ -6,14 +6,16 @@ const $=(s,r=document)=>r.querySelector(s),all=(s,r=document)=>[...r.querySelect
 const demoKey='PS_DEMO_'+slug,langKey='PS_LANG_'+slug,contentKey='PS_CONTENT_'+slug,threadKey='PS_THREAD_'+slug;
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let lang='tr',dict={},sound=false,audioCtx,thread=null;
+const originalMarkup=new WeakMap();
 function get(k){try{return localStorage.getItem(k)}catch{return null}}
 function set(k,v){try{localStorage.setItem(k,v);return true}catch{return false}}
 function state(){try{const d=JSON.parse(get(demoKey)||'{}');return {appointments:d.appointments||[],threads:d.threads||[]}}catch{return {appointments:[],threads:[]}}}
 function save(s){return set(demoKey,JSON.stringify(s))}
 const guid=()=>crypto.randomUUID?.()||'demo-'+Date.now()+'-'+Math.random().toString(36).slice(2);
 function t(key,def){const v=key.split('.').reduce((o,p)=>o?.[p],dict);return typeof v==='string'?v:def||key}
-function guess(){const stored=get(langKey);if(['tr','en','de'].includes(stored))return stored;const n=(navigator.languages?.[0]||navigator.language||'').toLowerCase();return n.startsWith('tr')?'tr':n.startsWith('de')?'de':'en'}
+function guess(){const stored=get(langKey);if(['tr','en','de'].includes(stored))return stored;let zone='';try{zone=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch{}if(zone==='Europe/Istanbul')return 'tr';if(['Europe/Berlin','Europe/Vienna','Europe/Zurich'].includes(zone))return 'de';const n=(navigator.languages?.[0]||navigator.language||'').toLowerCase();return n.startsWith('tr')?'tr':n.startsWith('de')?'de':'en'}
 async function locale(code,remember=false){if(!['tr','en','de'].includes(code))code='tr';let d={};try{const r=await fetch('locales/'+code+'.json');if(!r.ok)throw Error('Language unavailable');d=await r.json()}catch{if(code!=='tr')return locale('tr',remember)}dict=d;lang=code;document.documentElement.lang=code;if(remember)set(langKey,code);
+for(const el of all('[data-content]')){if(!originalMarkup.has(el))originalMarkup.set(el,el.innerHTML);else el.innerHTML=originalMarkup.get(el)}
 for(const e of all('[data-t]')){const v=t(e.dataset.t,null);if(v!==e.dataset.t)e.textContent=v}
 for(const e of all('[data-t-placeholder]')){const v=t(e.dataset.tPlaceholder,null);if(v!==e.dataset.tPlaceholder)e.setAttribute('placeholder',v)}
 for(const e of all('[data-lang]'))e.value=code;
