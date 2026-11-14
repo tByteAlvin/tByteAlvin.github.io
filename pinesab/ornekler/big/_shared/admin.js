@@ -21,6 +21,10 @@
  $('#mobileBtn').addEventListener('click',()=>$('#frameShell').classList.add('mobile'));
  function renderItems(){const d=doc();if(!d)return;list.replaceChildren();for(const item of d.querySelectorAll('[data-edit]')){const b=document.createElement('button');b.className='edit-item';b.type='button';b.dataset.key=item.dataset.edit;b.textContent=item.dataset.edit+' · '+item.textContent.slice(0,44);b.addEventListener('click',()=>select(item.dataset.edit,true));list.append(b)}}
  function select(k,scroll){const d=doc();if(!d)return;for(const x of d.querySelectorAll('[data-edit]'))x.style.outline='';currentKey=k;const e=el();$('#selectedEditor').hidden=!e;$$('.edit-item').forEach(b=>b.classList.toggle('current',!!e&&b.dataset.key===k));if(!e){$('#selectedTitle').textContent='Öğe seçilmedi';return}if(scroll)e.scrollIntoView({block:'center',behavior:'smooth'});e.style.outline='2px dashed #bff56e';$('#selectedTitle').textContent=k;const p=draft.styles?.[k]||{};$('#editText').value=draft.text?.[k]??e.textContent;$('#posX').value=Number(p.x)||0;$('#posY').value=Number(p.y)||0;$('#fontSize').value=Number(p.size)||parseInt(frame.contentWindow.getComputedStyle(e).fontSize)||28;$('#align').value=p.align||'left';$('#textColor').value=p.color||'#ffffff';$('#buttonColor').value=p.bg||site.palette?.accent||'#bff56e';const a=e.closest('a[data-link]')||e.querySelector('a[data-link]');$('#linkBlock').hidden=!a;$('#editLink').dataset.key=a?.dataset.link||'';$('#editLink').value=a?(draft.links?.[a.dataset.link]||a.getAttribute('href')):''}
+ function fillLinks(){const s=$('#allLinkSlot');s.replaceChildren();for(const a of doc()?.querySelectorAll('[data-link]')||[]){const o=document.createElement('option');o.value=a.dataset.link;o.textContent=a.dataset.link;s.append(o)}syncLink()}
+ function syncLink(){const k=$('#allLinkSlot').value;const a=[...(doc()?.querySelectorAll('[data-link]')||[])].find(x=>x.dataset.link===k);$('#allLinkUrl').value=a?(draft.links?.[k]||a.getAttribute('href')):''}
+ $('#allLinkSlot').addEventListener('change',syncLink);
+ $('#updateLinkBtn').addEventListener('click',()=>{const k=$('#allLinkSlot').value,v=$('#allLinkUrl').value.trim();if(!k)return;if(!safe(v)){notice('Geçerli HTTPS, mailto:, tel: veya yerel .html hedefi girin.');return}mutate(()=>{draft.links??={};draft.links[k]=v});syncLink()});
  function addHooks(){const d=doc();if(!d)return;for(const e of d.querySelectorAll('[data-edit]')){
  e.title='Tıklayıp seçin; sürükleyerek taşıyın';
  e.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();select(e.dataset.edit,false)},true);
@@ -30,7 +34,7 @@
  }
  for(const a of d.querySelectorAll('a'))a.addEventListener('click',event=>{event.preventDefault();if(a.closest('[data-edit]'))return;const h=a.getAttribute('href');if(pages.some(p=>p.file===h)){pagesEl.value=h;changePage(h)}},true);
  }
- frame.addEventListener('load',()=>{currentKey=null;draw();addHooks();fillImages();notice('Sayfa açıldı. Metne tıklayarak veya sürükleyerek düzenleyin.')});
+ frame.addEventListener('load',()=>{currentKey=null;draw();addHooks();fillImages();fillLinks();notice('Sayfa açıldı. Metne tıklayarak veya sürükleyerek düzenleyin.')});
  $('#editText').addEventListener('change',e=>{const k=currentKey;if(!k)return;mutate(()=>{draft.text??={};draft.text[k]=e.target.value})});
  function editStyle(prop,v){if(!currentKey)return;const k=currentKey;mutate(()=>{draft.styles??={};draft.styles[k]={...(draft.styles[k]||{}),[prop]:v}})}
  for(const [id,prop] of [['posX','x'],['posY','y'],['fontSize','size'],['align','align'],['textColor','color'],['buttonColor','bg']])$('#'+id).addEventListener('change',e=>editStyle(prop,prop==='align'||prop==='color'?e.target.value:Number(e.target.value)));
