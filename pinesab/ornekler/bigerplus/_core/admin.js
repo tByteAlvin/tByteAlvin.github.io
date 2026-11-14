@@ -43,5 +43,11 @@ $('#exportInbox').addEventListener('click',()=>{const b=new Blob([JSON.stringify
 $('#clearDemo').addEventListener('click',()=>{if(api)return;if(!confirm('Bu tarayıcıdaki tüm demo randevu ve mesaj kayıtları silinsin mi?'))return;localStorage.removeItem(demoKey);refresh()});
 async function photo(input){const f=input.files?.[0];if(!f||!['image/png','image/jpeg','image/webp'].includes(f.type))return;const im=new Image(),url=URL.createObjectURL(f);im.onload=()=>{const c=document.createElement('canvas'),k=Math.min(1,400/Math.max(im.width,im.height));c.width=Math.max(1,Math.round(im.width*k));c.height=Math.max(1,Math.round(im.height*k));c.getContext('2d').drawImage(im,0,0,c.width,c.height);content.logo=c.toDataURL('image/png');set(contentKey,JSON.stringify(content));notify('Logo bu tarayıcıya kaydedildi.',true);URL.revokeObjectURL(url)};im.src=url}
 $('#logoUpload').addEventListener('change',e=>photo(e.target));
+$('#photoUpload').addEventListener('change',e=>{
+const file=e.target.files?.[0],slot=$('#photoSlot').value;
+if(!file||!['image/png','image/jpeg','image/webp'].includes(file.type))return;
+const im=new Image(),url=URL.createObjectURL(file);
+im.onload=()=>{const cv=document.createElement('canvas'),k=Math.min(1,1200/Math.max(im.width,im.height));cv.width=Math.max(1,Math.round(im.width*k));cv.height=Math.max(1,Math.round(im.height*k));cv.getContext('2d').drawImage(im,0,0,cv.width,cv.height);content.photos??={};content.photos[slot]=cv.toDataURL('image/jpeg',.70);if(!set(contentKey,JSON.stringify(content)))notify('Tarayıcı depolama alanı doldu. Daha küçük fotoğraf kullan.');else notify('Görsel kaydedildi. Aynı tarayıcıdaki siteye yansır.',true);URL.revokeObjectURL(url)};im.onerror=()=>URL.revokeObjectURL(url);im.src=url;
+});
 populate();show('appointments');refresh();
 })();
