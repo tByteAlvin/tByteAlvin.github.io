@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"mora-mutfak","brand":"MORA MUTFAK","apiBase":"","accent":"#c46d43"};

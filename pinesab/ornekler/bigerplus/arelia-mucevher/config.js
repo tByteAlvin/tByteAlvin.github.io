@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"arelia-mucevher","brand":"ARELIA JEWELS","apiBase":"","accent":"#c9a76b"};
