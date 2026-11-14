@@ -25,7 +25,7 @@
  for(const el of all('[data-link]')){const s=links[el.dataset.link];if(valid(s))el.setAttribute('href',s);else if(initial.links[el.dataset.link])el.setAttribute('href',initial.links[el.dataset.link])}
  for(const el of all('[data-image]')){const src=images[el.dataset.image];if(typeof src==='string'&&/^data:image\/(jpeg|png|webp);base64,/.test(src)){el.src=src;el.removeAttribute('data-photo');el.dataset.editedSrc='yes'}else if(el.dataset.editedSrc==='yes'){const orig=initial.images[el.dataset.image];el.setAttribute('src',orig.src);if(orig.photo)el.setAttribute('data-photo',orig.photo);delete el.dataset.editedSrc}}
  for(const [el,src] of initial.logos)el.src=images.logo||src;
- for(const [el,src] of initial.favicons)el.href=images.favicon||src;
+ for(const [el,src] of initial.favicons){el.href=images.favicon||src;el.type=images.favicon?'image/jpeg':'image/svg+xml'}
  for(const k of ['accent','bg','ink','surface']){if(/^#[0-9a-f]{6}$/i.test(g[k]||''))document.documentElement.style.setProperty('--'+k,g[k]);else document.documentElement.style.removeProperty('--'+k)}
  if(['DM Sans','Space Grotesk','Manrope','Syne','Playfair Display'].includes(g.font)){document.documentElement.style.setProperty('--font','"'+g.font+'",sans-serif');document.documentElement.style.setProperty('--display','"'+g.font+'",sans-serif');}
  else {document.documentElement.style.removeProperty('--font');document.documentElement.style.removeProperty('--display')}
@@ -40,6 +40,6 @@
  else all('[data-reveal]').forEach(x=>x.classList.add('visible'));
  if(!reduced&&matchMedia('(pointer:fine)').matches)for(const el of all('.magnetic')){el.addEventListener('mousemove',e=>{const r=el.getBoundingClientRect();el.style.transform='translate('+((e.clientX-r.left-r.width/2)/14)+'px,'+((e.clientY-r.top-r.height/2)/14)+'px)'});el.addEventListener('mouseleave',()=>el.style.transform='')}
  const lazy='IntersectionObserver'in window?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){load(e.target);lazy.unobserve(e.target)}}),{rootMargin:'400px'}):null;
- function load(img){if(!img.dataset.photo||(data.images||{})[img.dataset.image])return;const u=img.dataset.photo,probe=new Image();probe.onload=()=>{img.src=u;img.removeAttribute('data-photo')};probe.onerror=()=>{img.removeAttribute('data-photo');img.dataset.photoFailed='true'};probe.src=u}
+ function load(img){if(!img.dataset.photo||(data.images||{})[img.dataset.image])return;const u=img.dataset.photo,probe=new Image();probe.onload=()=>{if((data.images||{})[img.dataset.image])return;img.src=u;img.removeAttribute('data-photo')};probe.onerror=()=>{img.removeAttribute('data-photo');img.dataset.photoFailed='true'};probe.src=u}
  for(const img of all('img[data-photo]')){if(lazy&&img.loading==='lazy')lazy.observe(img);else load(img)}
 })();
