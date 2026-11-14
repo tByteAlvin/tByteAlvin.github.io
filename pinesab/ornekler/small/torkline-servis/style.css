@@ -13,3 +13,6 @@
 :root{--bg:#14191d;--ink:#e9eef0;--accent:#ee8c4a;--surface:#233238;--radius:22px}
 .primary{color:#14191d}
 img{background-image:url("assets/scene.svg");background-position:center;background-size:cover;background-repeat:no-repeat}
+
+/* Kapağın güvenli harici stil tanımı; HTML içi stillere bağlı değil. */
+:root{--hero:url("https://images.unsplash.com/photo-1486006920555-c77dcf18193c?auto=format&fit=crop&w=1600&q=80")}
