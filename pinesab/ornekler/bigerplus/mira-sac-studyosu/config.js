@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"mira-sac-studyosu","brand":"MIRA SAÇ STÜDYOSU","apiBase":"","accent":"#c97191"};

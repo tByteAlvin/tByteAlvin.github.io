@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"bordo-barber","brand":"BORDO BARBER","apiBase":"","accent":"#d1a46f"};

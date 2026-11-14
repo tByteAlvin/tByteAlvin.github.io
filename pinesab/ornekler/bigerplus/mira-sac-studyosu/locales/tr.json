@@ -1,0 +1,211 @@
+{
+  "common": {
+    "discover": "Keşfet",
+    "explore": "İncele",
+    "book": "Randevu / Talep",
+    "read": "Devamını oku",
+    "all": "Tümünü gör",
+    "contact": "İletişime geç",
+    "learn": "Daha fazla bilgi",
+    "send": "Gönder",
+    "home": "Ana Sayfa",
+    "services": "Öne Çıkanlar",
+    "story": "Hikâyemiz",
+    "gallery": "Görsel Dünyamız",
+    "news": "Haberler",
+    "blog": "Blog & Yazılar",
+    "references": "Referans Konseptler",
+    "faq": "Sık Sorulan Sorular",
+    "privacy": "Bu markalar ve örnek çalışmalar kurgusaldır. Gerçek bir işletme duyurusu, fiyatı veya müşterisi temsil edilmez.",
+    "medium": "Özenli detaylarla oluşturulmuş özel bir deneyim.",
+    "concept": "KONSEPT / PORTFÖY",
+    "allItems": "Tüm Seçkiler",
+    "reserve": "Görüşme talebi oluştur",
+    "menu": "Menüyü aç",
+    "close": "Kapat",
+    "admin": "Yönetim Paneli",
+    "scroll": "Aşağı Kaydır",
+    "collections": "Özel Seçkiler",
+    "discoverWorld": "Bize yakından bakın",
+    "insight": "Yeni fikirler ve hikâyeler",
+    "detail": "Bu seçki hakkında",
+    "detailIntro": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır.",
+    "detailText": "Her deneyim kendi ayrıntılarında değer kazanır. Burada kullanım ihtiyacını, görsel kimliği ve ziyaretçinin doğru bilgiye ulaşmasını birlikte ele alıyoruz.",
+    "detailMore": "Seçenekleri karşılaştırırken kendiniz için önemli olan noktaları belirleyin. Detayları öğrenmek için bizimle iletişime geçebilirsiniz.",
+    "refIntro": "Portföyümüz için hazırlanmış temsili konsept çalışmaları. Gerçek müşteri projesi veya tamamlanmış iş iddiası taşımaz.",
+    "blogIntro": "Sektörümüz hakkında ilham veren notlar, öneriler ve kısa rehberler.",
+    "newsIntro": "Bu duyurular web sitesinin haber yapısını göstermek için hazırlanmış örnek içeriklerdir.",
+    "articleA": "İhtiyaçları doğru anlamak",
+    "articleB": "Ayrıntılara yeni bir bakış",
+    "articleC": "İyi deneyim için iletişim",
+    "articleP1": "Doğru seçim, önce beklentilerimizi ve gündelik kullanım alışkanlıklarımızı tanımakla başlar. Bazen küçük ayrıntılar en büyük farkı oluşturur.",
+    "articleP2": "İyi bir deneyim yalnızca görünümle sınırlı değildir. Bilginin anlaşılır olması, sorulara yanıt verebilmesi ve tutarlı sunulması da önemlidir.",
+    "articleP3": "Buradaki içerik konsept şablonu göstermek için hazırlanmıştır. Gerçek uygulamada ürün, hizmet ve marka bilgileri doğrulanmış metinlerle güncellenir.",
+    "related": "İlgili İçerikler",
+    "original": "Yalın fikirler, güçlü deneyimler.",
+    "photo": "Temsili fotoğraf",
+    "footerText": "Bağımsız, kurgusal marka için hazırlanmış premium web sitesi referans çalışması.",
+    "requestNotice": "Talebiniz bir randevu onayı değildir. İşletmenin dönüşünü bekleyiniz.",
+    "demoNotice": "DEMO MODU: Bilgiler yalnızca bu tarayıcıda kayıtlı kalır. Gerçek işletmeye gönderilmez. Lütfen gerçek kişisel bilgilerinizi kullanmayın.",
+    "service": "Hizmet / Seçim",
+    "date": "Tarih",
+    "time": "Saat",
+    "fullname": "Ad Soyad",
+    "phone": "Telefon",
+    "email": "E-posta (isteğe bağlı)",
+    "note": "Açıklama (isteğe bağlı)",
+    "submit": "Talebi Gönder",
+    "formTitle": "Birlikte planlayalım.",
+    "formLead": "Uygun günü ve istediğiniz seçeneği belirtin. Bu bir ön talep formudur, rezervasyon kesinleşmez.",
+    "formHint": "Tarih ve saat seçimi müsaitlik garantisi değildir.",
+    "contactTitle": "Doğrudan konuşalım.",
+    "contactLead": "Sorularınızı site içi mesajlaşma aracılığıyla paylaşabilirsiniz.",
+    "openChat": "Mesajlaşmayı Aç",
+    "hours": "İletişim",
+    "answer": "Cevap bekleniyor",
+    "view": "Görseli Aç",
+    "step1": "İhtiyacı Keşfet",
+    "step2": "Seçenekleri Gör",
+    "step3": "İletişime Geç",
+    "viewCollection": "Koleksiyonu İncele",
+    "introPrefix": "PREMIUM EXPERIENCE",
+    "appointmentStatus": "Randevu Talebi",
+    "expertise": "İşçilik ve Yaklaşım",
+    "viewProjects": "Projeleri Gör"
+  },
+  "hero": {
+    "first": "Değişimin en güzel",
+    "second": "hâli sensin.",
+    "lead": "Kendine özgü stilini, ışığını ve karakterini öne çıkaran saç deneyimi."
+  },
+  "cta": "Randevu oluştur",
+  "titlePhrase": "Stil bir hisle başlar.",
+  "nav": [
+    "Başlangıç",
+    "Stiller",
+    "Hizmetler",
+    "Lookbook",
+    "Randevu",
+    "İletişim"
+  ],
+  "items": [
+    {
+      "name": "İmza Kesim",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    },
+    {
+      "name": "Doğal Işıltı",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    },
+    {
+      "name": "Renk Tasarımı",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    },
+    {
+      "name": "Saç Bakım Ritüeli",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    },
+    {
+      "name": "Gelin Stili",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    },
+    {
+      "name": "Profesyonel Fön",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    },
+    {
+      "name": "Gece Görünümü",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    },
+    {
+      "name": "Stil Danışmanlığı",
+      "description": "Kişisel ihtiyaçları dikkate alan, yalın ve özenli bir sunum. Bu içerik konsept amaçlıdır."
+    }
+  ],
+  "blog": [
+    {
+      "name": "Saç renginizi bulmak",
+      "description": "Sektörümüz hakkında ilham veren notlar, öneriler ve kısa rehberler."
+    },
+    {
+      "name": "Mevsime uygun saç bakımı",
+      "description": "Sektörümüz hakkında ilham veren notlar, öneriler ve kısa rehberler."
+    },
+    {
+      "name": "Kendi tarzınızı keşfetmek",
+      "description": "Sektörümüz hakkında ilham veren notlar, öneriler ve kısa rehberler."
+    },
+    {
+      "name": "Özel gün saç fikirleri",
+      "description": "Sektörümüz hakkında ilham veren notlar, öneriler ve kısa rehberler."
+    }
+  ],
+  "refs": [
+    {
+      "name": "Natural Glow Koleksiyonu",
+      "description": "Portföyümüz için hazırlanmış temsili konsept çalışmaları. Gerçek müşteri projesi veya tamamlanmış iş iddiası taşımaz."
+    },
+    {
+      "name": "Bridal Edit Konsepti",
+      "description": "Portföyümüz için hazırlanmış temsili konsept çalışmaları. Gerçek müşteri projesi veya tamamlanmış iş iddiası taşımaz."
+    },
+    {
+      "name": "Modern Kesim Serisi",
+      "description": "Portföyümüz için hazırlanmış temsili konsept çalışmaları. Gerçek müşteri projesi veya tamamlanmış iş iddiası taşımaz."
+    },
+    {
+      "name": "Studio Editorial",
+      "description": "Portföyümüz için hazırlanmış temsili konsept çalışmaları. Gerçek müşteri projesi veya tamamlanmış iş iddiası taşımaz."
+    }
+  ],
+  "news": [
+    {
+      "name": "Yeni sezon renk dünyası",
+      "description": "Bu duyurular web sitesinin haber yapısını göstermek için hazırlanmış örnek içeriklerdir."
+    },
+    {
+      "name": "Stil seansları için yeni fikirler",
+      "description": "Bu duyurular web sitesinin haber yapısını göstermek için hazırlanmış örnek içeriklerdir."
+    },
+    {
+      "name": "Bakım ritüeli seçkisi",
+      "description": "Bu duyurular web sitesinin haber yapısını göstermek için hazırlanmış örnek içeriklerdir."
+    }
+  ],
+  "chat": {
+    "title": "Canlı Mesajlaşma",
+    "name": "Ad Soyad",
+    "contact": "E-posta veya telefon",
+    "message": "Mesajınız",
+    "send": "Mesaj gönder",
+    "reply": "Yeni mesaj",
+    "refresh": "Yenile",
+    "close": "Kapat",
+    "connected": "Sunucu bağlantısı açık.",
+    "demo": "DEMO: Mesajlar sadece bu tarayıcıda tutulur."
+  },
+  "status": {
+    "sending": "Gönderiliyor...",
+    "bookingReal": "Talebiniz sisteme alındı. Rezervasyon henüz onaylanmadı.",
+    "bookingDemo": "DEMO: Bu talep yalnızca tarayıcınıza kaydedildi, gerçek işletmeye gönderilmedi.",
+    "error": "İşlem gerçekleştirilemedi."
+  },
+  "faq": [
+    {
+      "q": "Randevu kesinleşiyor mu?",
+      "a": "Hayır. Gönderdiğiniz bilgi yalnızca randevu talebidir. İşletmenin onayı gerekir."
+    },
+    {
+      "q": "Örnekler gerçek bir işletmeye mi ait?",
+      "a": "Hayır. Bu portföy çalışmasındaki marka, içerik ve örnek referanslar kurgusaldır."
+    },
+    {
+      "q": "Mesajlaşma nasıl çalışıyor?",
+      "a": "Canlı sunucu bağlandığında mesajlar işletmenin yönetim paneline iletilir. Demo modunda yalnızca bu tarayıcıya kaydedilir."
+    },
+    {
+      "q": "Dili değiştirebilir miyim?",
+      "a": "Evet. Türkçe, İngilizce ve Almanca içerikler ayrı dil dosyalarından yüklenir."
+    }
+  ]
+}
