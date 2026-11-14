@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"aurevia-otel","brand":"AUREVIA HOTEL","apiBase":"","accent":"#af805c"};

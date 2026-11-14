@@ -1,0 +1,211 @@
+{
+  "common": {
+    "discover": "Discover",
+    "explore": "Explore",
+    "book": "Booking / Inquiry",
+    "read": "Read more",
+    "all": "View all",
+    "contact": "Get in touch",
+    "learn": "Learn more",
+    "send": "Send",
+    "home": "Home",
+    "services": "Highlights",
+    "story": "Our Story",
+    "gallery": "Visual Journal",
+    "news": "News",
+    "blog": "Journal & Insights",
+    "references": "Concept Projects",
+    "faq": "Frequently Asked Questions",
+    "privacy": "These brands and examples are fictional. They do not represent real business offers, prices or customers.",
+    "medium": "An experience carefully crafted around the details.",
+    "concept": "CONCEPT / PORTFOLIO",
+    "allItems": "All Selections",
+    "reserve": "Request a consultation",
+    "menu": "Open menu",
+    "close": "Close",
+    "admin": "Admin Console",
+    "scroll": "Scroll to explore",
+    "collections": "Curated Selections",
+    "discoverWorld": "Step into our world",
+    "insight": "Ideas and stories",
+    "detail": "About this selection",
+    "detailIntro": "A considered presentation focused on individual needs. This content is for demonstration.",
+    "detailText": "Every experience finds value in its details. Here we combine practical needs, visual identity and clear information for visitors.",
+    "detailMore": "When comparing options, consider what matters most to you. Contact us to learn more.",
+    "refIntro": "Fictional concept projects created for the portfolio. They are not real customer projects or completed commissions.",
+    "blogIntro": "Notes, ideas and brief guides related to our field.",
+    "newsIntro": "These announcements are example content designed to demonstrate the site's news section.",
+    "articleA": "Understanding your needs",
+    "articleB": "A fresh view on details",
+    "articleC": "Communication makes a difference",
+    "articleP1": "Finding the right choice starts with understanding our needs and everyday habits. Often small details make the greatest difference.",
+    "articleP2": "A meaningful experience is more than visual appeal. Clear information, useful answers and a consistent presentation matter just as much.",
+    "articleP3": "This article is demonstration copy. Actual product, service and brand information should be verified before publication.",
+    "related": "Related Content",
+    "original": "Clear ideas, exceptional experiences.",
+    "photo": "Illustrative photograph",
+    "footerText": "A premium website concept developed for an independent fictional brand.",
+    "requestNotice": "This request is not a confirmed booking. Please wait for a response.",
+    "demoNotice": "DEMO MODE: Information is stored only in this browser and is not sent to a business. Please do not enter real personal details.",
+    "service": "Service / Selection",
+    "date": "Date",
+    "time": "Time",
+    "fullname": "Full name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "note": "Notes (optional)",
+    "submit": "Send request",
+    "formTitle": "Let's plan together.",
+    "formLead": "Choose your preferred day and service. This is an inquiry, not a confirmed reservation.",
+    "formHint": "Selecting a date and time does not guarantee availability.",
+    "contactTitle": "Let's connect.",
+    "contactLead": "You can send your questions through our built-in messaging panel.",
+    "openChat": "Open Messenger",
+    "hours": "Communication",
+    "answer": "Awaiting response",
+    "view": "View Image",
+    "step1": "Explore Your Needs",
+    "step2": "Browse Options",
+    "step3": "Get in Touch",
+    "viewCollection": "Explore Collection",
+    "introPrefix": "PREMIUM EXPERIENCE",
+    "appointmentStatus": "Booking Request",
+    "expertise": "Craft & Approach",
+    "viewProjects": "Explore Projects"
+  },
+  "hero": {
+    "first": "Redefine the",
+    "second": "open road.",
+    "lead": "Confidence, design and movement at the start of every journey."
+  },
+  "cta": "Request a test drive",
+  "titlePhrase": "Where motion becomes art.",
+  "nav": [
+    "Home",
+    "Vehicles",
+    "Driving Experience",
+    "Gallery",
+    "Test Drive",
+    "Contact"
+  ],
+  "items": [
+    {
+      "name": "City Cars",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    },
+    {
+      "name": "Performance Series",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    },
+    {
+      "name": "Premium Sedans",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    },
+    {
+      "name": "SUV Selection",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    },
+    {
+      "name": "Electric Future",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    },
+    {
+      "name": "Family Travel",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    },
+    {
+      "name": "Collector Models",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    },
+    {
+      "name": "Touring Comfort",
+      "description": "A considered presentation focused on individual needs. This content is for demonstration."
+    }
+  ],
+  "blog": [
+    {
+      "name": "How to choose the right car",
+      "description": "Notes, ideas and brief guides related to our field."
+    },
+    {
+      "name": "The next generation of driving",
+      "description": "Notes, ideas and brief guides related to our field."
+    },
+    {
+      "name": "Performance in everyday life",
+      "description": "Notes, ideas and brief guides related to our field."
+    },
+    {
+      "name": "Getting started with electric cars",
+      "description": "Notes, ideas and brief guides related to our field."
+    }
+  ],
+  "refs": [
+    {
+      "name": "Urban Drive Concept",
+      "description": "Fictional concept projects created for the portfolio. They are not real customer projects or completed commissions."
+    },
+    {
+      "name": "Grand Tour Experience",
+      "description": "Fictional concept projects created for the portfolio. They are not real customer projects or completed commissions."
+    },
+    {
+      "name": "Modern Showroom Concept",
+      "description": "Fictional concept projects created for the portfolio. They are not real customer projects or completed commissions."
+    },
+    {
+      "name": "Electric Future Showcase",
+      "description": "Fictional concept projects created for the portfolio. They are not real customer projects or completed commissions."
+    }
+  ],
+  "news": [
+    {
+      "name": "New season vehicle selection",
+      "description": "These announcements are example content designed to demonstrate the site's news section."
+    },
+    {
+      "name": "A new showroom experience",
+      "description": "These announcements are example content designed to demonstrate the site's news section."
+    },
+    {
+      "name": "New electric model concept",
+      "description": "These announcements are example content designed to demonstrate the site's news section."
+    }
+  ],
+  "chat": {
+    "title": "Site Messenger",
+    "name": "Full name",
+    "contact": "Email or phone",
+    "message": "Your message",
+    "send": "Send message",
+    "reply": "New message",
+    "refresh": "Refresh",
+    "close": "Close",
+    "connected": "Connected to live server.",
+    "demo": "DEMO: Messages are stored only in this browser."
+  },
+  "status": {
+    "sending": "Sending...",
+    "bookingReal": "Your request was received. The booking has not yet been confirmed.",
+    "bookingDemo": "DEMO: This request was saved only in your browser and was not sent to a business.",
+    "error": "The request could not be completed."
+  },
+  "faq": [
+    {
+      "q": "Is my booking confirmed?",
+      "a": "No. Submitting the form only sends a request. A business must confirm the booking."
+    },
+    {
+      "q": "Are these real businesses?",
+      "a": "No. Brand names, content and example projects in this portfolio are fictional."
+    },
+    {
+      "q": "How does messaging work?",
+      "a": "When a server is connected, messages appear in the business admin inbox. In demo mode they stay in this browser."
+    },
+    {
+      "q": "Can I switch languages?",
+      "a": "Yes. Turkish, English and German content is provided in separate language files."
+    }
+  ]
+}

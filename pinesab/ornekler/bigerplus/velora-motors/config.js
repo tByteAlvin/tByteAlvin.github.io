@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"velora-motors","brand":"VELORA MOTORS","apiBase":"","accent":"#c5ef42"};
