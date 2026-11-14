@@ -1,0 +1,1602 @@
+[
+  {
+    "slug": "velora-motors",
+    "name": "VELORA MOTORS",
+    "sector": "Oto Galeri",
+    "design": "velocity",
+    "color": [
+      "#080e13",
+      "#f1f6f9",
+      "#c5ef42",
+      "#13242d"
+    ],
+    "photos": [
+      "photo-1493238792000-8113da705763",
+      "photo-1503376780353-7e6692767b70",
+      "photo-1585390062628-be8608aa7d83",
+      "photo-1549317661-bd32c8ce0db2",
+      "photo-1519641471654-76ce0107ad1b",
+      "photo-1507136566006-cfc505b114fc"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Başlangıç",
+          "en": "Home",
+          "de": "Start"
+        }
+      },
+      {
+        "file": "araclar.html",
+        "label": {
+          "tr": "Araçlar",
+          "en": "Vehicles",
+          "de": "Fahrzeuge"
+        }
+      },
+      {
+        "file": "deneyim.html",
+        "label": {
+          "tr": "Sürüş Deneyimi",
+          "en": "Driving Experience",
+          "de": "Fahrerlebnis"
+        }
+      },
+      {
+        "file": "galeri.html",
+        "label": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "de": "Galerie"
+        }
+      },
+      {
+        "file": "test-surusu.html",
+        "label": {
+          "tr": "Test Sürüşü",
+          "en": "Test Drive",
+          "de": "Probefahrt"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Yolun sınırlarını",
+        "second": "yeniden keşfet.",
+        "lead": "Her yolculuğun başlangıcında özgüven, tasarım ve hareket vardır."
+      },
+      "en": {
+        "first": "Redefine the",
+        "second": "open road.",
+        "lead": "Confidence, design and movement at the start of every journey."
+      },
+      "de": {
+        "first": "Erlebe die Straße",
+        "second": "ganz neu.",
+        "lead": "Selbstvertrauen, Design und Bewegung für jede Fahrt."
+      }
+    },
+    "items": [
+      {
+        "tr": "Şehir Otomobilleri",
+        "en": "City Cars",
+        "de": "Stadtautos"
+      },
+      {
+        "tr": "Performans Serisi",
+        "en": "Performance Series",
+        "de": "Performance-Serie"
+      },
+      {
+        "tr": "Premium Sedanlar",
+        "en": "Premium Sedans",
+        "de": "Premium-Limousinen"
+      },
+      {
+        "tr": "SUV Seçkisi",
+        "en": "SUV Selection",
+        "de": "SUV-Auswahl"
+      },
+      {
+        "tr": "Elektrikli Gelecek",
+        "en": "Electric Future",
+        "de": "Elektrische Zukunft"
+      },
+      {
+        "tr": "Aile Yolculuğu",
+        "en": "Family Travel",
+        "de": "Familienreisen"
+      },
+      {
+        "tr": "Koleksiyon Modelleri",
+        "en": "Collector Models",
+        "de": "Sammlermodelle"
+      },
+      {
+        "tr": "Uzun Yol Konforu",
+        "en": "Touring Comfort",
+        "de": "Reisekomfort"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Doğru otomobil nasıl seçilir?",
+        "en": "How to choose the right car",
+        "de": "So findest du das passende Auto"
+      },
+      {
+        "tr": "Yeni nesil sürüş deneyimi",
+        "en": "The next generation of driving",
+        "de": "Fahren der nächsten Generation"
+      },
+      {
+        "tr": "Performans ve günlük yaşam",
+        "en": "Performance in everyday life",
+        "de": "Leistung im Alltag"
+      },
+      {
+        "tr": "Elektrikli araçlara ilk adım",
+        "en": "Getting started with electric cars",
+        "de": "Einstieg in Elektroautos"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Kentsel Sürüş Konsepti",
+        "en": "Urban Drive Concept",
+        "de": "Urbanes Fahrkonzept"
+      },
+      {
+        "tr": "Grand Tour Deneyimi",
+        "en": "Grand Tour Experience",
+        "de": "Grand-Tour-Erlebnis"
+      },
+      {
+        "tr": "Modern Galeri Düzeni",
+        "en": "Modern Showroom Concept",
+        "de": "Modernes Showroom-Konzept"
+      },
+      {
+        "tr": "Elektrikli Gelecek Sunumu",
+        "en": "Electric Future Showcase",
+        "de": "Präsentation der elektrischen Zukunft"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Yeni sezon araç seçkisi",
+        "en": "New season vehicle selection",
+        "de": "Fahrzeugauswahl der neuen Saison"
+      },
+      {
+        "tr": "Galeride yeni görsel deneyim",
+        "en": "A new showroom experience",
+        "de": "Neues Showroom-Erlebnis"
+      },
+      {
+        "tr": "Elektrikli modeller için yeni konsept",
+        "en": "New electric model concept",
+        "de": "Neues Konzept für Elektromodelle"
+      }
+    ],
+    "cta": {
+      "tr": "Test sürüşü talep et",
+      "en": "Request a test drive",
+      "de": "Probefahrt anfragen"
+    },
+    "titlePhrase": {
+      "tr": "Hareketin sanata dönüştüğü yer.",
+      "en": "Where motion becomes art.",
+      "de": "Wo Bewegung zur Kunst wird."
+    }
+  },
+  {
+    "slug": "aurevia-otel",
+    "name": "AUREVIA HOTEL",
+    "sector": "Butik Otel",
+    "design": "sanctuary",
+    "color": [
+      "#eee7da",
+      "#2f3c33",
+      "#af805c",
+      "#faf6ec"
+    ],
+    "photos": [
+      "photo-1566073771259-6a8506099945",
+      "photo-1571896349842-33c89424de2d",
+      "photo-1542314831-068cd1dbfeeb",
+      "photo-1611892440504-42a792e24d32",
+      "photo-1582719478250-c89cae4dc85b",
+      "photo-1540518614846-7eded433c457"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Otel",
+          "en": "Hotel",
+          "de": "Hotel"
+        }
+      },
+      {
+        "file": "odalar.html",
+        "label": {
+          "tr": "Odalar",
+          "en": "Rooms",
+          "de": "Zimmer"
+        }
+      },
+      {
+        "file": "deneyimler.html",
+        "label": {
+          "tr": "Deneyimler",
+          "en": "Experiences",
+          "de": "Erlebnisse"
+        }
+      },
+      {
+        "file": "mekanlar.html",
+        "label": {
+          "tr": "Mekânlar",
+          "en": "Spaces",
+          "de": "Räume"
+        }
+      },
+      {
+        "file": "rezervasyon.html",
+        "label": {
+          "tr": "Rezervasyon",
+          "en": "Reservation",
+          "de": "Reservierung"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Zamanı yavaşlat.",
+        "second": "Kendine dön.",
+        "lead": "Bir konaklamadan fazlası, günün telaşını geride bırakacağınız sakin bir sığınak."
+      },
+      "en": {
+        "first": "Slow down time.",
+        "second": "Return to yourself.",
+        "lead": "More than a stay: a quiet sanctuary away from everyday rush."
+      },
+      "de": {
+        "first": "Lass die Zeit ruhen.",
+        "second": "Finde zu dir.",
+        "lead": "Mehr als ein Aufenthalt: ein ruhiger Rückzugsort vom Alltag."
+      }
+    },
+    "items": [
+      {
+        "tr": "Klasik Oda",
+        "en": "Classic Room",
+        "de": "Klassisches Zimmer"
+      },
+      {
+        "tr": "Bahçe Odası",
+        "en": "Garden Room",
+        "de": "Gartenzimmer"
+      },
+      {
+        "tr": "Deluxe Oda",
+        "en": "Deluxe Room",
+        "de": "Deluxe-Zimmer"
+      },
+      {
+        "tr": "Teras Suit",
+        "en": "Terrace Suite",
+        "de": "Terrassensuite"
+      },
+      {
+        "tr": "Aile Odası",
+        "en": "Family Room",
+        "de": "Familienzimmer"
+      },
+      {
+        "tr": "Wellness Molası",
+        "en": "Wellness Escape",
+        "de": "Wellness-Auszeit"
+      },
+      {
+        "tr": "Kahvaltı Deneyimi",
+        "en": "Breakfast Experience",
+        "de": "Frühstückserlebnis"
+      },
+      {
+        "tr": "Özel Konaklama",
+        "en": "Private Stay",
+        "de": "Privater Aufenthalt"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Butik otelde huzurlu sabahlar",
+        "en": "Peaceful mornings in a boutique hotel",
+        "de": "Ruhige Morgen im Boutiquehotel"
+      },
+      {
+        "tr": "Hafta sonu kaçamağı rehberi",
+        "en": "A guide to weekend escapes",
+        "de": "Tipps für Wochenendausflüge"
+      },
+      {
+        "tr": "İyi bir odanın küçük detayları",
+        "en": "Small details of a great room",
+        "de": "Die Details eines schönen Zimmers"
+      },
+      {
+        "tr": "Yavaş seyahatin keyfi",
+        "en": "The joy of slow travel",
+        "de": "Die Freude am langsamen Reisen"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Dingin Suit Tasarımı",
+        "en": "Serene Suite Concept",
+        "de": "Konzept einer ruhigen Suite"
+      },
+      {
+        "tr": "Avlu Deneyimi",
+        "en": "Courtyard Experience",
+        "de": "Innenhoferlebnis"
+      },
+      {
+        "tr": "Editoryal Oda Seçkisi",
+        "en": "Editorial Room Selection",
+        "de": "Editoriale Zimmerauswahl"
+      },
+      {
+        "tr": "Wellness Alanı Konsepti",
+        "en": "Wellness Space Concept",
+        "de": "Wellnessraum-Konzept"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Mevsimsel konaklama seçkisi",
+        "en": "Seasonal stay selection",
+        "de": "Saisonale Aufenthaltsauswahl"
+      },
+      {
+        "tr": "Yeni teras deneyimi",
+        "en": "New terrace experience",
+        "de": "Neues Terrassenerlebnis"
+      },
+      {
+        "tr": "Kahvaltı alanında yeni dokunuşlar",
+        "en": "New touches to our breakfast space",
+        "de": "Neue Akzente beim Frühstück"
+      }
+    ],
+    "cta": {
+      "tr": "Konaklama talebi gönder",
+      "en": "Request a stay",
+      "de": "Aufenthalt anfragen"
+    },
+    "titlePhrase": {
+      "tr": "Günün en sakin anları.",
+      "en": "The calmest moments of your day.",
+      "de": "Die ruhigsten Momente des Tages."
+    }
+  },
+  {
+    "slug": "mira-sac-studyosu",
+    "name": "MIRA SAÇ STÜDYOSU",
+    "sector": "Kadın Kuaförü",
+    "design": "muse",
+    "color": [
+      "#fff3f1",
+      "#553642",
+      "#c97191",
+      "#fffafb"
+    ],
+    "photos": [
+      "photo-1560066984-138dadb4c035",
+      "photo-1522337360788-8b13dee7a37e",
+      "photo-1595476108010-b4d1f102b1b1",
+      "photo-1487412947147-5cebf100ffc2",
+      "photo-1600948836101-f9ffda59d250",
+      "photo-1521590832167-7bcbfaa6381f"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Başlangıç",
+          "en": "Welcome",
+          "de": "Start"
+        }
+      },
+      {
+        "file": "stiller.html",
+        "label": {
+          "tr": "Stiller",
+          "en": "Styles",
+          "de": "Styles"
+        }
+      },
+      {
+        "file": "hizmetler.html",
+        "label": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "de": "Leistungen"
+        }
+      },
+      {
+        "file": "galeri.html",
+        "label": {
+          "tr": "Lookbook",
+          "en": "Lookbook",
+          "de": "Lookbook"
+        }
+      },
+      {
+        "file": "randevu.html",
+        "label": {
+          "tr": "Randevu",
+          "en": "Appointment",
+          "de": "Termin"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Değişimin en güzel",
+        "second": "hâli sensin.",
+        "lead": "Kendine özgü stilini, ışığını ve karakterini öne çıkaran saç deneyimi."
+      },
+      "en": {
+        "first": "You are the most",
+        "second": "beautiful change.",
+        "lead": "A hair experience that celebrates your own style, light and personality."
+      },
+      "de": {
+        "first": "Du bist die schönste",
+        "second": "Veränderung.",
+        "lead": "Ein Haarerlebnis, das deinen Stil und deine Persönlichkeit betont."
+      }
+    },
+    "items": [
+      {
+        "tr": "İmza Kesim",
+        "en": "Signature Cut",
+        "de": "Signature-Schnitt"
+      },
+      {
+        "tr": "Doğal Işıltı",
+        "en": "Natural Highlights",
+        "de": "Natürliche Highlights"
+      },
+      {
+        "tr": "Renk Tasarımı",
+        "en": "Color Design",
+        "de": "Farbgestaltung"
+      },
+      {
+        "tr": "Saç Bakım Ritüeli",
+        "en": "Hair Care Ritual",
+        "de": "Haarpflegeritual"
+      },
+      {
+        "tr": "Gelin Stili",
+        "en": "Bridal Styling",
+        "de": "Brautstyling"
+      },
+      {
+        "tr": "Profesyonel Fön",
+        "en": "Professional Blowout",
+        "de": "Professionelles Föhnen"
+      },
+      {
+        "tr": "Gece Görünümü",
+        "en": "Evening Look",
+        "de": "Abendlook"
+      },
+      {
+        "tr": "Stil Danışmanlığı",
+        "en": "Style Consultation",
+        "de": "Stilberatung"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Saç renginizi bulmak",
+        "en": "Finding your perfect hair colour",
+        "de": "Deine perfekte Haarfarbe finden"
+      },
+      {
+        "tr": "Mevsime uygun saç bakımı",
+        "en": "Seasonal hair care",
+        "de": "Saisonale Haarpflege"
+      },
+      {
+        "tr": "Kendi tarzınızı keşfetmek",
+        "en": "Discovering your personal style",
+        "de": "Den eigenen Stil entdecken"
+      },
+      {
+        "tr": "Özel gün saç fikirleri",
+        "en": "Hair ideas for special occasions",
+        "de": "Frisuren für besondere Anlässe"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Natural Glow Koleksiyonu",
+        "en": "Natural Glow Collection",
+        "de": "Natural-Glow-Kollektion"
+      },
+      {
+        "tr": "Bridal Edit Konsepti",
+        "en": "Bridal Edit Concept",
+        "de": "Bridal-Edit-Konzept"
+      },
+      {
+        "tr": "Modern Kesim Serisi",
+        "en": "Modern Cut Series",
+        "de": "Serie moderner Schnitte"
+      },
+      {
+        "tr": "Studio Editorial",
+        "en": "Studio Editorial",
+        "de": "Studio Editorial"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Yeni sezon renk dünyası",
+        "en": "New season colour palette",
+        "de": "Neue Farbpalette der Saison"
+      },
+      {
+        "tr": "Stil seansları için yeni fikirler",
+        "en": "New ideas for style sessions",
+        "de": "Neue Ideen für Styling-Sessions"
+      },
+      {
+        "tr": "Bakım ritüeli seçkisi",
+        "en": "Hair ritual selection",
+        "de": "Auswahl an Haarritualen"
+      }
+    ],
+    "cta": {
+      "tr": "Randevu oluştur",
+      "en": "Book an appointment",
+      "de": "Termin anfragen"
+    },
+    "titlePhrase": {
+      "tr": "Stil bir hisle başlar.",
+      "en": "Style begins with a feeling.",
+      "de": "Stil beginnt mit einem Gefühl."
+    }
+  },
+  {
+    "slug": "bordo-barber",
+    "name": "BORDO BARBER",
+    "sector": "Erkek Berberi",
+    "design": "heritage",
+    "color": [
+      "#141311",
+      "#eee4d4",
+      "#d1a46f",
+      "#28231e"
+    ],
+    "photos": [
+      "photo-1503951914875-452162b0f3f1",
+      "photo-1621605815971-fbc98d665033",
+      "photo-1599351431202-1e0f0137899a",
+      "photo-1593702275687-f8b402bf1fb5",
+      "photo-1503625019940-3ff5f325edc9",
+      "photo-1590540179852-2110a54f813a"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Giriş",
+          "en": "Home",
+          "de": "Start"
+        }
+      },
+      {
+        "file": "hizmetler.html",
+        "label": {
+          "tr": "Hizmetler",
+          "en": "Services",
+          "de": "Leistungen"
+        }
+      },
+      {
+        "file": "ustalik.html",
+        "label": {
+          "tr": "Ustalık",
+          "en": "Craftsmanship",
+          "de": "Handwerk"
+        }
+      },
+      {
+        "file": "galeri.html",
+        "label": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "de": "Galerie"
+        }
+      },
+      {
+        "file": "randevu.html",
+        "label": {
+          "tr": "Rezervasyon",
+          "en": "Booking",
+          "de": "Buchung"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Tarzın kanıt",
+        "second": "istemesin.",
+        "lead": "Net çizgiler, zamansız işçilik ve karakter sahibi bir bakım deneyimi."
+      },
+      "en": {
+        "first": "Style needs",
+        "second": "no explanation.",
+        "lead": "Clean lines, timeless craft and a grooming experience with character."
+      },
+      "de": {
+        "first": "Stil braucht",
+        "second": "keine Erklärung.",
+        "lead": "Klare Linien, zeitloses Handwerk und Pflege mit Charakter."
+      }
+    },
+    "items": [
+      {
+        "tr": "Klasik Kesim",
+        "en": "Classic Cut",
+        "de": "Klassischer Schnitt"
+      },
+      {
+        "tr": "Modern Kesim",
+        "en": "Modern Cut",
+        "de": "Moderner Schnitt"
+      },
+      {
+        "tr": "Sakal Tasarımı",
+        "en": "Beard Design",
+        "de": "Bartgestaltung"
+      },
+      {
+        "tr": "Saç ve Sakal",
+        "en": "Hair & Beard",
+        "de": "Haare & Bart"
+      },
+      {
+        "tr": "Sıcak Havlu Ritüeli",
+        "en": "Hot Towel Ritual",
+        "de": "Heißes-Handtuch-Ritual"
+      },
+      {
+        "tr": "Premium Bakım",
+        "en": "Premium Grooming",
+        "de": "Premium-Pflege"
+      },
+      {
+        "tr": "Özel Gün Hazırlığı",
+        "en": "Special Event Style",
+        "de": "Styling für Anlässe"
+      },
+      {
+        "tr": "Şekillendirme",
+        "en": "Styling",
+        "de": "Styling"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Klasik kesimin geri dönüşü",
+        "en": "The return of the classic cut",
+        "de": "Die Rückkehr des klassischen Schnitts"
+      },
+      {
+        "tr": "Sakal bakımının ritmi",
+        "en": "The rhythm of beard care",
+        "de": "Der Rhythmus der Bartpflege"
+      },
+      {
+        "tr": "İyi görünümün detayları",
+        "en": "Details of a great look",
+        "de": "Details für einen guten Look"
+      },
+      {
+        "tr": "Berberlikte zanaat",
+        "en": "The craft of barbering",
+        "de": "Das Handwerk des Barbiers"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Heritage Cut Koleksiyonu",
+        "en": "Heritage Cut Collection",
+        "de": "Heritage-Cut-Kollektion"
+      },
+      {
+        "tr": "Signature Beard Konsepti",
+        "en": "Signature Beard Concept",
+        "de": "Signature-Bartkonzept"
+      },
+      {
+        "tr": "Barber Editorial",
+        "en": "Barber Editorial",
+        "de": "Barber Editorial"
+      },
+      {
+        "tr": "Modern Gentleman Serisi",
+        "en": "Modern Gentleman Series",
+        "de": "Modern-Gentleman-Serie"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Yeni bakım seçkileri",
+        "en": "New grooming selections",
+        "de": "Neue Pflegeauswahl"
+      },
+      {
+        "tr": "Klasik çizgilere yeni yorum",
+        "en": "A fresh take on classic lines",
+        "de": "Klassische Linien neu interpretiert"
+      },
+      {
+        "tr": "Yeni stüdyo atmosferi",
+        "en": "A new studio atmosphere",
+        "de": "Neue Studioatmosphäre"
+      }
+    ],
+    "cta": {
+      "tr": "Randevu al",
+      "en": "Book a slot",
+      "de": "Termin buchen"
+    },
+    "titlePhrase": {
+      "tr": "İşçilik karakterdir.",
+      "en": "Craft is character.",
+      "de": "Handwerk zeigt Charakter."
+    }
+  },
+  {
+    "slug": "mora-mutfak",
+    "name": "MORA MUTFAK",
+    "sector": "Restoran",
+    "design": "table",
+    "color": [
+      "#eee1d0",
+      "#382b25",
+      "#c46d43",
+      "#fff7e9"
+    ],
+    "photos": [
+      "photo-1517248135467-4c7edcad34c4",
+      "photo-1414235077428-338989a2e8c0",
+      "photo-1559339352-11d035aa65de",
+      "photo-1547592180-85f173990554",
+      "photo-1512621776951-a57141f2eefd",
+      "photo-1504674900247-0877df9cc836"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Ana Sayfa",
+          "en": "Home",
+          "de": "Start"
+        }
+      },
+      {
+        "file": "menu.html",
+        "label": {
+          "tr": "Menü",
+          "en": "Menu",
+          "de": "Menü"
+        }
+      },
+      {
+        "file": "hikayemiz.html",
+        "label": {
+          "tr": "Hikâyemiz",
+          "en": "Our Story",
+          "de": "Unsere Geschichte"
+        }
+      },
+      {
+        "file": "mekan.html",
+        "label": {
+          "tr": "Mekân",
+          "en": "Our Space",
+          "de": "Unser Raum"
+        }
+      },
+      {
+        "file": "masa-ayirt.html",
+        "label": {
+          "tr": "Masa Ayırt",
+          "en": "Book a Table",
+          "de": "Tisch reservieren"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Her tabak",
+        "second": "bir hikâye.",
+        "lead": "Mevsimin en güzel malzemelerini sıcak sofralarda buluşturuyoruz."
+      },
+      "en": {
+        "first": "Every plate",
+        "second": "tells a story.",
+        "lead": "Seasonal ingredients meet thoughtful cooking and warm hospitality."
+      },
+      "de": {
+        "first": "Jeder Teller",
+        "second": "erzählt etwas.",
+        "lead": "Saisonale Zutaten und herzliche Gastfreundschaft an einem Tisch."
+      }
+    },
+    "items": [
+      {
+        "tr": "Başlangıçlar",
+        "en": "Starters",
+        "de": "Vorspeisen"
+      },
+      {
+        "tr": "Mevsim Salataları",
+        "en": "Seasonal Salads",
+        "de": "Saisonale Salate"
+      },
+      {
+        "tr": "İmza Ana Yemekler",
+        "en": "Signature Mains",
+        "de": "Hauptgerichte"
+      },
+      {
+        "tr": "Ateşten Lezzetler",
+        "en": "From the Grill",
+        "de": "Vom Grill"
+      },
+      {
+        "tr": "Vejetaryen Seçkiler",
+        "en": "Vegetarian Plates",
+        "de": "Vegetarische Gerichte"
+      },
+      {
+        "tr": "Tatlı Final",
+        "en": "Desserts",
+        "de": "Desserts"
+      },
+      {
+        "tr": "Kahve & İçecek",
+        "en": "Coffee & Drinks",
+        "de": "Kaffee & Getränke"
+      },
+      {
+        "tr": "Paylaşım Tabakları",
+        "en": "Sharing Plates",
+        "de": "Platten zum Teilen"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Mevsimin masaya gelişi",
+        "en": "Bringing the season to the table",
+        "de": "Die Saison auf dem Teller"
+      },
+      {
+        "tr": "Bir sofranın hikâyesi",
+        "en": "The story of a table",
+        "de": "Die Geschichte eines Tisches"
+      },
+      {
+        "tr": "İyi bir yemek deneyimi",
+        "en": "What makes a good dining experience",
+        "de": "Was gutes Essen ausmacht"
+      },
+      {
+        "tr": "Mutfağın küçük sırları",
+        "en": "Small secrets of the kitchen",
+        "de": "Kleine Küchengeheimnisse"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Mevsim Sofrası Konsepti",
+        "en": "Seasonal Table Concept",
+        "de": "Konzept des Saisontisches"
+      },
+      {
+        "tr": "Açık Mutfak Deneyimi",
+        "en": "Open Kitchen Experience",
+        "de": "Erlebnis offene Küche"
+      },
+      {
+        "tr": "Gurme Akşamı",
+        "en": "Gourmet Evening",
+        "de": "Gourmetabend"
+      },
+      {
+        "tr": "Özel Etkinlik Sofrası",
+        "en": "Private Dining Concept",
+        "de": "Private-Dining-Konzept"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Yeni mevsim menüsü",
+        "en": "New seasonal menu",
+        "de": "Neues saisonales Menü"
+      },
+      {
+        "tr": "Sofra deneyiminde yeni detaylar",
+        "en": "New touches to dining",
+        "de": "Neue Details beim Essen"
+      },
+      {
+        "tr": "Mutfaktan yeni fikirler",
+        "en": "New ideas from our kitchen",
+        "de": "Neue Ideen aus der Küche"
+      }
+    ],
+    "cta": {
+      "tr": "Masa talebi gönder",
+      "en": "Request a table",
+      "de": "Tisch anfragen"
+    },
+    "titlePhrase": {
+      "tr": "Lezzet paylaşılınca güzelleşir.",
+      "en": "Flavour is better shared.",
+      "de": "Genuss ist schöner, wenn man ihn teilt."
+    }
+  },
+  {
+    "slug": "arelia-mucevher",
+    "name": "ARELIA JEWELS",
+    "sector": "Kuyumcu",
+    "design": "gem",
+    "color": [
+      "#0b0c10",
+      "#f5ede4",
+      "#c9a76b",
+      "#1e2026"
+    ],
+    "photos": [
+      "photo-1605100804763-247f67b3557e",
+      "photo-1611652022419-a9419f74343d",
+      "photo-1515562141207-7a88fb7ce338",
+      "photo-1602173574767-37ac01994b2a",
+      "photo-1599643478518-a784e5dc4c8f",
+      "photo-1635767798638-3665a3a7b7aa"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Atelier",
+          "en": "Atelier",
+          "de": "Atelier"
+        }
+      },
+      {
+        "file": "koleksiyon.html",
+        "label": {
+          "tr": "Koleksiyon",
+          "en": "Collection",
+          "de": "Kollektion"
+        }
+      },
+      {
+        "file": "iscilik.html",
+        "label": {
+          "tr": "İşçilik",
+          "en": "Craftsmanship",
+          "de": "Handwerk"
+        }
+      },
+      {
+        "file": "galeri.html",
+        "label": {
+          "tr": "Seçkiler",
+          "en": "Selected Pieces",
+          "de": "Auswahl"
+        }
+      },
+      {
+        "file": "gorusme.html",
+        "label": {
+          "tr": "Özel Görüşme",
+          "en": "Private Viewing",
+          "de": "Privattermin"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Değerli olan",
+        "second": "sonsuzdur.",
+        "lead": "Özel anlara eşlik eden, sessizce güçlü bir iz bırakan zamansız parçalar."
+      },
+      "en": {
+        "first": "The precious",
+        "second": "is timeless.",
+        "lead": "Pieces of lasting meaning, crafted for moments worth remembering."
+      },
+      "de": {
+        "first": "Das Wertvolle",
+        "second": "ist zeitlos.",
+        "lead": "Stücke voller Bedeutung für Momente, die in Erinnerung bleiben."
+      }
+    },
+    "items": [
+      {
+        "tr": "Zarif Yüzükler",
+        "en": "Elegant Rings",
+        "de": "Elegante Ringe"
+      },
+      {
+        "tr": "İnci Seçkisi",
+        "en": "Pearl Selection",
+        "de": "Perlenauswahl"
+      },
+      {
+        "tr": "Minimal Kolye",
+        "en": "Minimal Necklaces",
+        "de": "Minimalistische Ketten"
+      },
+      {
+        "tr": "Işıltılı Küpeler",
+        "en": "Radiant Earrings",
+        "de": "Strahlende Ohrringe"
+      },
+      {
+        "tr": "Özel Gün Takıları",
+        "en": "Occasion Jewellery",
+        "de": "Schmuck für Anlässe"
+      },
+      {
+        "tr": "Bileklik Koleksiyonu",
+        "en": "Bracelet Collection",
+        "de": "Armbandkollektion"
+      },
+      {
+        "tr": "Zamansız Parçalar",
+        "en": "Timeless Pieces",
+        "de": "Zeitlose Stücke"
+      },
+      {
+        "tr": "Özel Tasarım",
+        "en": "Bespoke Pieces",
+        "de": "Individuelle Designs"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Mücevherin kişisel anlamı",
+        "en": "The personal meaning of jewellery",
+        "de": "Die persönliche Bedeutung von Schmuck"
+      },
+      {
+        "tr": "Zamansız parçalar seçmek",
+        "en": "Choosing timeless pieces",
+        "de": "Zeitlose Stücke auswählen"
+      },
+      {
+        "tr": "Takı bakımının incelikleri",
+        "en": "Caring for your jewellery",
+        "de": "Schmuck richtig pflegen"
+      },
+      {
+        "tr": "Özel günler için zarafet",
+        "en": "Elegance for special moments",
+        "de": "Eleganz für besondere Momente"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Atelier 01 Seçkisi",
+        "en": "Atelier 01 Collection",
+        "de": "Atelier-01-Kollektion"
+      },
+      {
+        "tr": "Pearl Notes Konsepti",
+        "en": "Pearl Notes Concept",
+        "de": "Pearl-Notes-Konzept"
+      },
+      {
+        "tr": "Eternal Forms Koleksiyonu",
+        "en": "Eternal Forms Collection",
+        "de": "Eternal-Forms-Kollektion"
+      },
+      {
+        "tr": "Bespoke Moment Sunumu",
+        "en": "Bespoke Moment Showcase",
+        "de": "Bespoke-Moment-Präsentation"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Atelier seçkisine yeni parçalar",
+        "en": "New additions to the atelier",
+        "de": "Neue Stücke im Atelier"
+      },
+      {
+        "tr": "Yeni tasarım eskizleri",
+        "en": "New design sketches",
+        "de": "Neue Entwurfsskizzen"
+      },
+      {
+        "tr": "Zamansız formlar serisi",
+        "en": "Timeless forms series",
+        "de": "Serie zeitloser Formen"
+      }
+    ],
+    "cta": {
+      "tr": "Özel görüşme talep et",
+      "en": "Request a private viewing",
+      "de": "Privattermin anfragen"
+    },
+    "titlePhrase": {
+      "tr": "Sessiz bir ışıltı.",
+      "en": "A quiet kind of radiance.",
+      "de": "Ein stiller Glanz."
+    }
+  },
+  {
+    "slug": "nove-fitness",
+    "name": "NOVE FITNESS",
+    "sector": "Spor Salonu",
+    "design": "pulse",
+    "color": [
+      "#0c1216",
+      "#f0faf1",
+      "#c8ef40",
+      "#242f30"
+    ],
+    "photos": [
+      "photo-1534438327276-14e5300c3a48",
+      "photo-1571019613454-1cb2f99b2d8b",
+      "photo-1517836357463-d25dfeac3438",
+      "photo-1599058917212-d750089bc07e",
+      "photo-1518611012118-696072aa579a",
+      "photo-1571019614242-c5c5dee9f50b"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Başlangıç",
+          "en": "Start",
+          "de": "Start"
+        }
+      },
+      {
+        "file": "antrenmanlar.html",
+        "label": {
+          "tr": "Antrenman",
+          "en": "Training",
+          "de": "Training"
+        }
+      },
+      {
+        "file": "kocluk.html",
+        "label": {
+          "tr": "Koçluk",
+          "en": "Coaching",
+          "de": "Coaching"
+        }
+      },
+      {
+        "file": "alanlar.html",
+        "label": {
+          "tr": "Alanlarımız",
+          "en": "Facilities",
+          "de": "Bereiche"
+        }
+      },
+      {
+        "file": "gorusme.html",
+        "label": {
+          "tr": "Görüşme",
+          "en": "Consultation",
+          "de": "Beratung"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Daha fazlası",
+        "second": "içinde var.",
+        "lead": "Gücü, hareketi ve yeni hedefleri bir yaşam ritmine dönüştür."
+      },
+      "en": {
+        "first": "More is",
+        "second": "within you.",
+        "lead": "Turn strength, movement and ambition into your everyday rhythm."
+      },
+      "de": {
+        "first": "Mehr steckt",
+        "second": "in dir.",
+        "lead": "Mach aus Kraft, Bewegung und Zielen deinen Rhythmus."
+      }
+    },
+    "items": [
+      {
+        "tr": "Güç Antrenmanı",
+        "en": "Strength Training",
+        "de": "Krafttraining"
+      },
+      {
+        "tr": "Fonksiyonel Alan",
+        "en": "Functional Zone",
+        "de": "Functional-Zone"
+      },
+      {
+        "tr": "Kardiyo Ritmi",
+        "en": "Cardio Rhythm",
+        "de": "Cardio-Rhythmus"
+      },
+      {
+        "tr": "Kişisel Koçluk",
+        "en": "Personal Coaching",
+        "de": "Personal Training"
+      },
+      {
+        "tr": "Mobilite & Esneme",
+        "en": "Mobility & Stretching",
+        "de": "Mobilität & Dehnung"
+      },
+      {
+        "tr": "Grup Dersleri",
+        "en": "Group Classes",
+        "de": "Gruppenkurse"
+      },
+      {
+        "tr": "Dayanıklılık",
+        "en": "Endurance",
+        "de": "Ausdauer"
+      },
+      {
+        "tr": "Performans Planı",
+        "en": "Performance Plan",
+        "de": "Leistungsplan"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Başlangıç için hareket planı",
+        "en": "A movement plan for beginners",
+        "de": "Bewegungsplan für Einsteiger"
+      },
+      {
+        "tr": "Sürdürülebilir antrenman",
+        "en": "Sustainable training",
+        "de": "Nachhaltiges Training"
+      },
+      {
+        "tr": "Mobilitenin önemi",
+        "en": "Why mobility matters",
+        "de": "Warum Mobilität wichtig ist"
+      },
+      {
+        "tr": "Hedef belirleme rehberi",
+        "en": "Setting your training goals",
+        "de": "Trainingsziele setzen"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Motion Lab Konsepti",
+        "en": "Motion Lab Concept",
+        "de": "Motion-Lab-Konzept"
+      },
+      {
+        "tr": "Güç Alanı Tasarımı",
+        "en": "Strength Zone Design",
+        "de": "Design des Kraftbereichs"
+      },
+      {
+        "tr": "Kişisel Koçluk Deneyimi",
+        "en": "Personal Coaching Experience",
+        "de": "Personal-Coaching-Erlebnis"
+      },
+      {
+        "tr": "Group Energy Serisi",
+        "en": "Group Energy Series",
+        "de": "Group-Energy-Serie"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Yeni hareket programları",
+        "en": "New movement programmes",
+        "de": "Neue Trainingsprogramme"
+      },
+      {
+        "tr": "Koçluk yaklaşımımız",
+        "en": "Our approach to coaching",
+        "de": "Unser Coaching-Ansatz"
+      },
+      {
+        "tr": "Alan tasarımında yeni dönem",
+        "en": "New facility concept",
+        "de": "Neues Raumkonzept"
+      }
+    ],
+    "cta": {
+      "tr": "Görüşme planla",
+      "en": "Book a consultation",
+      "de": "Beratung vereinbaren"
+    },
+    "titlePhrase": {
+      "tr": "Ritmini yükselt.",
+      "en": "Raise your rhythm.",
+      "de": "Finde deinen Rhythmus."
+    }
+  },
+  {
+    "slug": "katman-mimarlik",
+    "name": "KATMAN MİMARLIK",
+    "sector": "Mimarlık Ofisi",
+    "design": "structure",
+    "color": [
+      "#f0f0eb",
+      "#283630",
+      "#a18c65",
+      "#ffffff"
+    ],
+    "photos": [
+      "photo-1497366811353-6870744d04b2",
+      "photo-1600607687939-ce8a6c25118c",
+      "photo-1487958449943-2429e8be8625",
+      "photo-1600566753190-17f0baa2a6c3",
+      "photo-1600585154340-be6161a56a0c",
+      "photo-1600607687920-4e2a09cf159d"
+    ],
+    "nav": [
+      {
+        "file": "index.html",
+        "label": {
+          "tr": "Başlangıç",
+          "en": "Home",
+          "de": "Start"
+        }
+      },
+      {
+        "file": "projeler.html",
+        "label": {
+          "tr": "Projeler",
+          "en": "Projects",
+          "de": "Projekte"
+        }
+      },
+      {
+        "file": "yaklasim.html",
+        "label": {
+          "tr": "Yaklaşım",
+          "en": "Approach",
+          "de": "Ansatz"
+        }
+      },
+      {
+        "file": "studio.html",
+        "label": {
+          "tr": "Stüdyo",
+          "en": "Studio",
+          "de": "Studio"
+        }
+      },
+      {
+        "file": "gorusme.html",
+        "label": {
+          "tr": "Görüşme",
+          "en": "Consultation",
+          "de": "Beratung"
+        }
+      },
+      {
+        "file": "iletisim.html",
+        "label": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "de": "Kontakt"
+        }
+      }
+    ],
+    "headline": {
+      "tr": {
+        "first": "Mekânı değil,",
+        "second": "yaşamı tasarla.",
+        "lead": "İnsan, ışık ve işlevin bir araya geldiği düşünülmüş mimari alanlar."
+      },
+      "en": {
+        "first": "Design living,",
+        "second": "not just space.",
+        "lead": "Considered architecture shaped by people, light and purpose."
+      },
+      "de": {
+        "first": "Gestalte Leben,",
+        "second": "nicht nur Räume.",
+        "lead": "Architektur, die Menschen, Licht und Funktion verbindet."
+      }
+    },
+    "items": [
+      {
+        "tr": "Konut Mimarlığı",
+        "en": "Residential Architecture",
+        "de": "Wohnarchitektur"
+      },
+      {
+        "tr": "İç Mekân Tasarımı",
+        "en": "Interior Design",
+        "de": "Innenarchitektur"
+      },
+      {
+        "tr": "Ticari Mekânlar",
+        "en": "Commercial Spaces",
+        "de": "Gewerberäume"
+      },
+      {
+        "tr": "Konsept Geliştirme",
+        "en": "Concept Development",
+        "de": "Konzeptentwicklung"
+      },
+      {
+        "tr": "Kültürel Yapılar",
+        "en": "Cultural Buildings",
+        "de": "Kulturbauten"
+      },
+      {
+        "tr": "Dönüşüm Projeleri",
+        "en": "Renovation Projects",
+        "de": "Umbauprojekte"
+      },
+      {
+        "tr": "3D Görselleştirme",
+        "en": "3D Visualisation",
+        "de": "3D-Visualisierung"
+      },
+      {
+        "tr": "Peyzaj Yaklaşımı",
+        "en": "Landscape Design",
+        "de": "Landschaftsgestaltung"
+      }
+    ],
+    "blog": [
+      {
+        "tr": "Mimaride gün ışığının rolü",
+        "en": "The role of daylight in architecture",
+        "de": "Die Rolle des Tageslichts"
+      },
+      {
+        "tr": "Malzeme ve mekân ilişkisi",
+        "en": "Materials and space",
+        "de": "Material und Raum"
+      },
+      {
+        "tr": "Küçük alanları düşünmek",
+        "en": "Designing small spaces",
+        "de": "Kleine Räume gestalten"
+      },
+      {
+        "tr": "Zamansız iç mekânlar",
+        "en": "Timeless interiors",
+        "de": "Zeitlose Innenräume"
+      }
+    ],
+    "refs": [
+      {
+        "tr": "Courtyard Living Konsepti",
+        "en": "Courtyard Living Concept",
+        "de": "Courtyard-Living-Konzept"
+      },
+      {
+        "tr": "Studio Residence",
+        "en": "Studio Residence",
+        "de": "Studio Residence"
+      },
+      {
+        "tr": "Urban Habitat",
+        "en": "Urban Habitat",
+        "de": "Urban Habitat"
+      },
+      {
+        "tr": "Spatial Dialogue",
+        "en": "Spatial Dialogue",
+        "de": "Spatial Dialogue"
+      }
+    ],
+    "news": [
+      {
+        "tr": "Yeni konsept eskizler",
+        "en": "New concept sketches",
+        "de": "Neue Konzeptskizzen"
+      },
+      {
+        "tr": "Malzeme araştırmalarımız",
+        "en": "Our material explorations",
+        "de": "Unsere Materialstudien"
+      },
+      {
+        "tr": "Mekânsal fikirler arşivi",
+        "en": "Spatial ideas archive",
+        "de": "Archiv räumlicher Ideen"
+      }
+    ],
+    "cta": {
+      "tr": "Proje görüşmesi talep et",
+      "en": "Request a project consultation",
+      "de": "Projektgespräch anfragen"
+    },
+    "titlePhrase": {
+      "tr": "Boşluk da bir karardır.",
+      "en": "Space is a design decision.",
+      "de": "Raum ist eine Gestaltungsentscheidung."
+    }
+  }
+]
