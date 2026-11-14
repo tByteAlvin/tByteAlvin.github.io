@@ -1,0 +1,211 @@
+{
+  "common": {
+    "discover": "Entdecken",
+    "explore": "Ansehen",
+    "book": "Termin / Anfrage",
+    "read": "Weiterlesen",
+    "all": "Alle ansehen",
+    "contact": "Kontakt aufnehmen",
+    "learn": "Mehr erfahren",
+    "send": "Senden",
+    "home": "Startseite",
+    "services": "Highlights",
+    "story": "Unsere Geschichte",
+    "gallery": "Bilderwelt",
+    "news": "Neuigkeiten",
+    "blog": "Journal & Einblicke",
+    "references": "Konzeptprojekte",
+    "faq": "Häufige Fragen",
+    "privacy": "Diese Marken und Beispiele sind fiktiv. Sie stellen keine echten Angebote, Preise oder Kunden dar.",
+    "medium": "Ein Erlebnis, bei dem die Details im Mittelpunkt stehen.",
+    "concept": "KONZEPT / PORTFOLIO",
+    "allItems": "Alle Angebote",
+    "reserve": "Beratung anfragen",
+    "menu": "Menü öffnen",
+    "close": "Schließen",
+    "admin": "Verwaltung",
+    "scroll": "Weiter entdecken",
+    "collections": "Ausgewählte Angebote",
+    "discoverWorld": "Unsere Welt entdecken",
+    "insight": "Ideen und Geschichten",
+    "detail": "Über diese Auswahl",
+    "detailIntro": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel.",
+    "detailText": "Jedes Erlebnis lebt von seinen Details. Wir verbinden Bedürfnisse, visuelle Identität und klare Informationen.",
+    "detailMore": "Achte bei der Auswahl auf die Punkte, die dir wichtig sind. Kontaktiere uns für weitere Informationen.",
+    "refIntro": "Fiktive Konzeptarbeiten für das Portfolio. Dies sind keine echten Kundenprojekte oder abgeschlossenen Aufträge.",
+    "blogIntro": "Gedanken, Ideen und kurze Ratgeber rund um unsere Branche.",
+    "newsIntro": "Diese Ankündigungen sind Beispielinhalte für den Nachrichtenbereich.",
+    "articleA": "Bedürfnisse richtig verstehen",
+    "articleB": "Details neu betrachten",
+    "articleC": "Kommunikation macht den Unterschied",
+    "articleP1": "Die richtige Entscheidung beginnt damit, eigene Bedürfnisse und Gewohnheiten zu verstehen. Oft machen kleine Details den größten Unterschied.",
+    "articleP2": "Ein gutes Erlebnis ist mehr als eine schöne Optik. Klare Informationen, hilfreiche Antworten und eine einheitliche Präsentation sind ebenso wichtig.",
+    "articleP3": "Dieser Text dient der Demonstration. Echte Produkt-, Dienstleistungs- und Markeninformationen müssen vor der Veröffentlichung geprüft werden.",
+    "related": "Ähnliche Inhalte",
+    "original": "Klare Ideen, besondere Erlebnisse.",
+    "photo": "Beispielbild",
+    "footerText": "Ein Premium-Webseitenkonzept für eine unabhängige fiktive Marke.",
+    "requestNotice": "Diese Anfrage ist noch keine bestätigte Reservierung. Bitte warten Sie auf eine Rückmeldung.",
+    "demoNotice": "DEMO-MODUS: Daten werden nur in diesem Browser gespeichert und nicht an ein Unternehmen gesendet. Bitte keine echten persönlichen Daten eingeben.",
+    "service": "Leistung / Auswahl",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "fullname": "Vollständiger Name",
+    "phone": "Telefon",
+    "email": "E-Mail (optional)",
+    "note": "Nachricht (optional)",
+    "submit": "Anfrage senden",
+    "formTitle": "Gemeinsam planen.",
+    "formLead": "Wählen Sie einen gewünschten Tag und eine Leistung. Dies ist nur eine Anfrage, keine bestätigte Reservierung.",
+    "formHint": "Datum und Uhrzeit garantieren keine Verfügbarkeit.",
+    "contactTitle": "Sprechen wir miteinander.",
+    "contactLead": "Senden Sie Ihre Fragen über das integrierte Nachrichtensystem.",
+    "openChat": "Messenger öffnen",
+    "hours": "Kontakt",
+    "answer": "Antwort ausstehend",
+    "view": "Bild ansehen",
+    "step1": "Bedarf entdecken",
+    "step2": "Optionen ansehen",
+    "step3": "Kontakt aufnehmen",
+    "viewCollection": "Kollektion entdecken",
+    "introPrefix": "PREMIUM EXPERIENCE",
+    "appointmentStatus": "Terminanfrage",
+    "expertise": "Handwerk & Ansatz",
+    "viewProjects": "Projekte entdecken"
+  },
+  "hero": {
+    "first": "Mehr steckt",
+    "second": "in dir.",
+    "lead": "Mach aus Kraft, Bewegung und Zielen deinen Rhythmus."
+  },
+  "cta": "Beratung vereinbaren",
+  "titlePhrase": "Finde deinen Rhythmus.",
+  "nav": [
+    "Start",
+    "Training",
+    "Coaching",
+    "Bereiche",
+    "Beratung",
+    "Kontakt"
+  ],
+  "items": [
+    {
+      "name": "Krafttraining",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    },
+    {
+      "name": "Functional-Zone",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    },
+    {
+      "name": "Cardio-Rhythmus",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    },
+    {
+      "name": "Personal Training",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    },
+    {
+      "name": "Mobilität & Dehnung",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    },
+    {
+      "name": "Gruppenkurse",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    },
+    {
+      "name": "Ausdauer",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    },
+    {
+      "name": "Leistungsplan",
+      "description": "Eine sorgfältige Präsentation für individuelle Bedürfnisse. Dieser Inhalt dient als Beispiel."
+    }
+  ],
+  "blog": [
+    {
+      "name": "Bewegungsplan für Einsteiger",
+      "description": "Gedanken, Ideen und kurze Ratgeber rund um unsere Branche."
+    },
+    {
+      "name": "Nachhaltiges Training",
+      "description": "Gedanken, Ideen und kurze Ratgeber rund um unsere Branche."
+    },
+    {
+      "name": "Warum Mobilität wichtig ist",
+      "description": "Gedanken, Ideen und kurze Ratgeber rund um unsere Branche."
+    },
+    {
+      "name": "Trainingsziele setzen",
+      "description": "Gedanken, Ideen und kurze Ratgeber rund um unsere Branche."
+    }
+  ],
+  "refs": [
+    {
+      "name": "Motion-Lab-Konzept",
+      "description": "Fiktive Konzeptarbeiten für das Portfolio. Dies sind keine echten Kundenprojekte oder abgeschlossenen Aufträge."
+    },
+    {
+      "name": "Design des Kraftbereichs",
+      "description": "Fiktive Konzeptarbeiten für das Portfolio. Dies sind keine echten Kundenprojekte oder abgeschlossenen Aufträge."
+    },
+    {
+      "name": "Personal-Coaching-Erlebnis",
+      "description": "Fiktive Konzeptarbeiten für das Portfolio. Dies sind keine echten Kundenprojekte oder abgeschlossenen Aufträge."
+    },
+    {
+      "name": "Group-Energy-Serie",
+      "description": "Fiktive Konzeptarbeiten für das Portfolio. Dies sind keine echten Kundenprojekte oder abgeschlossenen Aufträge."
+    }
+  ],
+  "news": [
+    {
+      "name": "Neue Trainingsprogramme",
+      "description": "Diese Ankündigungen sind Beispielinhalte für den Nachrichtenbereich."
+    },
+    {
+      "name": "Unser Coaching-Ansatz",
+      "description": "Diese Ankündigungen sind Beispielinhalte für den Nachrichtenbereich."
+    },
+    {
+      "name": "Neues Raumkonzept",
+      "description": "Diese Ankündigungen sind Beispielinhalte für den Nachrichtenbereich."
+    }
+  ],
+  "chat": {
+    "title": "Nachrichten",
+    "name": "Vollständiger Name",
+    "contact": "E-Mail oder Telefon",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht senden",
+    "reply": "Neue Nachricht",
+    "refresh": "Aktualisieren",
+    "close": "Schließen",
+    "connected": "Mit dem Server verbunden.",
+    "demo": "DEMO: Nachrichten bleiben nur in diesem Browser."
+  },
+  "status": {
+    "sending": "Wird gesendet...",
+    "bookingReal": "Die Anfrage wurde empfangen. Der Termin ist noch nicht bestätigt.",
+    "bookingDemo": "DEMO: Diese Anfrage wurde nur in diesem Browser gespeichert und nicht versendet.",
+    "error": "Die Anfrage konnte nicht verarbeitet werden."
+  },
+  "faq": [
+    {
+      "q": "Ist die Reservierung bestätigt?",
+      "a": "Nein. Das Formular sendet lediglich eine Anfrage. Eine Bestätigung ist erforderlich."
+    },
+    {
+      "q": "Sind dies echte Unternehmen?",
+      "a": "Nein. Marken, Inhalte und Beispielprojekte in diesem Portfolio sind fiktiv."
+    },
+    {
+      "q": "Wie funktioniert der Messenger?",
+      "a": "Mit angeschlossenem Server erscheinen Nachrichten im Admin-Postfach. Im Demo-Modus bleiben sie im Browser."
+    },
+    {
+      "q": "Kann ich die Sprache wechseln?",
+      "a": "Ja. Türkische, englische und deutsche Inhalte liegen in separaten Sprachdateien vor."
+    }
+  ]
+}

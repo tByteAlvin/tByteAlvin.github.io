@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"katman-mimarlik","brand":"KATMAN MİMARLIK","apiBase":"","accent":"#a18c65"};

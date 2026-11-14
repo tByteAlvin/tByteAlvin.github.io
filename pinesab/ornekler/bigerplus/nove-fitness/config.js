@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"nove-fitness","brand":"NOVE FITNESS","apiBase":"","accent":"#c8ef40"};
