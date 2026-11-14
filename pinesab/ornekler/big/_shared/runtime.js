@@ -4,24 +4,31 @@
  const q=(s,r=document)=>r.querySelector(s), all=(s,r=document)=>[...r.querySelectorAll(s)];
  const slug=document.body?.dataset.site||'unknown',key='PINESAB_BIG_V1_'+slug;
  let data={};try{data=JSON.parse(localStorage.getItem(key)||'{}')||{}}catch{}
+ const initial={text:{},links:{},images:{},logos:[],favicons:[]};
+ for(const el of all('[data-edit]'))initial.text[el.dataset.edit]=el.innerHTML;
+ for(const el of all('[data-link]'))initial.links[el.dataset.link]=el.getAttribute('href');
+ for(const el of all('[data-image]'))initial.images[el.dataset.image]={src:el.getAttribute('src'),photo:el.getAttribute('data-photo')};
+ for(const el of all('[data-logo]'))initial.logos.push([el,el.getAttribute('src')]);
+ for(const el of all('[data-favicon]'))initial.favicons.push([el,el.getAttribute('href')]);
  const valid=s=>typeof s==='string'&&/^(https?:\/\/|mailto:|tel:|[a-z0-9._/-]+\.html(?:[?#].*)?|#[a-z0-9-]+$)/i.test(s)&&!s.startsWith('//');
  function apply(v){
  data=v||{};const text=data.text||{},styles=data.styles||{},links=data.links||{},images=data.images||{},g=data.globals||{};
  for(const el of all('[data-edit]')){
    const k=el.dataset.edit,p=styles[k]||{};
-   if(Object.prototype.hasOwnProperty.call(text,k))el.textContent=String(text[k]);
+   if(Object.prototype.hasOwnProperty.call(text,k))el.textContent=String(text[k]);else if(el.innerHTML!==initial.text[k])el.innerHTML=initial.text[k];
    el.style.transform='translate('+(Number(p.x)||0)+'px,'+(Number(p.y)||0)+'px)';
    el.style.textAlign=['left','right','center'].includes(p.align)?p.align:'';
    el.style.fontSize=p.size?Math.max(10,Math.min(150,Number(p.size)))+'px':'';
    el.style.color=/^#[0-9a-f]{6}$/i.test(p.color||'')?p.color:'';
+   el.style.backgroundColor=/^#[0-9a-f]{6}$/i.test(p.bg||'')?p.bg:'';
  }
- for(const el of all('[data-link]')){const s=links[el.dataset.link];if(valid(s))el.setAttribute('href',s)}
- for(const el of all('[data-image]')){const src=images[el.dataset.image];if(typeof src==='string'&&/^data:image\/(jpeg|png|webp);base64,/.test(src)){el.src=src;el.removeAttribute('data-photo')}}
- if(images.logo)for(const el of all('[data-logo]'))el.src=images.logo;
- if(images.favicon)for(const el of all('[data-favicon]'))el.href=images.favicon;
+ for(const el of all('[data-link]')){const s=links[el.dataset.link];if(valid(s))el.setAttribute('href',s);else if(initial.links[el.dataset.link])el.setAttribute('href',initial.links[el.dataset.link])}
+ for(const el of all('[data-image]')){const src=images[el.dataset.image];if(typeof src==='string'&&/^data:image\/(jpeg|png|webp);base64,/.test(src)){el.src=src;el.removeAttribute('data-photo');el.dataset.editedSrc='yes'}else if(el.dataset.editedSrc==='yes'){const orig=initial.images[el.dataset.image];el.setAttribute('src',orig.src);if(orig.photo)el.setAttribute('data-photo',orig.photo);delete el.dataset.editedSrc}}
+ for(const [el,src] of initial.logos)el.src=images.logo||src;
+ for(const [el,src] of initial.favicons)el.href=images.favicon||src;
  for(const k of ['accent','bg','ink','surface']){if(/^#[0-9a-f]{6}$/i.test(g[k]||''))document.documentElement.style.setProperty('--'+k,g[k]);else document.documentElement.style.removeProperty('--'+k)}
- if(['DM Sans','Space Grotesk','Manrope','Syne','Playfair Display'].includes(g.font))document.documentElement.style.setProperty('--font','"'+g.font+'",sans-serif');
- else document.documentElement.style.removeProperty('--font');
+ if(['DM Sans','Space Grotesk','Manrope','Syne','Playfair Display'].includes(g.font)){document.documentElement.style.setProperty('--font','"'+g.font+'",sans-serif');document.documentElement.style.setProperty('--display','"'+g.font+'",sans-serif');}
+ else {document.documentElement.style.removeProperty('--font');document.documentElement.style.removeProperty('--display')}
  }
  window.BigRuntime={apply,storageKey:key};apply(data);
  const menu=q('#menuToggle'),nav=q('#navLinks');menu?.addEventListener('click',()=>{const opened=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(opened));menu.textContent=opened?'KAPAT ✕':'MENÜ ☰'});
