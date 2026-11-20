@@ -1,0 +1,230 @@
+{
+  "nav": [
+    "Ana Sayfa",
+    "Hizmetler",
+    "Ekibimiz",
+    "Lookbook",
+    "Fiyatlar",
+    "İletişim"
+  ],
+  "ui": {
+    "booking": "Randevu Talebi",
+    "discover": "Atölyeyi Keşfet",
+    "all": "Tümünü Gör",
+    "more": "Daha Fazla",
+    "read": "Yazıyı Oku",
+    "services": "HİZMETLERİMİZ",
+    "servicesTitle": "Güzelliğin her alanında, sana özel bir dokunuş.",
+    "servicesLead": "Saç ve bakım alanında kendi tarzını yansıtan seçenekleri keşfet. Bütün içerikler örnek marka için hazırlanmıştır.",
+    "team": "EKİBİMİZ",
+    "teamTitle": "Stil sahibi bir ekip fikri.",
+    "teamLead": "Her biri farklı bakış açısına sahip, tamamen kurgusal stilist profilleri ve tasarım dünyaları.",
+    "lookbook": "LOOKBOOK",
+    "lookbookTitle": "İlham veren stiller.",
+    "lookbookLead": "Renk, ışık ve dokunun farklı karakterlerde buluştuğu editoryal bir seçki.",
+    "changes": "ÖNCE & SONRA",
+    "changesTitle": "Bir stilin dönüşümünü keşfet.",
+    "changesLead": "Aynı fotoğrafa uygulanan iki farklı görsel işleme yaklaşımını kaydırarak karşılaştır. Gerçek müşteri sonucu değildir.",
+    "before": "Önce / Örnek",
+    "after": "Sonra / Örnek",
+    "reviews": "ÖRNEK YORUMLAR",
+    "reviewsTitle": "Kendini iyi hissetmenin dili.",
+    "reviewNote": "Portföy için yazılmış kurgusal yorum",
+    "review1": "Güzel hissettiren bir stilin arkasında, bazen yalnızca doğru dokunuş vardır.",
+    "review2": "Kendine ait bir stil bulmak, görünümden çok daha fazlasını değiştirir.",
+    "review3": "Detaylara gösterilen özen her zaman fark edilir.",
+    "pricing": "FİYATLANDIRMA",
+    "pricingTitle": "Şeffaf, sade, kişiye özel.",
+    "pricingLead": "Kurgusal hizmet paketleri ve temsili başlangıç fiyatları. Gerçek fiyat veya satış teklifi değildir.",
+    "samplePrice": "ÖRNEK FİYAT",
+    "appointmentTitle": "Hayalindeki görünüm bir fikirle başlar.",
+    "appointmentLead": "Hizmetini ve tercih ettiğin zamanı seçerek demo randevu talebi oluşturabilirsin.",
+    "contactTitle": "Bir mesajla başlayalım.",
+    "contactLead": "Stil danışmanlığı, sorular ve randevu hakkında site içi mesajlaşma arayüzünü inceleyin.",
+    "bookNow": "Randevu Oluştur",
+    "bookChoice": "Bu Hizmeti Seç",
+    "name": "Ad Soyad",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "date": "Tarih",
+    "time": "Saat",
+    "service": "Hizmet Seçimi",
+    "note": "Notunuz",
+    "send": "Talebi Gönder",
+    "menu": "Menüyü Aç",
+    "close": "Kapat",
+    "scroll": "Aşağı Kaydır",
+    "film": "Atelier Sahnesini Aç",
+    "journal": "JOURNAL",
+    "journalTitle": "Saça, stile ve bakıma dair.",
+    "journalLead": "Günlük bakım önerileri, trendlerin arkasındaki fikirler ve stil notları.",
+    "refs": "REFERANSLAR",
+    "refsTitle": "Stil arşivinden konseptler.",
+    "refsLead": "Gösterilen görseller ve çalışma isimleri, gerçek müşteri işi değil, hayalî portföy örnekleridir.",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "faqLead": "Bu web sitesi bir demo olduğu için gerçek randevu veya ödeme gerçekleşmez.",
+    "demo": "DEMO: Talepler ve mesajlar yalnızca bu tarayıcıda saklanır. Gerçek kişisel bilgilerinizi kullanmayın.",
+    "formNotice": "Gönderilen talep bir rezervasyon onayı değildir; işletmeye iletilmez.",
+    "footerSlogan": "Saç bir sanat. Güzellik bir imza.",
+    "footerNav": "Hızlı Erişim",
+    "footerDiscover": "Keşfet",
+    "footerInfo": "Bilgi",
+    "footerNote": "Mira Noir, PINESAB için oluşturulmuş kurgusal bir markadır. Görseller temsili, yorumlar ve ekip profilleri örnektir.",
+    "aboutTitle": "Stil, bir duruş meselesi.",
+    "aboutLead": "Mira Noir; editoryal sanat yönetimi, modern kuaförlük kültürü ve kişisel bakımın buluştuğu hayalî bir Hair Atelier konseptidir.",
+    "contact": "Mesajlaşmayı Aç",
+    "status": "ÇEVRİMİÇİ DEMO",
+    "maps": "Temsili Stüdyo Konumu",
+    "appointment": "ONLINE RANDEVU",
+    "quote": "Stilini yeniden keşfet",
+    "privacy": "Gerçek işletme hizmeti sunulmaz.",
+    "admin": "Yönetim Paneli",
+    "start": "Başlangıç",
+    "stylist": "STİLİST PROFİLİ",
+    "role": "Rol",
+    "detail": "Detayları İncele"
+  },
+  "hero": {
+    "eyebrow": "SAÇ · BAKIM · GÜZELLİK",
+    "one": "Tarzın,",
+    "two": "profesyonel bir dokunuşla buluşsun.",
+    "intro": "Kişisel stili ve bakım ritüellerini zarafetle birleştiren, editoryal bir Hair Atelier dünyası.",
+    "note": "Özenli stilin dört ayrıntısı",
+    "points": [
+      "Kişiye özel yaklaşım",
+      "Renk ve kesim tasarımı",
+      "Bakım ritüelleri",
+      "Editoryal estetik"
+    ]
+  },
+  "services": [
+    {
+      "title": "Saç Tasarımı",
+      "lead": "Kesim ve şekillendirmede kişiye özgü yaklaşım.",
+      "long": "Yüz hatları, günlük alışkanlıklar ve kişisel stilin birlikte değerlendirildiği bir kesim deneyimi.",
+      "icon": "✂"
+    },
+    {
+      "title": "Renklendirme",
+      "lead": "Balyaj, tonlama ve doğal renk geçişleri.",
+      "long": "Saç dokusuna ve istenen görünümün karakterine uygun renk alternatifleriyle hazırlanan konsept seçki.",
+      "icon": "✧"
+    },
+    {
+      "title": "Saç Bakımı",
+      "lead": "Güçlendirici ve yenileyici bakım ritüelleri.",
+      "long": "Nem, parlaklık ve saç sağlığının dengeli bir yaklaşımla ele alındığı örnek hizmet anlatımı.",
+      "icon": "❋"
+    },
+    {
+      "title": "Kaynak & Uzunluk",
+      "lead": "Hacim ve uzunluk için estetik çözümler.",
+      "long": "Doğal görünüm ve kullanım kolaylığı düşünülerek kurgulanan saç uzunluğu seçenekleri.",
+      "icon": "⌁"
+    },
+    {
+      "title": "Güzellik",
+      "lead": "Kaş, kirpik ve tamamlayıcı dokunuşlar.",
+      "long": "Kişisel ifadeyi tamamlayan küçük, rafine ve özenli güzellik dokunuşları.",
+      "icon": "◌"
+    },
+    {
+      "title": "Özel Ritüeller",
+      "lead": "Kendine zaman ayıranlara özel bakım fikri.",
+      "long": "Saç bakımı ve rahatlama atmosferinin bir arada sunulduğu premium deneyim konsepti.",
+      "icon": "♧"
+    }
+  ],
+  "team": [
+    {
+      "name": "Emre Kaya",
+      "role": "Creative Director · Örnek Profil",
+      "lead": "Editoryal kesim ve yaratıcı yönlendirme."
+    },
+    {
+      "name": "Selin Aras",
+      "role": "Senior Hair Stylist · Örnek Profil",
+      "lead": "Doğal kesimler ve bireysel stil yorumları."
+    },
+    {
+      "name": "Derya Öz",
+      "role": "Color Specialist · Örnek Profil",
+      "lead": "Renk geçişleri ve canlı tonlar."
+    },
+    {
+      "name": "Melis Erdem",
+      "role": "Beauty Specialist · Örnek Profil",
+      "lead": "Bakım ritüelleri ve kişisel yaklaşım."
+    }
+  ],
+  "looks": [
+    "Soft Layers",
+    "Golden Hour Blonde",
+    "Copper Movement",
+    "Evening Form",
+    "Natural Texture",
+    "Studio Light"
+  ],
+  "prices": [
+    {
+      "title": "Bakım Ritüeli",
+      "price": "₺1.950",
+      "lead": "Başlangıç fiyatı örneği"
+    },
+    {
+      "title": "Renk Tasarımı",
+      "price": "₺2.950",
+      "lead": "Başlangıç fiyatı örneği"
+    },
+    {
+      "title": "Atelier Experience",
+      "price": "₺4.900",
+      "lead": "Başlangıç fiyatı örneği"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Kendi saç rengini nasıl keşfedersin?",
+      "lead": "Doğal ışık, kişisel stil ve tonlar arasında küçük bir rehber."
+    },
+    {
+      "title": "Yumuşak katların yeniden yorumu",
+      "lead": "Saç kesiminde hareket ve hafifliğin gücü."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Burada gerçek randevu alınabilir mi?",
+      "a": "Hayır. Bu referans sitesindeki randevu talepleri yalnızca tarayıcınızda demo olarak saklanır."
+    },
+    {
+      "q": "Gösterilen ekip gerçek mi?",
+      "a": "Hayır. Profil isimleri ve fotoğraflar kurgusal/temsili portföy içeriğidir."
+    },
+    {
+      "q": "Fiyatlar geçerli mi?",
+      "a": "Hayır. Fiyatlar sadece arayüz örneği olarak yazılmıştır."
+    },
+    {
+      "q": "Hangi diller mevcut?",
+      "a": "Türkçe, İngilizce ve Almanca farklı metin dosyalarından yüklenir."
+    }
+  ],
+  "chat": {
+    "title": "Mira Noir Asistanı",
+    "name": "Ad Soyad",
+    "contact": "E-posta veya telefon",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "reply": "Yeni Mesaj",
+    "refresh": "Yenile",
+    "connected": "Sunucu bağlantısı açık.",
+    "demo": "DEMO: Mesajlar yalnızca bu tarayıcıda saklanır."
+  },
+  "status": {
+    "sending": "Gönderiliyor...",
+    "bookingReal": "Talep alındı; randevu onaylanmadı.",
+    "bookingDemo": "DEMO: Talep yalnızca bu tarayıcıya kaydedildi, işletmeye gönderilmedi.",
+    "error": "İşlem gerçekleştirilemedi."
+  }
+}

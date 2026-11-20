@@ -1,0 +1,230 @@
+{
+  "nav": [
+    "Start",
+    "Leistungen",
+    "Team",
+    "Lookbook",
+    "Preise",
+    "Kontakt"
+  ],
+  "ui": {
+    "booking": "Terminanfrage",
+    "discover": "Atelier entdecken",
+    "all": "Alle ansehen",
+    "more": "Mehr erfahren",
+    "read": "Artikel lesen",
+    "services": "UNSERE LEISTUNGEN",
+    "servicesTitle": "Eine persönliche Note für jede Facette der Schönheit.",
+    "servicesLead": "Entdecken Sie Styling und Pflege nach Ihrem Geschmack. Alle Inhalte gehören zu einer fiktiven Marke.",
+    "team": "UNSER TEAM",
+    "teamTitle": "Die Idee eines kreativen Teams.",
+    "teamLead": "Fiktive Stylistenprofile mit verschiedenen Perspektiven auf Stil.",
+    "lookbook": "LOOKBOOK",
+    "lookbookTitle": "Inspiration für Ihren Look.",
+    "lookbookLead": "Eine editoriale Auswahl aus Farben, Licht und Texturen.",
+    "changes": "VORHER & NACHHER",
+    "changesTitle": "Eine Stiländerung entdecken.",
+    "changesLead": "Vergleichen Sie zwei Bearbeitungen desselben Fotos mit dem Regler. Kein echtes Kundenergebnis.",
+    "before": "Vorher / Demo",
+    "after": "Nachher / Demo",
+    "reviews": "BEISPIELBEWERTUNGEN",
+    "reviewsTitle": "Das Gefühl eines guten Looks.",
+    "reviewNote": "Fiktive Bewertung für dieses Portfolio",
+    "review1": "Ein gutes Styling beginnt oft mit einer durchdachten Idee.",
+    "review2": "Den eigenen Look zu finden verändert mehr als das Aussehen.",
+    "review3": "Liebe zum Detail macht den Unterschied.",
+    "pricing": "PREISE",
+    "pricingTitle": "Klar, sorgfältig, persönlich.",
+    "pricingLead": "Fiktive Pakete und beispielhafte Einstiegspreise. Keine echten Angebote.",
+    "samplePrice": "BEISPIELPREIS",
+    "appointmentTitle": "Ihr Wunschlook beginnt mit einer Idee.",
+    "appointmentLead": "Wählen Sie Leistung und Wunschtermin für eine Demo-Terminanfrage.",
+    "contactTitle": "Beginnen wir ein Gespräch.",
+    "contactLead": "Entdecken Sie den integrierten Messenger für Stylingfragen und Termine.",
+    "bookNow": "Anfrage erstellen",
+    "bookChoice": "Leistung wählen",
+    "name": "Vollständiger Name",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "service": "Leistung auswählen",
+    "note": "Ihre Nachricht",
+    "send": "Anfrage senden",
+    "menu": "Menü öffnen",
+    "close": "Schließen",
+    "scroll": "Weiter entdecken",
+    "film": "Atelier-Szene öffnen",
+    "journal": "JOURNAL",
+    "journalTitle": "Gedanken zu Haaren, Stil und Pflege.",
+    "journalLead": "Alltagstipps und die Ideen hinter modernen Looks.",
+    "refs": "REFERENZEN",
+    "refsTitle": "Konzepte aus dem Stilarchiv.",
+    "refsLead": "Alle Bilder und Projekttitel sind fiktive Beispiele, keine echten Kundenarbeiten.",
+    "faqTitle": "Häufige Fragen",
+    "faqLead": "Dies ist eine Demo-Website. Echte Termine und Zahlungen sind nicht möglich.",
+    "demo": "DEMO: Anfragen und Nachrichten bleiben nur in diesem Browser. Bitte keine echten Personendaten eingeben.",
+    "formNotice": "Eine Anfrage ist kein bestätigter Termin und wird nicht an ein Unternehmen gesendet.",
+    "footerSlogan": "Haare sind Kunst. Schönheit ist eine Signatur.",
+    "footerNav": "Schnellzugriff",
+    "footerDiscover": "Entdecken",
+    "footerInfo": "Information",
+    "footerNote": "Mira Noir ist eine fiktive Marke für PINESAB. Fotos sind beispielhaft, Bewertungen und Teamprofile fiktiv.",
+    "aboutTitle": "Stil ist eine persönliche Aussage.",
+    "aboutLead": "Mira Noir steht für die Idee eines Ateliers mit Editorial Art Direction, modernem Haarstyling und individueller Pflege.",
+    "contact": "Messenger öffnen",
+    "status": "ONLINE-DEMO",
+    "maps": "Beispielhafter Studio-Standort",
+    "appointment": "ONLINE-TERMIN",
+    "quote": "Entdecken Sie Ihren eigenen Stil",
+    "privacy": "Es werden keine echten Dienstleistungen angeboten.",
+    "admin": "Verwaltung",
+    "start": "Start",
+    "stylist": "STYLISTENPROFIL",
+    "role": "Rolle",
+    "detail": "Details entdecken"
+  },
+  "hero": {
+    "eyebrow": "HAARE · PFLEGE · SCHÖNHEIT",
+    "one": "Stil,",
+    "two": "mit professioneller Handschrift.",
+    "intro": "Ein Editorial Hair Atelier, das Individualität, Pflegerituale und Eleganz verbindet.",
+    "note": "Vier Details für einen besonderen Stil",
+    "points": [
+      "Individueller Ansatz",
+      "Farbe und Schnitt",
+      "Pflegerituale",
+      "Editoriale Ästhetik"
+    ]
+  },
+  "services": [
+    {
+      "title": "Haardesign",
+      "lead": "Individuelles Schneiden und Stylen.",
+      "long": "Ein durchdachter Schnitt, abgestimmt auf Gesichtszüge, Alltag und Stil.",
+      "icon": "✂"
+    },
+    {
+      "title": "Farbdesign",
+      "lead": "Balayage, Tönung und natürliche Übergänge.",
+      "long": "Farbideen nach Haarstruktur und persönlichen Wünschen.",
+      "icon": "✧"
+    },
+    {
+      "title": "Haarpflege",
+      "lead": "Nährende und regenerierende Rituale.",
+      "long": "Ein Beispielkonzept für Feuchtigkeit, Stärke und natürlichen Glanz.",
+      "icon": "❋"
+    },
+    {
+      "title": "Extensions",
+      "lead": "Elegante Lösungen für Volumen und Länge.",
+      "long": "Beispielhafte Optionen mit natürlicher Wirkung und einfacher Pflege.",
+      "icon": "⌁"
+    },
+    {
+      "title": "Beauty",
+      "lead": "Brauen, Wimpern und letzte Akzente.",
+      "long": "Kleine Details, die den persönlichen Ausdruck abrunden.",
+      "icon": "◌"
+    },
+    {
+      "title": "Besondere Rituale",
+      "lead": "Zeit für sich selbst.",
+      "long": "Ein Premium-Konzept aus Haarpflege und entspannenden Momenten.",
+      "icon": "♧"
+    }
+  ],
+  "team": [
+    {
+      "name": "Emre Kaya",
+      "role": "Creative Director · Beispielprofil",
+      "lead": "Editoriale Schnitte und kreative Leitung."
+    },
+    {
+      "name": "Selin Aras",
+      "role": "Senior Hair Stylist · Beispielprofil",
+      "lead": "Natürliche Schnitte und persönliches Styling."
+    },
+    {
+      "name": "Derya Öz",
+      "role": "Color Specialist · Beispielprofil",
+      "lead": "Farbübergänge und intensive Töne."
+    },
+    {
+      "name": "Melis Erdem",
+      "role": "Beauty Specialist · Beispielprofil",
+      "lead": "Pflegerituale und persönliche Betreuung."
+    }
+  ],
+  "looks": [
+    "Soft Layers",
+    "Golden Hour Blonde",
+    "Copper Movement",
+    "Evening Form",
+    "Natural Texture",
+    "Studio Light"
+  ],
+  "prices": [
+    {
+      "title": "Pflegeritual",
+      "price": "1.950 TRY",
+      "lead": "Beispielhafter Einstiegspreis"
+    },
+    {
+      "title": "Farbdesign",
+      "price": "2.950 TRY",
+      "lead": "Beispielhafter Einstiegspreis"
+    },
+    {
+      "title": "Atelier Experience",
+      "price": "4.900 TRY",
+      "lead": "Beispielhafter Einstiegspreis"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Die passende Haarfarbe finden",
+      "lead": "Ein kurzer Guide zu Licht, Persönlichkeit und Tönen."
+    },
+    {
+      "title": "Soft Layers neu interpretiert",
+      "lead": "Bewegung und Leichtigkeit beim Haarschnitt."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kann ich einen echten Termin buchen?",
+      "a": "Nein. Die Anfragen werden nur als Demo im Browser gespeichert."
+    },
+    {
+      "q": "Ist das Team echt?",
+      "a": "Nein. Namen und Fotos sind fiktiv oder beispielhaft."
+    },
+    {
+      "q": "Gelten diese Preise?",
+      "a": "Nein. Die Preise dienen nur als Beispiele für das Design."
+    },
+    {
+      "q": "Welche Sprachen gibt es?",
+      "a": "Türkisch, Englisch und Deutsch sind als separate Textdateien vorhanden."
+    }
+  ],
+  "chat": {
+    "title": "Mira Noir Assistent",
+    "name": "Vollständiger Name",
+    "contact": "E-Mail oder Telefon",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht senden",
+    "reply": "Neue Nachricht",
+    "refresh": "Aktualisieren",
+    "connected": "Mit dem Server verbunden.",
+    "demo": "DEMO: Nachrichten bleiben nur in diesem Browser."
+  },
+  "status": {
+    "sending": "Wird gesendet...",
+    "bookingReal": "Anfrage empfangen; Termin nicht bestätigt.",
+    "bookingDemo": "DEMO: Anfrage nur in diesem Browser gespeichert, nicht versendet.",
+    "error": "Vorgang fehlgeschlagen."
+  }
+}

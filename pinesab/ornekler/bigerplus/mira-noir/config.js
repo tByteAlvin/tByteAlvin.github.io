@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"mira-noir","brand":"MIRA NOIR HAIR ATELIER","apiBase":"","accent":"#e7a6b7"};

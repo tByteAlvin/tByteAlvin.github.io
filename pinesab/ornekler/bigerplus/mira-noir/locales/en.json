@@ -1,0 +1,230 @@
+{
+  "nav": [
+    "Home",
+    "Services",
+    "Our Team",
+    "Lookbook",
+    "Pricing",
+    "Contact"
+  ],
+  "ui": {
+    "booking": "Appointment Inquiry",
+    "discover": "Explore Atelier",
+    "all": "View All",
+    "more": "Learn More",
+    "read": "Read Article",
+    "services": "OUR SERVICES",
+    "servicesTitle": "An individual touch for every side of beauty.",
+    "servicesLead": "Discover styling and care options that reflect your character. All content is designed for a fictional brand.",
+    "team": "OUR TEAM",
+    "teamTitle": "An idea of a creative team.",
+    "teamLead": "Fictional stylist profiles, each with a different eye for style.",
+    "lookbook": "LOOKBOOK",
+    "lookbookTitle": "Styles to inspire.",
+    "lookbookLead": "An editorial selection of colour, light and texture in different moods.",
+    "changes": "BEFORE & AFTER",
+    "changesTitle": "Explore a style transformation.",
+    "changesLead": "Move the slider to compare two treatments of the same photo. Not an actual customer result.",
+    "before": "Before / Sample",
+    "after": "After / Sample",
+    "reviews": "SAMPLE TESTIMONIALS",
+    "reviewsTitle": "The language of feeling good.",
+    "reviewNote": "Fictional review written for this portfolio",
+    "review1": "A style that feels right often begins with a thoughtful touch.",
+    "review2": "Finding a personal look changes more than appearance.",
+    "review3": "Consideration for detail always stands out.",
+    "pricing": "PRICING",
+    "pricingTitle": "Clear, considered, personal.",
+    "pricingLead": "Fictional service packages and illustrative starting prices. Not real commercial offers.",
+    "samplePrice": "SAMPLE PRICE",
+    "appointmentTitle": "Your ideal look begins with an idea.",
+    "appointmentLead": "Choose a service and preferred time to create a demo appointment inquiry.",
+    "contactTitle": "Let's start a conversation.",
+    "contactLead": "Explore our built-in messaging interface for styling questions and appointments.",
+    "bookNow": "Create an Inquiry",
+    "bookChoice": "Choose This Service",
+    "name": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "date": "Date",
+    "time": "Time",
+    "service": "Select a Service",
+    "note": "Your Note",
+    "send": "Send Inquiry",
+    "menu": "Open Menu",
+    "close": "Close",
+    "scroll": "Scroll to Explore",
+    "film": "Open the Atelier Scene",
+    "journal": "JOURNAL",
+    "journalTitle": "Notes on hair, style and care.",
+    "journalLead": "Everyday care ideas and the thinking behind modern styling.",
+    "refs": "REFERENCES",
+    "refsTitle": "Concepts from the style archive.",
+    "refsLead": "All visuals and project names are fictional portfolio examples, not actual customer work.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqLead": "This is a demonstration website; real bookings and payments are unavailable.",
+    "demo": "DEMO: Inquiries and messages stay only in this browser. Do not enter real personal information.",
+    "formNotice": "An inquiry is not a confirmed appointment and is not sent to a business.",
+    "footerSlogan": "Hair is art. Beauty is a signature.",
+    "footerNav": "Quick Links",
+    "footerDiscover": "Explore",
+    "footerInfo": "Information",
+    "footerNote": "Mira Noir is a fictional brand created for PINESAB. Photos illustrate a concept; reviews and team profiles are samples.",
+    "aboutTitle": "Style is a personal statement.",
+    "aboutLead": "Mira Noir imagines an atelier bringing together editorial art direction, modern hair styling and personal care.",
+    "contact": "Open Messenger",
+    "status": "ONLINE DEMO",
+    "maps": "Illustrative Studio Location",
+    "appointment": "ONLINE BOOKING",
+    "quote": "Discover your signature style",
+    "privacy": "No real commercial service is offered.",
+    "admin": "Admin Console",
+    "start": "Home",
+    "stylist": "STYLIST PROFILE",
+    "role": "Role",
+    "detail": "Explore Details"
+  },
+  "hero": {
+    "eyebrow": "HAIR · CARE · BEAUTY",
+    "one": "Style,",
+    "two": "guided by a professional touch.",
+    "intro": "An editorial Hair Atelier universe blending individuality, care rituals and quiet elegance.",
+    "note": "Four details of considered styling",
+    "points": [
+      "Personal approach",
+      "Colour and cut design",
+      "Care rituals",
+      "Editorial aesthetics"
+    ]
+  },
+  "services": [
+    {
+      "title": "Hair Design",
+      "lead": "Individual cutting and styling.",
+      "long": "A thoughtful cut guided by face shape, everyday habits and personal style.",
+      "icon": "✂"
+    },
+    {
+      "title": "Colour Design",
+      "lead": "Balayage, toning and natural colour transitions.",
+      "long": "Concept colour selections inspired by hair texture and individual preferences.",
+      "icon": "✧"
+    },
+    {
+      "title": "Hair Care",
+      "lead": "Nourishing and restorative rituals.",
+      "long": "A sample approach to hydration, strength and natural shine.",
+      "icon": "❋"
+    },
+    {
+      "title": "Extensions",
+      "lead": "Refined solutions for volume and length.",
+      "long": "Illustrative choices designed around a natural result and simple upkeep.",
+      "icon": "⌁"
+    },
+    {
+      "title": "Beauty",
+      "lead": "Brows, lashes and finishing touches.",
+      "long": "Small, carefully considered details that complete personal expression.",
+      "icon": "◌"
+    },
+    {
+      "title": "Signature Rituals",
+      "lead": "An idea for spending time on yourself.",
+      "long": "A premium concept combining hair treatment with moments of relaxation.",
+      "icon": "♧"
+    }
+  ],
+  "team": [
+    {
+      "name": "Emre Kaya",
+      "role": "Creative Director · Sample Profile",
+      "lead": "Editorial cuts and creative direction."
+    },
+    {
+      "name": "Selin Aras",
+      "role": "Senior Hair Stylist · Sample Profile",
+      "lead": "Natural cuts and personal styling."
+    },
+    {
+      "name": "Derya Öz",
+      "role": "Color Specialist · Sample Profile",
+      "lead": "Colour transitions and vivid shades."
+    },
+    {
+      "name": "Melis Erdem",
+      "role": "Beauty Specialist · Sample Profile",
+      "lead": "Care rituals and personal attention."
+    }
+  ],
+  "looks": [
+    "Soft Layers",
+    "Golden Hour Blonde",
+    "Copper Movement",
+    "Evening Form",
+    "Natural Texture",
+    "Studio Light"
+  ],
+  "prices": [
+    {
+      "title": "Care Ritual",
+      "price": "TRY 1,950",
+      "lead": "Illustrative starting price"
+    },
+    {
+      "title": "Colour Design",
+      "price": "TRY 2,950",
+      "lead": "Illustrative starting price"
+    },
+    {
+      "title": "Atelier Experience",
+      "price": "TRY 4,900",
+      "lead": "Illustrative starting price"
+    }
+  ],
+  "posts": [
+    {
+      "title": "How to find your perfect hair colour",
+      "lead": "A short guide to light, character and tone."
+    },
+    {
+      "title": "A new take on soft layers",
+      "lead": "The beauty of movement and lightness in haircuts."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I make a real booking?",
+      "a": "No. Requests on this reference site are saved as a demo only in your browser."
+    },
+    {
+      "q": "Is the team real?",
+      "a": "No. Names and photographs are fictional or illustrative."
+    },
+    {
+      "q": "Are the prices valid?",
+      "a": "No. Prices exist solely as interface examples."
+    },
+    {
+      "q": "Which languages are available?",
+      "a": "Turkish, English and German are loaded from separate text files."
+    }
+  ],
+  "chat": {
+    "title": "Mira Noir Assistant",
+    "name": "Full Name",
+    "contact": "Email or phone",
+    "message": "Your message",
+    "send": "Send Message",
+    "reply": "New Message",
+    "refresh": "Refresh",
+    "connected": "Connected to server.",
+    "demo": "DEMO: Messages are stored only in this browser."
+  },
+  "status": {
+    "sending": "Sending...",
+    "bookingReal": "Request received; appointment not yet confirmed.",
+    "bookingDemo": "DEMO: Request saved only in this browser, not sent to a business.",
+    "error": "Request could not be completed."
+  }
+}
