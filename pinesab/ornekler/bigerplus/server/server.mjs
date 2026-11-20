@@ -8,7 +8,7 @@ const DATA_DIR=path.resolve(process.env.DATA_DIR||path.join(process.cwd(),'priva
 const FILE=path.join(DATA_DIR,'messages-and-bookings.json');
 const SECRET=process.env.ADMIN_SECRET||'';
 const ORIGINS=(process.env.ALLOWED_ORIGINS||'https://tbytealvin.github.io').split(',').map(x=>x.trim()).filter(Boolean);
-const BRANDS=new Set(['velora-motors','aurevia-otel','mira-sac-studyosu','bordo-barber','mora-mutfak','arelia-mucevher','nove-fitness','katman-mimarlik']);
+const BRANDS=new Set(['velora-motors','aurevia-otel','mira-sac-studyosu','bordo-barber','mora-mutfak','arelia-mucevher','nove-fitness','katman-mimarlik','aurelia-cove','mira-noir']);
 if(SECRET.length<24){console.error('ADMIN_SECRET must be at least 24 characters.');process.exit(1)}
 await mkdir(DATA_DIR,{recursive:true,mode:0o700});
 let db={appointments:[],threads:[]};
