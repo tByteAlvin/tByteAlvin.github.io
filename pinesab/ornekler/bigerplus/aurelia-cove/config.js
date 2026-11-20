@@ -1,0 +1,1 @@
+window.PS_CONFIG={"slug":"aurelia-cove","brand":"AURELIA COVE HOTEL","apiBase":"","accent":"#d6b27b"};

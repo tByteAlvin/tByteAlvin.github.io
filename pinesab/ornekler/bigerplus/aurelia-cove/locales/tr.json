@@ -1,0 +1,188 @@
+{
+  "nav": [
+    "Otel",
+    "Odalar",
+    "Deneyimler",
+    "Galeri",
+    "Rezervasyon",
+    "İletişim"
+  ],
+  "ui": {
+    "book": "Rezervasyon Talebi",
+    "explore": "Keşfet",
+    "seeAll": "Tümünü İncele",
+    "detail": "Detayları Keşfet",
+    "read": "Yazıyı Oku",
+    "more": "Daha Fazlası",
+    "back": "Geri Dön",
+    "send": "Talep Gönder",
+    "name": "Ad Soyad",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "date": "Tarih",
+    "time": "Saat",
+    "service": "Konaklama Seçimi",
+    "note": "Notunuz",
+    "room": "ODALAR & SÜİTLER",
+    "experiences": "AURELIA DENEYİMLERİ",
+    "journal": "AURELIA JOURNAL",
+    "gallery": "GALERİ",
+    "contact": "İLETİŞİM",
+    "bookNow": "Planlamaya Başla",
+    "viewScene": "Atmosferi Keşfet",
+    "close": "Kapat",
+    "openMenu": "Menüyü Aç",
+    "scroll": "Aşağı Kaydır",
+    "roomsTitle": "Konfor, Estetik ve Huzur",
+    "roomsLead": "Her ayrıntısında dinginliği hissedeceğiniz, özenle tasarlanmış odalar ve süitler.",
+    "experTitle": "Sadece konaklama değil, bir yaşam deneyimi.",
+    "experLead": "Kıyının ritmi, taze lezzetler ve zamana yayılan küçük mutluluklarla unutulmaz bir konaklama fikri.",
+    "storyTitle": "Ege'nin sakinliğine açılan özel bir kapı.",
+    "storyLead": "Aurelia Cove; ışığın, denizin ve mimarinin bir araya geldiği hayalî bir butik otel konseptidir. Buradaki bütün marka ve deneyim içerikleri portföy gösterimi içindir.",
+    "galleryTitle": "Hafızanızda kalan kareler.",
+    "galleryLead": "Bir manzaranın sıcaklığı, bir odanın sessizliği, bir sofranın ayrıntısı.",
+    "quoteTitle": "Misafir deneyiminin dili.",
+    "quoteNote": "Örnek değerlendirme · kurgusal portföy içeriği",
+    "quote1": "Bazen en iyi tatil, hiçbir yere yetişme telaşının olmadığı bir öğleden sonradır.",
+    "quote2": "Işık, deniz ve sessizlik. Aradığımız huzurun tam olarak ne olduğunu yeniden hatırladık.",
+    "quote3": "Her ayrıntısı düşünülmüş bir mekânda zaman başka akıyor.",
+    "amenityTitle": "Küçük lüksler, büyük farklar.",
+    "amenities": [
+      "Sonsuzluk Havuzu",
+      "Spa & Masaj",
+      "Fitness Alanı",
+      "Gurme Mutfak",
+      "Lounge & Bar",
+      "Özel Karşılama",
+      "Kablosuz İnternet"
+    ],
+    "bannerTitle": "Sizin için ayrılmış bir an.",
+    "bannerLead": "Örnek konaklama talebinizi oluşturun ve rezervasyon ekranını deneyin.",
+    "entry": "Giriş Tarihi",
+    "exit": "Çıkış Tarihi",
+    "check": "Tarihleri Seç",
+    "journalTitle": "Kıyıdan notlar.",
+    "referenceTitle": "Özenle seçilmiş konseptler.",
+    "footerSlogan": "Ege'nin düşsel kıyısında, size ayrılmış bir zaman.",
+    "footerLink": "Hızlı Bağlantılar",
+    "footerExplore": "Keşfet",
+    "footerSupport": "İletişim",
+    "footerNote": "Aurelia Cove kurgusal bir referans markasıdır. Gösterilen fotoğraflar ve içerikler gerçek bir oteli temsil etmez.",
+    "demo": "DEMO MODU: Gönderilen talep ve mesajlar sadece bu tarayıcıda saklanır. Gerçek kişisel bilgilerinizi girmeyin.",
+    "requestNote": "Bu form bir talep örneğidir; gerçek rezervasyon oluşturmaz veya onaylamaz.",
+    "contactTitle": "Konuşmak için bir neden yeter.",
+    "contactLead": "Konaklama fikri, oda seçenekleri veya özel bir istek için site içi mesajlaşmayı deneyin.",
+    "bookTitle": "Bir sonraki kaçamağın ilk adımı.",
+    "bookLead": "Tarih ve oda seçiminizi belirleyin. Bu alan sunucuya bağlanmadığında yalnızca demo olarak çalışır.",
+    "aboutTitle": "Bir mekânın anlattığı hikâye.",
+    "aboutLead": "Aurelia Cove, hayali bir koyda yer alan çağdaş, sıcak ve zamansız bir konaklama atmosferini anlatır.",
+    "refLead": "Örnek referans çalışmaları, gerçek müşteri ya da ödül iddiası taşımaz.",
+    "blogLead": "Seyahat, iyi yaşam ve tasarım üzerine kurgusal dergi notları.",
+    "faqTitle": "Aklınıza takılanlar.",
+    "backAll": "Tüm seçkilere dön",
+    "bookChoice": "Bu Seçki için Talep Gönder",
+    "roomPoints": [
+      "Denizle buluşan manzara",
+      "Doğal malzemeler",
+      "Özenli konfor",
+      "Sakin atmosfer"
+    ],
+    "stats": [
+      "Kıyıdan ilham",
+      "Özenli mimari",
+      "Zamansız detay"
+    ],
+    "privacy": "Bu site yalnızca tasarım ve yazılım referansıdır.",
+    "admin": "Yönetim Paneli"
+  },
+  "hero": {
+    "kicker": "HAYALİ EGE KIYISI · TÜRKİYE",
+    "title": "Aurelia Cove",
+    "line": "Kalbiniz denizde, zaman sizinle.",
+    "sub": "Işığın ve suyun arasında, kendinize ayrılmış bir lüks deneyimi."
+  },
+  "rooms": [
+    {
+      "title": "Deluxe Deniz Odası",
+      "lead": "Gün doğumuna açılan ferah, dingin bir oda.",
+      "long": "Denizin renkleriyle bütünleşen doğal malzemeler, yumuşak dokular ve sakin bir sabah ritüeli."
+    },
+    {
+      "title": "Teras Süit",
+      "lead": "Geniş teras, özel manzara, zamansız konfor.",
+      "long": "Gün batımını izlemek için tasarlanmış özel terası ve sade lüksüyle bir konaklama fikri."
+    },
+    {
+      "title": "Aurelia Özel Süit",
+      "lead": "Mahremiyet, mimari ve denizin buluşması.",
+      "long": "Özel dinlenme alanları ve ışıkla değişen mekânlar eşliğinde ayrıcalıklı bir deneyim."
+    }
+  ],
+  "exp": [
+    {
+      "title": "Özel Kıyı Turu",
+      "lead": "Koyları keşfedin, mavinin ritmine katılın.",
+      "icon": "⛵"
+    },
+    {
+      "title": "Spa & Wellness",
+      "lead": "Bedeninizi ve zihninizi yavaşlatın.",
+      "icon": "✧"
+    },
+    {
+      "title": "Gurme Masası",
+      "lead": "Mevsimin tatlarını birlikte keşfedin.",
+      "icon": "♨"
+    },
+    {
+      "title": "Romantik Kaçamak",
+      "lead": "İki kişilik zamansız anlar biriktirin.",
+      "icon": "♡"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Kıyı boyunca yavaş seyahat",
+      "lead": "Bir rotadan çok daha fazlası: Yolculuğun kendi ritmi."
+    },
+    {
+      "title": "İyi bir sabahın küçük alışkanlıkları",
+      "lead": "Sade bir sabahı kalıcı bir hatıraya dönüştüren ayrıntılar."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Rezervasyon gerçekten oluşuyor mu?",
+      "a": "Hayır. Bu portföy sitesindeki form demo olarak çalışır. Gerçek bir otelde yer ayrılmaz."
+    },
+    {
+      "q": "Buradaki otel ve fiyatlar gerçek mi?",
+      "a": "Hayır. Aurelia Cove ve metinler kurgusal; fotoğraflar temsilidir."
+    },
+    {
+      "q": "Randevu ve mesajlar nereye gider?",
+      "a": "Canlı API kurulmadıkça yalnızca aynı tarayıcıdaki demo yönetim panelinde görünür."
+    },
+    {
+      "q": "Hangi diller mevcut?",
+      "a": "Türkçe, İngilizce ve Almanca için ayrı dosyalar bulunur."
+    }
+  ],
+  "chat": {
+    "title": "Concierge / Mesajlar",
+    "name": "Ad Soyad",
+    "contact": "E-posta veya telefon",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "reply": "Yeni Mesaj",
+    "refresh": "Yenile",
+    "demo": "DEMO: Mesajlar sadece bu tarayıcıya kaydedilir.",
+    "connected": "Sunucuya bağlandı."
+  },
+  "status": {
+    "sending": "Gönderiliyor...",
+    "bookingReal": "Talep sisteme alındı; rezervasyon henüz onaylanmadı.",
+    "bookingDemo": "DEMO: Talep bu tarayıcıya kaydedildi, gerçek işletmeye gönderilmedi.",
+    "error": "İşlem gerçekleştirilemedi."
+  }
+}

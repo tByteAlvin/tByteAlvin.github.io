@@ -1,0 +1,188 @@
+{
+  "nav": [
+    "Hotel",
+    "Rooms",
+    "Experiences",
+    "Gallery",
+    "Reservation",
+    "Contact"
+  ],
+  "ui": {
+    "book": "Stay Inquiry",
+    "explore": "Explore",
+    "seeAll": "View All",
+    "detail": "Discover Details",
+    "read": "Read Article",
+    "more": "Learn More",
+    "back": "Go Back",
+    "send": "Send Inquiry",
+    "name": "Full Name",
+    "phone": "Phone",
+    "email": "Email",
+    "date": "Date",
+    "time": "Time",
+    "service": "Room Selection",
+    "note": "Your Note",
+    "room": "ROOMS & SUITES",
+    "experiences": "AURELIA EXPERIENCES",
+    "journal": "AURELIA JOURNAL",
+    "gallery": "GALLERY",
+    "contact": "CONTACT",
+    "bookNow": "Plan Your Stay",
+    "viewScene": "Explore the Atmosphere",
+    "close": "Close",
+    "openMenu": "Open Menu",
+    "scroll": "Scroll to Explore",
+    "roomsTitle": "Comfort, Beauty and Peace",
+    "roomsLead": "Thoughtfully designed rooms and suites where tranquility lives in every detail.",
+    "experTitle": "More than a stay, a way of life.",
+    "experLead": "A gentle coastline, fresh flavours and the little pleasures that make a getaway memorable.",
+    "storyTitle": "A private gateway to the Aegean's calm.",
+    "storyLead": "Aurelia Cove is a fictional boutique hotel concept where light, sea and architecture meet. All brand and experience content is for portfolio demonstration.",
+    "galleryTitle": "Moments worth remembering.",
+    "galleryLead": "The warmth of a view, the quiet of a room, the detail of a table.",
+    "quoteTitle": "The language of a great stay.",
+    "quoteNote": "Sample testimonial · fictional portfolio content",
+    "quote1": "Sometimes the best holiday is an afternoon with nowhere to rush.",
+    "quote2": "Light, sea and quiet. A reminder of what peace can feel like.",
+    "quote3": "Time moves differently in a place where every detail is considered.",
+    "amenityTitle": "Small luxuries, lasting impressions.",
+    "amenities": [
+      "Infinity Pool",
+      "Spa & Massage",
+      "Fitness Area",
+      "Gourmet Kitchen",
+      "Lounge & Bar",
+      "Personal Welcome",
+      "Wireless Internet"
+    ],
+    "bannerTitle": "A moment reserved for you.",
+    "bannerLead": "Create a sample stay inquiry and explore the reservation page.",
+    "entry": "Check-in Date",
+    "exit": "Check-out Date",
+    "check": "Choose Your Dates",
+    "journalTitle": "Notes from the coast.",
+    "referenceTitle": "Carefully curated concepts.",
+    "footerSlogan": "On an imagined Aegean shore, time belongs to you.",
+    "footerLink": "Quick Links",
+    "footerExplore": "Explore",
+    "footerSupport": "Contact",
+    "footerNote": "Aurelia Cove is a fictional reference brand. Photos and content do not represent a real hotel.",
+    "demo": "DEMO MODE: Inquiries and messages are saved only in this browser. Do not enter real personal data.",
+    "requestNote": "This is a sample inquiry; it does not create or confirm a real booking.",
+    "contactTitle": "Every conversation begins somewhere.",
+    "contactLead": "Explore our built-in messenger for questions about rooms or your imagined stay.",
+    "bookTitle": "Your next escape begins here.",
+    "bookLead": "Choose your dates and room. Without a connected server, this form works in demo mode only.",
+    "aboutTitle": "The story a place can tell.",
+    "aboutLead": "Aurelia Cove envisions contemporary warmth and timeless hospitality on an imaginary bay.",
+    "refLead": "Sample projects are not claims about real customers or awards.",
+    "blogLead": "Fictional journal notes on travel, wellbeing and design.",
+    "faqTitle": "Things you may wonder.",
+    "backAll": "Return to all selections",
+    "bookChoice": "Request This Selection",
+    "roomPoints": [
+      "Sea-inspired views",
+      "Natural materials",
+      "Thoughtful comfort",
+      "Peaceful atmosphere"
+    ],
+    "stats": [
+      "Coastal inspiration",
+      "Considered architecture",
+      "Timeless details"
+    ],
+    "privacy": "This website is a design and development reference only.",
+    "admin": "Admin Console"
+  },
+  "hero": {
+    "kicker": "IMAGINARY AEGEAN SHORE · TÜRKİYE",
+    "title": "Aurelia Cove",
+    "line": "Your heart at sea. Your time, your own.",
+    "sub": "Between the light and the water, a luxury escape of your own."
+  },
+  "rooms": [
+    {
+      "title": "Deluxe Sea Room",
+      "lead": "A spacious sanctuary opening to the sunrise.",
+      "long": "Natural textures, soft materials and an easy morning rhythm inspired by the colours of the sea."
+    },
+    {
+      "title": "Terrace Suite",
+      "lead": "A generous terrace, private vistas and timeless comfort.",
+      "long": "A personal terrace designed for sunset views and an effortlessly elegant stay."
+    },
+    {
+      "title": "Aurelia Private Suite",
+      "lead": "Privacy, architecture and sea in perfect balance.",
+      "long": "Thoughtful spaces and changing light invite a more intimate sense of discovery."
+    }
+  ],
+  "exp": [
+    {
+      "title": "Private Coastal Tour",
+      "lead": "Explore the bays and the rhythm of the blue.",
+      "icon": "⛵"
+    },
+    {
+      "title": "Spa & Wellness",
+      "lead": "Give body and mind room to slow down.",
+      "icon": "✧"
+    },
+    {
+      "title": "Gourmet Table",
+      "lead": "Discover the flavours of the season.",
+      "icon": "♨"
+    },
+    {
+      "title": "Romantic Escape",
+      "lead": "Gather moments that feel timeless.",
+      "icon": "♡"
+    }
+  ],
+  "posts": [
+    {
+      "title": "The art of slow coastal travel",
+      "lead": "More than an itinerary: finding your own pace."
+    },
+    {
+      "title": "Small rituals for a beautiful morning",
+      "lead": "Details that make a quiet morning unforgettable."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is this a real booking?",
+      "a": "No. Forms on this portfolio site are demos; no hotel room is reserved."
+    },
+    {
+      "q": "Is the hotel real?",
+      "a": "No. Aurelia Cove and its content are fictional; imagery is illustrative."
+    },
+    {
+      "q": "Where do messages go?",
+      "a": "Without a live API, they only appear in the demo panel on the same browser."
+    },
+    {
+      "q": "Which languages are supported?",
+      "a": "Turkish, English and German are provided as separate language files."
+    }
+  ],
+  "chat": {
+    "title": "Concierge / Messages",
+    "name": "Full Name",
+    "contact": "Email or phone",
+    "message": "Your message",
+    "send": "Send Message",
+    "reply": "New Message",
+    "refresh": "Refresh",
+    "demo": "DEMO: Messages are saved only in this browser.",
+    "connected": "Connected to server."
+  },
+  "status": {
+    "sending": "Sending...",
+    "bookingReal": "Your request was received, but the reservation is not confirmed.",
+    "bookingDemo": "DEMO: Inquiry stored in this browser only; no business received it.",
+    "error": "Could not complete the request."
+  }
+}

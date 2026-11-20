@@ -1,0 +1,188 @@
+{
+  "nav": [
+    "Hotel",
+    "Zimmer",
+    "Erlebnisse",
+    "Galerie",
+    "Reservierung",
+    "Kontakt"
+  ],
+  "ui": {
+    "book": "Aufenthalt anfragen",
+    "explore": "Entdecken",
+    "seeAll": "Alle ansehen",
+    "detail": "Details entdecken",
+    "read": "Artikel lesen",
+    "more": "Mehr erfahren",
+    "back": "Zurück",
+    "send": "Anfrage senden",
+    "name": "Vollständiger Name",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "service": "Zimmerauswahl",
+    "note": "Ihre Nachricht",
+    "room": "ZIMMER & SUITEN",
+    "experiences": "AURELIA ERLEBNISSE",
+    "journal": "AURELIA JOURNAL",
+    "gallery": "GALERIE",
+    "contact": "KONTAKT",
+    "bookNow": "Aufenthalt planen",
+    "viewScene": "Atmosphäre entdecken",
+    "close": "Schließen",
+    "openMenu": "Menü öffnen",
+    "scroll": "Weiter entdecken",
+    "roomsTitle": "Komfort, Ästhetik und Ruhe",
+    "roomsLead": "Liebevoll gestaltete Zimmer und Suiten, in denen die Ruhe in jedem Detail spürbar wird.",
+    "experTitle": "Mehr als ein Aufenthalt: ein Lebensgefühl.",
+    "experLead": "Die Küste, frische Aromen und kleine Freuden machen die Auszeit besonders.",
+    "storyTitle": "Ein persönlicher Zugang zur Ruhe der Ägäis.",
+    "storyLead": "Aurelia Cove ist ein fiktives Boutiquehotel-Konzept, in dem Licht, Meer und Architektur zusammenkommen. Alle Inhalte dienen der Portfolio-Demonstration.",
+    "galleryTitle": "Augenblicke, die bleiben.",
+    "galleryLead": "Die Wärme eines Ausblicks, die Stille eines Zimmers, die Details eines Tisches.",
+    "quoteTitle": "Was einen Aufenthalt besonders macht.",
+    "quoteNote": "Beispielbewertung · fiktiver Portfolio-Inhalt",
+    "quote1": "Manchmal ist der schönste Urlaub ein Nachmittag ohne Eile.",
+    "quote2": "Licht, Meer und Stille. Eine Erinnerung daran, wie sich Ruhe anfühlt.",
+    "quote3": "In einem Ort voller durchdachter Details vergeht die Zeit anders.",
+    "amenityTitle": "Kleine Luxusmomente, große Wirkung.",
+    "amenities": [
+      "Infinity-Pool",
+      "Spa & Massage",
+      "Fitnessbereich",
+      "Gourmetküche",
+      "Lounge & Bar",
+      "Persönlicher Empfang",
+      "WLAN"
+    ],
+    "bannerTitle": "Ein Moment nur für Sie.",
+    "bannerLead": "Erstellen Sie eine Beispielanfrage und entdecken Sie den Reservierungsbereich.",
+    "entry": "Anreisedatum",
+    "exit": "Abreisedatum",
+    "check": "Daten wählen",
+    "journalTitle": "Notizen von der Küste.",
+    "referenceTitle": "Sorgfältig gestaltete Konzepte.",
+    "footerSlogan": "An einer erdachten Ägäisküste gehört die Zeit Ihnen.",
+    "footerLink": "Schnellzugriff",
+    "footerExplore": "Entdecken",
+    "footerSupport": "Kontakt",
+    "footerNote": "Aurelia Cove ist eine fiktive Referenzmarke. Fotos und Texte zeigen kein echtes Hotel.",
+    "demo": "DEMO-MODUS: Anfragen und Nachrichten werden nur in diesem Browser gespeichert. Bitte keine echten persönlichen Daten eingeben.",
+    "requestNote": "Dies ist eine Beispielanfrage; sie erstellt oder bestätigt keine echte Reservierung.",
+    "contactTitle": "Jedes Gespräch beginnt mit einem Gedanken.",
+    "contactLead": "Entdecken Sie den integrierten Messenger für Ihre Fragen zu Zimmern oder Aufenthalten.",
+    "bookTitle": "Ihre nächste Auszeit beginnt hier.",
+    "bookLead": "Wählen Sie Datum und Zimmer. Ohne angeschlossenen Server ist dies nur eine Demo.",
+    "aboutTitle": "Die Geschichte, die ein Ort erzählt.",
+    "aboutLead": "Aurelia Cove steht für moderne Wärme und zeitlose Gastlichkeit in einer imaginären Bucht.",
+    "refLead": "Die Beispielprojekte sind keine echten Kunden- oder Auszeichnungsnachweise.",
+    "blogLead": "Fiktive Journal-Beiträge über Reisen, Wohlbefinden und Design.",
+    "faqTitle": "Häufige Fragen.",
+    "backAll": "Zurück zur Auswahl",
+    "bookChoice": "Diese Auswahl anfragen",
+    "roomPoints": [
+      "Meerblick als Inspiration",
+      "Natürliche Materialien",
+      "Durchdachter Komfort",
+      "Ruhige Atmosphäre"
+    ],
+    "stats": [
+      "Inspiration von der Küste",
+      "Durchdachte Architektur",
+      "Zeitlose Details"
+    ],
+    "privacy": "Diese Website ist ausschließlich eine Design- und Entwicklungsreferenz.",
+    "admin": "Verwaltung"
+  },
+  "hero": {
+    "kicker": "FIKTIVE ÄGÄISKÜSTE · TÜRKİYE",
+    "title": "Aurelia Cove",
+    "line": "Das Herz am Meer. Die Zeit gehört Ihnen.",
+    "sub": "Zwischen Licht und Wasser erwartet Sie eine besondere Auszeit."
+  },
+  "rooms": [
+    {
+      "title": "Deluxe Meerzimmer",
+      "lead": "Ein großzügiger Rückzugsort für den Sonnenaufgang.",
+      "long": "Natürliche Texturen, weiche Stoffe und ein ruhiger Morgen, inspiriert vom Meer."
+    },
+    {
+      "title": "Terrassensuite",
+      "lead": "Große Terrasse, eigener Ausblick und zeitloser Komfort.",
+      "long": "Eine private Terrasse für den Sonnenuntergang und einen stilvollen Aufenthalt."
+    },
+    {
+      "title": "Aurelia Privatsuite",
+      "lead": "Privatsphäre, Architektur und Meer in Harmonie.",
+      "long": "Durchdachte Räume und wechselndes Licht laden zum Entdecken ein."
+    }
+  ],
+  "exp": [
+    {
+      "title": "Private Küstentour",
+      "lead": "Entdecken Sie Buchten und das Blau des Meeres.",
+      "icon": "⛵"
+    },
+    {
+      "title": "Spa & Wellness",
+      "lead": "Gönnen Sie Körper und Geist eine Pause.",
+      "icon": "✧"
+    },
+    {
+      "title": "Gourmet-Tafel",
+      "lead": "Entdecken Sie die Aromen der Saison.",
+      "icon": "♨"
+    },
+    {
+      "title": "Romantische Auszeit",
+      "lead": "Sammeln Sie zeitlose Augenblicke.",
+      "icon": "♡"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Die Kunst des langsamen Reisens",
+      "lead": "Mehr als eine Route: das eigene Tempo finden."
+    },
+    {
+      "title": "Kleine Rituale für einen schönen Morgen",
+      "lead": "Details, die einen ruhigen Morgen unvergesslich machen."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ist das eine echte Reservierung?",
+      "a": "Nein. Dies ist eine Demo. Es wird kein echtes Hotelzimmer reserviert."
+    },
+    {
+      "q": "Ist dieses Hotel echt?",
+      "a": "Nein. Aurelia Cove und die Inhalte sind fiktiv, die Bilder dienen zur Illustration."
+    },
+    {
+      "q": "Wohin gehen Nachrichten?",
+      "a": "Ohne Live-API bleiben sie ausschließlich im Demo-Panel dieses Browsers."
+    },
+    {
+      "q": "Welche Sprachen gibt es?",
+      "a": "Türkisch, Englisch und Deutsch liegen als separate Sprachdateien vor."
+    }
+  ],
+  "chat": {
+    "title": "Concierge / Nachrichten",
+    "name": "Vollständiger Name",
+    "contact": "E-Mail oder Telefon",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht senden",
+    "reply": "Neue Nachricht",
+    "refresh": "Aktualisieren",
+    "demo": "DEMO: Nachrichten werden nur in diesem Browser gespeichert.",
+    "connected": "Mit dem Server verbunden."
+  },
+  "status": {
+    "sending": "Wird gesendet...",
+    "bookingReal": "Anfrage empfangen; Reservierung noch nicht bestätigt.",
+    "bookingDemo": "DEMO: Anfrage nur in diesem Browser gespeichert, nicht versendet.",
+    "error": "Vorgang fehlgeschlagen."
+  }
+}
